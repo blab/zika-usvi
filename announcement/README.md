@@ -1,0 +1,17 @@
+# Genetic characterization of the Zika virus epidemic in the US Virgin Islands
+
+#### Allison Black<sup>1,2</sup>, Barney Potter<sup>1</sup>, Gytis Dudas<sup>1</sup>, Leora Feldstein<sup>1</sup>, Nathan D. Grubaugh<sup>3</sup>, Kristian G Andersen<sup>3</sup>, Brett R. Ellis<sup>4</sup>, Esther M. Ellis<sup>4</sup>, Trevor Bedford<sup>1</sup>
+
+<sup>1</sup>Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA, <sup>2</sup>Department of Epidemiology, University of Washington, Seattle, WA, USA, <sup>3</sup>Department of Immunology and Microbial Science, The Scripps Research Institute, La Jolla, CA, USA, <sup>4</sup>United States Virgin Islands Department of Health, Christiansted, USVI
+
+## Abstract
+
+Here we release draft genome sequences of Zika virus (ZIKV) that were sequenced from PCR-positive diagnostic specimens collected by the United States Virgin Islands Department of Health (USVI DoH) as part of their ongoing response to the ZIKV outbreak. We will use these sequences to conduct a genomic epidemiological study of ZIKV transmission in the USVI. We are releasing these genomes in the hope that they are useful for those individuals involved in the public health response to ZIKV and to other groups working to understand Zika virus transmission and evolution.
+
+## Genome Announcement
+
+For pathogens causing primarily asymptomatic infections, such as ZIKV, traditional epidemiological methods may yield biased estimates of incidence and outbreak growth due to incomplete case counts. Additionally, contact tracing to infer tranmission chains and geographic patterns of spread may also break down when the majority of cases are unrecorded. Genomic epidemiological methods make use of a fundamental principle that the evolution of pathogens occurs on the same timescale as hosts transmit pathogens. Viral replication results in the accumulation of mutations, evidence that an infection has occurred even if asymptomatic or unreported. Thus using sequence data, in combination with temporal and demographic data, we can date when an outbreak started, describe the spatial spread of disease, infer how quickly an outbreak is growing, or determine transmission chains at the individual or the population level.
+
+In collaboration with the US Virgin Islands Department of Health (USVI DoH) we are sequencing Zika virus (ZIKV) full genomes from PCR-positive diagnostic specimens collected during the ongoing DoH response to the ZIKV outbreak. We extracted viral RNA from inactivated serum or urine samples using a QIAamp Viral RNA mini kit (Qiagen). Viral RNA was reverse-transcribed, amplified, and sequenced according to the protocol in [Quick et al](http://biorxiv.org/content/biorxiv/early/2017/01/09/098913.full.pdf). Genomes were sequenced on either the MinION or Illumina MiSeq, as indicated, with a subset of samples sequenced on both platforms to ensure the validity of the sequences across platforms.
+
+Our study seeks to describe when ZIKV was introduced to the USVI, how many separate introductions of ZIKV occurred, the degree to which different introductions contributed to local transmission, and describe patterns of ZIKV spread between the different US Virgin Islands. We will also use joint inference of genomic and epidemiological data to estimate the proportion of cases that are asymptomatic, and use inferred case counts to more accurately estimate *R*<sub>0</sub> over the outbreak.

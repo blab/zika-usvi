@@ -1,0 +1,71 @@
+# For zika-usvi repo #
+
+
+# Environment config files #
+############################
+environment*
+
+# Jekyll #
+##########
+.jekyll-metadata
+_site/
+
+# Tex #
+#######
+*.aux
+*.bbl
+*.blg
+*.log
+*.toc
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# LaTeX intermediaries #
+########################
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# autosave #
+############
+*~
+
+# IDE #
+#######
+*sublime*
+
+# cluster log #
+###############
+*.sh.*
