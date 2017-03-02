@@ -10,7 +10,7 @@ Sample metadata is specified in `zika_usvi_samples.tsv`.
 
 ## Consensus genomes
 
-Genomes are collected into FASTAS with "good" coverage (>80%) in `zika_usvi_consensus_good.fasta` and with "partial" coverage (50%-80%) in `zika_usvi_consensus_partial.fasta`. FASTA headers are in the following format:
+Genomes are collected into FASTAS with "good" coverage (>80%) in `zika_usvi_good.fasta` and with "partial" coverage (50%-80%) in `zika_usvi_partial.fasta`. FASTA headers are in the following format:
 
 strain      | sample_id | collection_date | country | division    | location
 ----------- | --------- | --------------- | ------- | ----------- | --------
