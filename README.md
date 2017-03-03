@@ -11,12 +11,9 @@ Here we release draft genome sequences of Zika virus (ZIKV) that were sequenced 
 ## Purpose
 
 This work represents a pre-publication sharing of pathogen genomic data of public health significance.
-[We believe that open sharing of sequence data and early analyses is necessary to inform public health response in a timely fashion](http://bedford.io/blog/scientific-publishing-practices/).  We encourage other investigators to use these data as auxiliary data in their own analyses to better contextualize their work.
-We intend for this announcement to serve as a marker paper specifying analyses we have planned for these data, namely to investigate Zika transmission in the USVI. For greater detail please see the [Genome Announcement](announcement/).
-We plan to replace this announcement with a preprint and eventually with a publication.
-The citation will be continually updated throughout this process.
+[We believe that open sharing of sequence data and early analyses is necessary to inform public health response in a timely fashion](http://bedford.io/blog/scientific-publishing-practices/). We encourage other investigators to use these data in their own analyses to better contextualize their work. All we ask is that you please contact us if you plan to use these data in a publication. We intend for this announcement to serve as a 'marker paper' specifying analyses we have planned for these data, namely to investigate Zika transmission in the USVI. For greater detail please see the ['Genome Announcement'](announcement/). We plan to replace this 'announcement' with a preprint and eventually with a publication. The citation will be continually updated throughout this process.
 
-> Black A, Potter B, Dudas G, Feldstein L, Grubaugh ND, Andersen KG, Ellis BR, Ellis EM, Bedford T. 2017. Genetic characterization of the Zika virus epidemic in the US Virgin Islands. DOI: 10.5281/zenodo.229477.
+> Black A, Potter B, Dudas G, Feldstein L, Grubaugh ND, Andersen KG, Ellis BR, Ellis EM, Bedford T. 2017. Genetic characterization of the Zika virus epidemic in the US Virgin Islands. DOI: 10.1101/113100.
 
 ## Outline
 
