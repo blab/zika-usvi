@@ -69,3 +69,12 @@ Thumbs.db
 # cluster log #
 ###############
 *.sh.*
+
+# ipython notebook checkpoints #
+scripts/\.ipynb_checkpoints/
+
+# excel autosave nonsense #
+data/~\$zika-usvi-sample-table\.xlsx
+
+#large data tables when condensed informative versions should be released #
+data/zika-usvi-sample-table-uncondensed\.xlsx
