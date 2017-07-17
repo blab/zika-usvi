@@ -1,19 +1,12 @@
-(* Content-type: application/vnd.wolfram.mathematica *)
-
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 10.1' *)
-
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[   1025356,      17627]
-NotebookOptionsPosition[   1022955,      17541]
-NotebookOutlinePosition[   1023344,      17558]
-CellTagsIndexPosition[   1023301,      17555]
+NotebookDataPosition[         0,          0]
+NotebookDataLength[   1166397,      20618]
+NotebookOptionsPosition[   1160958,      20477]
+NotebookOutlinePosition[   1161350,      20494]
+CellTagsIndexPosition[   1161307,      20491]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,24 +14,33 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell["Population centroids", "Title",
- CellChangeTimes->{{3.7090646109180183`*^9, 3.709064613078349*^9}}],
+ CellChangeTimes->{{3.7090646109180183`*^9, 
+  3.709064613078349*^9}},ExpressionUUID->"4da7e6bc-6753-4482-9b5c-\
+432c77a81bab"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"SetDirectory", "[", 
   RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.709065558265869*^9, 3.70906556824225*^9}}],
+ CellChangeTimes->{{3.709065558265869*^9, 
+  3.70906556824225*^9}},ExpressionUUID->"191f32b3-8285-43d5-99f8-\
+bb20edea1ceb"],
 
-Cell[BoxData["\<\"/Users/trvrb/Desktop/usvi-map-code\"\>"], "Output",
- CellChangeTimes->{{3.709065568631336*^9, 3.709065570933*^9}}]
+Cell[BoxData["\<\"/Users/alliblk/Desktop/gitrepos/zika-usvi/scripts\"\>"], \
+"Output",
+ CellChangeTimes->{{3.709065568631336*^9, 3.709065570933*^9}, 
+   3.709300500667993*^9},ExpressionUUID->"1b8cee6e-f099-462c-9fa1-\
+4b28a0133f7a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Get centroid for country", "Section",
  CellChangeTimes->{{3.709053863032629*^9, 3.709053865847823*^9}, {
-  3.709064601351877*^9, 3.709064608557857*^9}}],
+  3.709064601351877*^9, 
+  3.709064608557857*^9}},ExpressionUUID->"5d2567e4-b3f3-4372-a880-\
+ce23f131dc22"],
 
 Cell[BoxData[
  RowBox[{
@@ -47,14 +49,18 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"All", ",", "\"\<Brazil\>\""}], "}"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.709053869788994*^9, 3.709053870449053*^9}, {
-  3.709053914129036*^9, 3.7090539165814037`*^9}}],
+  3.709053914129036*^9, 3.7090539165814037`*^9}, {3.709300458185614*^9, 
+  3.709300470094716*^9}},ExpressionUUID->"9150f972-78e1-4377-a6f1-\
+39923ca0f17b"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"cities", "[", 
   RowBox[{"[", "1", "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.709053968701785*^9, 3.709053970458733*^9}}],
+ CellChangeTimes->{{3.709053968701785*^9, 
+  3.709053970458733*^9}},ExpressionUUID->"ff74f355-de38-4395-a87a-\
+1789c964761b"],
 
 Cell[BoxData[
  TemplateBox[{"\"S\[ATilde]o Paulo\"",RowBox[{"Entity", "[", 
@@ -66,7 +72,9 @@ Cell[BoxData[
 \\\"Brazil\\\"}]\"","\"city\""},
   "Entity"]], "Output",
  CellChangeTimes->{3.709053970729645*^9, 3.7090543383850183`*^9, 
-  3.709054806378646*^9, 3.709064635050083*^9}]
+  3.709054806378646*^9, 3.709064635050083*^9, 3.7093005358237667`*^9, 
+  3.7093008813150167`*^9},ExpressionUUID->"bb5f9714-76f1-4d78-a778-\
+62d8a8882038"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -79,7 +87,1676 @@ Cell[BoxData[
        RowBox[{"#", ",", "\"\<Latitude\>\""}], "]"}], "&"}], ",", "cities"}], 
     "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.709053919405601*^9, 3.709053976545454*^9}, {
-   3.709054102329157*^9, 3.7090541148656063`*^9}, 3.7090543298846693`*^9}],
+   3.709054102329157*^9, 3.7090541148656063`*^9}, 
+   3.7090543298846693`*^9},ExpressionUUID->"42e8ffdd-9cdb-464b-994c-\
+1c4bf5f8d477"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["%29"], "Input",
+ NumberMarks->False,ExpressionUUID->"f1e262cd-cf40-4340-9f50-73ae1d7db0e1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"{", 
+          RowBox[{
+           
+           TemplateBox[{
+            RowBox[{"-", "23.53`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.97`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "15.78`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.78`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.92`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "25.42`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.12`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.08`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "30.04`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "1.44`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.72`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.46`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.5`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.84`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.65`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.77`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.1000000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.8`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.74`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.45`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.71`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.12`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.2`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.650000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.11`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.53`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "18.900000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.25`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.490000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "21.17`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "21.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "15.610000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "1.3800000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.3`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.82`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.900000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "26.32`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.8`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.95`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.8`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.97`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.66`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.32`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.69`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "27.6`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.13`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "21.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.52`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.18`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{
+            RowBox[{"-", "7.23`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.71`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.23`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.330000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.47`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.72`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            "0.04`",RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.76`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.92`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.52`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.96`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.41`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.2`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "31.76`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.32`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "14.85`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.76`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.31`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.53`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "25.55`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.9`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.76`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "25.09`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "24.`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.51`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.74`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.55`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "26.92`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.98`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "24.96`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.55`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.51`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.490000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.02`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.69`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "18.87`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.71`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.28`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            "2.83`",RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.95`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.64`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "25.57`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.48`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "30.09`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "24.`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.21`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.8`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "15.65`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "25.29`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.78`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.6`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.650000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.5200000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.19`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.45`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.700000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{
+            RowBox[{"-", "22.21`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "29.78`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "30.02`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "14.790000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.38`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.150000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.02`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.3`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{
+            RowBox[{"-", "22.12`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.89`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.43`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "27.59`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "23.55`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.85`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "32.05`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "21.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "22.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.25`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{"2082"},
+            "OutputSizeLimit`Skeleton"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.27`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.42`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.6000000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.3500000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.25`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "24.57`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.8`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.45`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.3`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.52`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.83`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.38`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{
+            RowBox[{"-", "7.63`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.05`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.83`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.6`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.7`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "13.81`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.73`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.450000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.26`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "13.39`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.3`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.58`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.25`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "15.540000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.18`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.67`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.13`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.5`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.39`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.06`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.62`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.120000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.68`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.38`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.7800000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.37`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "21.12`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.24`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.370000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "1.82`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.21`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.6000000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.290000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.75`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.3500000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.96`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.11`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.33`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.03`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "0.39`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "1.9000000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           TemplateBox[{
+            RowBox[{"-", "8.89`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.87`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.37`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.72`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.91`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.42`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.57`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.88`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.23`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.53`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "14.61`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "13.790000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.62`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.58`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.7800000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.97`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.58`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.08`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.82`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.35`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.63`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "4.43`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "16.71`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "14.97`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.140000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.18`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.23`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "19.900000000000002`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.85`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.98`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "14.11`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "7.4`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.51`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.92`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.73`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "12.55`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.9`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "11.35`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "10.43`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "18.98`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.67`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "5.7700000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "20.1`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.93`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.85`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.31`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "1.43`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.25`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "8.94`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.31`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.633333`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "6.2700000000000005`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "2.47`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "9.620000000000001`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"], ",", 
+           
+           TemplateBox[{
+            RowBox[{"-", "3.19`"}],
+             RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+             "\"AngularDegrees\""},
+            "QuantityPostfix"]}], "}"}],
+         Short[#, 10]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{69., {3., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLText",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{60., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 30, 22767163474222514611, 10/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{67., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 30, 22767163474222514611, 10 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{50., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 30, 22767163474222514611, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{88., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{88., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    BaseStyle->"OutputSizeLimit",
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  If[22767163474222514611 === $SessionID, 
+   Out[30], Message[
+     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
+   Null]]], "Output",
+ CellChangeTimes->{
+  3.7093009184773006`*^9},ExpressionUUID->"80c2f7e3-10c6-4ca6-aad1-\
+33c1b414b0b0"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{
@@ -91,7 +1768,8 @@ Cell[BoxData[
        RowBox[{"#", ",", "\"\<Longitude\>\""}], "]"}], "&"}], ",", "cities"}],
      "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.709053983244781*^9, 3.7090539911867123`*^9}, 
-   3.7090543352396803`*^9}],
+   3.7090543352396803`*^9},ExpressionUUID->"65d1be1e-2278-49f7-ae79-\
+f57e9e49bf8f"],
 
 Cell[BoxData[
  RowBox[{
@@ -103,7 +1781,8 @@ Cell[BoxData[
        RowBox[{"#", ",", "\"\<Population\>\""}], "]"}], "&"}], ",", 
      "cities"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.709053983244781*^9, 3.7090540024769297`*^9}, 
-   3.709054332423684*^9}],
+   3.709054332423684*^9},ExpressionUUID->"1b33a600-b36c-426f-be7c-\
+af3e72bad12e"],
 
 Cell[BoxData[
  RowBox[{
@@ -129,7 +1808,8 @@ Cell[BoxData[
          RowBox[{"All", ",", "1"}], "]"}], "]"}]}], "}"}], "]"}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.7090541390019197`*^9, 3.7090542007879143`*^9}, 
-   3.7090548035826263`*^9}],
+   3.7090548035826263`*^9},ExpressionUUID->"2844a577-de51-4f58-b918-\
+4ca6da54f5a1"],
 
 Cell[BoxData[
  RowBox[{
@@ -141,7 +1821,9 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"{", "#", "}"}], "&"}], ",", "missingPos"}], "]"}]}], "]"}]}],
    ";"}]], "Input",
- CellChangeTimes->{{3.709054271775241*^9, 3.709054307067319*^9}}],
+ CellChangeTimes->{{3.709054271775241*^9, 
+  3.709054307067319*^9}},ExpressionUUID->"41bd0613-7d03-4595-a42a-\
+af2c5d3782b4"],
 
 Cell[BoxData[
  RowBox[{
@@ -153,7 +1835,9 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"{", "#", "}"}], "&"}], ",", "missingPos"}], "]"}]}], "]"}]}],
    ";"}]], "Input",
- CellChangeTimes->{{3.709054308306157*^9, 3.709054316300192*^9}}],
+ CellChangeTimes->{{3.709054308306157*^9, 
+  3.709054316300192*^9}},ExpressionUUID->"c8897a85-eeec-4510-af92-\
+a7f0d758741c"],
 
 Cell[BoxData[
  RowBox[{
@@ -165,7 +1849,9 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"{", "#", "}"}], "&"}], ",", "missingPos"}], "]"}]}], "]"}]}],
    ";"}]], "Input",
- CellChangeTimes->{{3.7090543181316032`*^9, 3.70905432255702*^9}}],
+ CellChangeTimes->{{3.7090543181316032`*^9, 
+  3.70905432255702*^9}},ExpressionUUID->"acfa56da-e34c-4e77-9ab8-\
+c6dd0d8ee90b"],
 
 Cell[BoxData[
  RowBox[{
@@ -175,7 +1861,9 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"QuantityMagnitude", "[", "#", "]"}], "&"}], ",", "lats"}], 
     "]"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.709054763945808*^9, 3.709054782461939*^9}}],
+ CellChangeTimes->{{3.709054763945808*^9, 
+  3.709054782461939*^9}},ExpressionUUID->"58e1cac2-2638-49e6-9897-\
+bdd0c285156c"],
 
 Cell[BoxData[
  RowBox[{
@@ -185,7 +1873,9 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"QuantityMagnitude", "[", "#", "]"}], "&"}], ",", "longs"}], 
     "]"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.709054763945808*^9, 3.7090547922223587`*^9}}],
+ CellChangeTimes->{{3.709054763945808*^9, 
+  3.7090547922223587`*^9}},ExpressionUUID->"2fc401a5-1c42-44d2-a5a2-\
+1f2d70d578c9"],
 
 Cell[BoxData[
  RowBox[{
@@ -196,7 +1886,9 @@ Cell[BoxData[
       RowBox[{"QuantityMagnitude", "[", "#", "]"}], "&"}], ",", "pops"}], 
     "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.7090544933028107`*^9, 3.709054499323688*^9}, {
-  3.709054529346558*^9, 3.709054556014386*^9}}],
+  3.709054529346558*^9, 
+  3.709054556014386*^9}},ExpressionUUID->"6ca00bdf-8711-42eb-b578-\
+52086d66a90c"],
 
 Cell[BoxData[
  RowBox[{
@@ -205,19 +1897,24 @@ Cell[BoxData[
     RowBox[{"pops", "/", 
      RowBox[{"Total", "[", "pops", "]"}]}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.709054557969718*^9, 3.709054572733577*^9}, 
-   3.709054602898287*^9}],
+   3.709054602898287*^9},ExpressionUUID->"03d80906-f3da-41a1-aa78-\
+0d0c2883a814"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"lats", "[", 
   RowBox[{"[", "1", "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.7090546053870983`*^9, 3.709054609521069*^9}}],
+ CellChangeTimes->{{3.7090546053870983`*^9, 
+  3.709054609521069*^9}},ExpressionUUID->"438121e9-3da5-43a8-a4a8-\
+846b27fff965"],
 
 Cell[BoxData[
  RowBox[{"-", "23.53`"}]], "Output",
  CellChangeTimes->{3.70905460976152*^9, 3.7090548089449463`*^9, 
-  3.709064637853566*^9}]
+  3.709064637853566*^9, 
+  3.709300538485371*^9},ExpressionUUID->"e534ddbc-e85b-422b-9cc6-\
+5f15a30a50e8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -235,7 +1932,9 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"lats", ",", "longs", ",", "weights"}], "}"}]}], "]"}], 
    "]"}]}]], "Input",
- CellChangeTimes->{{3.7090548185672007`*^9, 3.709054870947609*^9}}],
+ CellChangeTimes->{{3.7090548185672007`*^9, 
+  3.709054870947609*^9}},ExpressionUUID->"0bbbe402-1c3f-4396-a68f-\
+2e769d5103e1"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -243,7 +1942,9 @@ Cell[BoxData[
    RowBox[{"-", "18.002574146450733`"}], ",", 
    RowBox[{"-", "45.680321480755495`"}]}], "}"}]], "Output",
  CellChangeTimes->{{3.709054833046289*^9, 3.709054871307809*^9}, 
-   3.709064637874321*^9}]
+   3.709064637874321*^9, 
+   3.709300538509204*^9},ExpressionUUID->"8f609215-41ff-4eda-95e7-\
+1eeb7f9ee5db"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -361,40 +2062,52 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{"lats", ",", "longs", ",", "weights"}], "}"}]}], "]"}], 
       "]"}]}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
- CellChangeTimes->{{3.709064618721582*^9, 3.70906472229294*^9}}],
+ CellChangeTimes->{{3.709064618721582*^9, 
+  3.70906472229294*^9}},ExpressionUUID->"f24446fd-b481-4155-a667-\
+777a6409b459"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"getCentroidForCountry", "[", "\"\<Brazil\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.7090647243534*^9, 3.709064728515071*^9}}],
+ CellChangeTimes->{{3.7090647243534*^9, 
+  3.709064728515071*^9}},ExpressionUUID->"f527bc5f-c96c-41a8-be17-\
+7eaccde6f051"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"-", "18.002574146450733`"}], ",", 
    RowBox[{"-", "45.680321480755495`"}]}], "}"}]], "Output",
- CellChangeTimes->{3.709064731535095*^9}]
+ CellChangeTimes->{3.709064731535095*^9, 
+  3.709300541238227*^9},ExpressionUUID->"f24c0fe7-2f91-4ebf-9086-\
+f3bcee75cd43"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"getCentroidForCountry", "[", "\"\<Mexico\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.7090647243534*^9, 3.709064735683742*^9}}],
+ CellChangeTimes->{{3.7090647243534*^9, 
+  3.709064735683742*^9}},ExpressionUUID->"ae549fdd-6514-49c8-a91c-\
+0d759fe36f0a"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"21.646177620764742`", ",", 
    RowBox[{"-", "100.64099666844331`"}]}], "}"}]], "Output",
- CellChangeTimes->{3.70906473881531*^9}]
+ CellChangeTimes->{3.70906473881531*^9, 
+  3.7093005440479307`*^9},ExpressionUUID->"68690ab8-23ab-404d-9a9a-\
+ac838e2dd3ef"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Countries", "Section",
- CellChangeTimes->{{3.709064750525141*^9, 3.709064753212693*^9}}],
+ CellChangeTimes->{{3.709064750525141*^9, 
+  3.709064753212693*^9}},ExpressionUUID->"8abeaad9-80cc-4027-9cff-\
+cc329020df2b"],
 
 Cell[CellGroupData[{
 
@@ -408,7 +2121,9 @@ Cell[BoxData[
       RowBox[{"CountryData", "[", "\"\<SouthAmerica\>\"", "]"}]}], "]"}]}], 
    "]"}]}]], "Input",
  CellChangeTimes->{{3.709064788695236*^9, 3.7090648263660717`*^9}, {
-   3.7090649220489073`*^9, 3.709064931520093*^9}, 3.709064966775215*^9}],
+   3.7090649220489073`*^9, 3.709064931520093*^9}, 
+   3.709064966775215*^9},ExpressionUUID->"31d2e942-0db7-4a29-b1fc-\
+cf72c9063baf"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -436,7 +2151,9 @@ Cell[BoxData[
    ",", "\<\"Suriname\"\>", ",", "\<\"Uruguay\"\>", 
    ",", "\<\"Venezuela\"\>"}], "}"}]], "Output",
  CellChangeTimes->{{3.7090647930444*^9, 3.7090648266931067`*^9}, {
-  3.709064945907256*^9, 3.709064967257762*^9}}]
+   3.709064945907256*^9, 3.709064967257762*^9}, 
+   3.709300558342298*^9},ExpressionUUID->"43ccc4eb-6d63-4e0d-83be-\
+78b110c40954"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -446,7 +2163,8 @@ Cell[BoxData[
   RowBox[{"Map", "[", 
    RowBox[{"getCentroidForCountry", ",", "countries"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7090648354192944`*^9, 3.7090648477269583`*^9}, 
-   3.7090649725596943`*^9}],
+   3.7090649725596943`*^9},ExpressionUUID->"cdf063fc-d70a-46b0-b0cb-\
+d94e731661e9"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -616,7 +2334,9 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"10.07473160233792`", ",", 
      RowBox[{"-", "67.69370816746435`"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.709064861700924*^9, 3.709065034139812*^9}]
+ CellChangeTimes->{3.709064861700924*^9, 3.709065034139812*^9, 
+  3.7093006180892563`*^9},ExpressionUUID->"98f2a538-edea-41db-89c0-\
+cfa1ca5825c5"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -630,7 +2350,8 @@ Cell[BoxData[
         RowBox[{"Reverse", "[", "#", "]"}], ",", "1"}], "]"}], "&"}], ",", 
      "centroids"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.70906516321784*^9, 3.7090652014115*^9}, 
-   3.709065349742237*^9}],
+   3.709065349742237*^9},ExpressionUUID->"ef504ae1-db42-4dc0-b177-\
+17bca8d43e23"],
 
 Cell[BoxData[
  RowBox[{
@@ -650,7 +2371,9 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"countries", ",", "centroids"}], "}"}]}], "]"}]}], 
   ";"}]], "Input",
- CellChangeTimes->{{3.709065304660286*^9, 3.709065404520887*^9}}],
+ CellChangeTimes->{{3.709065304660286*^9, 
+  3.709065404520887*^9}},ExpressionUUID->"59fced34-fbd2-49ec-af54-\
+e6f1de2553cb"],
 
 Cell[CellGroupData[{
 
@@ -709,7 +2432,7 @@ Cell[BoxData[
    3.709065084365765*^9, 3.709065156247151*^9}, {3.709065196348262*^9, 
    3.7090652262704697`*^9}, {3.709065259197671*^9, 3.7090652752766647`*^9}, {
    3.7090653441155043`*^9, 3.709065380902482*^9}},
- CellID->1143417716],
+ CellID->1143417716,ExpressionUUID->"b74afd52-8ce3-4476-a7b1-954145346161"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -17165,74 +18888,74 @@ kYR5HImiIXWotvL6MRmWBhTF/yCjYW32r875VTKsMc61jzaGgK15655itxQT
 c/lTBcEhUG+eb+jPlWKD5YF+3bwK+Gf2SDfOkei15v27JToVlHcpmma5PaS1
 WTy6Z3sLfLF36I4E/wN0VKth
       "]}]], 
-   {RGBColor[1, 0, 0], CircleBox[{-63.055839659322345`, 18.213629883354933`}],
-     CircleBox[{-61.83526757771751, 17.106630502816607`}], 
-    CircleBox[{-69.98644587908004, 12.490075389156704`}], 
-    CircleBox[{-77.53191669312258, 25.395413868246415`}], 
-    CircleBox[{-59.60562784308829, 13.119085127637941`}], 
-    CircleBox[{-88.45142564802183, 17.470750341064118`}], 
+   {RGBColor[1, 0, 0], CircleBox[{-63.055839659322345, 18.213629883354933}], 
+    CircleBox[{-61.83526757771751, 17.106630502816607}], 
+    CircleBox[{-69.98644587908004, 12.490075389156704}], 
+    CircleBox[{-77.53191669312258, 25.395413868246415}], 
+    CircleBox[{-59.60562784308829, 13.119085127637941}], 
+    CircleBox[{-88.45142564802183, 17.470750341064118}], 
     CircleBox[{-64.71002958579882, 32.34664940828402}], 
     CircleBox[{-64.63, 18.43}], 
     CircleBox[{-88.3362290912766, 46.67946919873847}], 
     CircleBox[{-81.34880626815102, 19.31014661987738}], 
     CircleBox[{-84.15207365184483, 9.96463882383608}], 
     CircleBox[{-79.64188267174258, 21.94546491982234}], 
-    CircleBox[{-68.93643836725086, 12.119442531526362`}], 
-    CircleBox[{-61.370595814560616`, 15.384279969682936`}], 
-    CircleBox[{-70.21280130168883, 18.850694850993385`}], 
-    CircleBox[{-89.10890911048205, 13.712302148148922`}], 
+    CircleBox[{-68.93643836725086, 12.119442531526362}], 
+    CircleBox[{-61.370595814560616, 15.384279969682936}], 
+    CircleBox[{-70.21280130168883, 18.850694850993385}], 
+    CircleBox[{-89.10890911048205, 13.712302148148922}], 
     CircleBox[{-51.59115425173302, 66.7335562777672}], 
-    CircleBox[{-61.68566841208757, 12.144105103778944`}], 
-    CircleBox[{-61.57248583494588, 16.263108916962764`}], 
-    CircleBox[{-90.73601582357833, 14.770921016702546`}], 
-    CircleBox[{-72.47244498338497, 18.805693276791175`}], 
-    CircleBox[{-87.47639768610475, 14.838958580498131`}], 
-    CircleBox[{-77.05753552581182, 18.067443088720452`}], 
-    CircleBox[{-61.010796272172115`, 14.629319047540523`}], 
-    CircleBox[{-100.64099666844331`, 21.646177620764742`}], 
-    CircleBox[{-62.20632405892256, 16.749909381593717`}], 
-    CircleBox[{-86.11160509043926, 12.356297214888228`}], 
+    CircleBox[{-61.68566841208757, 12.144105103778944}], 
+    CircleBox[{-61.57248583494588, 16.263108916962764}], 
+    CircleBox[{-90.73601582357833, 14.770921016702546}], 
+    CircleBox[{-72.47244498338497, 18.805693276791175}], 
+    CircleBox[{-87.47639768610475, 14.838958580498131}], 
+    CircleBox[{-77.05753552581182, 18.067443088720452}], 
+    CircleBox[{-61.010796272172115, 14.629319047540523}], 
+    CircleBox[{-100.64099666844331, 21.646177620764742}], 
+    CircleBox[{-62.20632405892256, 16.749909381593717}], 
+    CircleBox[{-86.11160509043926, 12.356297214888228}], 
     CircleBox[{-80.08673226200696, 8.859568906122965}], 
-    CircleBox[{-66.27990158167512, 18.309124152415603`}], 
-    CircleBox[{-54.33508916380488, 17.310239976829823`}], 
-    CircleBox[{-60.9685275280392, 13.926059776889076`}], 
-    CircleBox[{-56.21419425146438, 46.838182808881626`}], 
-    CircleBox[{-61.20677705852517, 13.164931409285993`}], 
+    CircleBox[{-66.27990158167512, 18.309124152415603}], 
+    CircleBox[{-54.33508916380488, 17.310239976829823}], 
+    CircleBox[{-60.9685275280392, 13.926059776889076}], 
+    CircleBox[{-56.21419425146438, 46.838182808881626}], 
+    CircleBox[{-61.20677705852517, 13.164931409285993}], 
     CircleBox[{-63.05468689087964, 18.0272575430336}], 
     CircleBox[{-61.41423903873777, 10.47121487038008}], 
     CircleBox[{-71.71012681159421, 21.67725845410628}], 
     CircleBox[{-93.14875158306157, 37.67100014947028}], 
     CircleBox[{-64.88950692041523, 18.19515570934256}], 
-    CircleBox[{-61.670530659643035`, -32.884404198027546`}], 
-    CircleBox[{-65.59498651843188, -17.426231038400005`}], 
-    CircleBox[{-45.680321480755495`, -18.002574146450733`}], 
+    CircleBox[{-61.670530659643035, -32.884404198027546}], 
+    CircleBox[{-65.59498651843188, -17.426231038400005}], 
+    CircleBox[{-45.680321480755495, -18.002574146450733}], 
     CircleBox[{-71.18780124231688, -33.71691816019109}], 
     CircleBox[{-74.84937448914575, 5.982831795635585}], 
-    CircleBox[{-79.43121142404625, -1.5317868094839298`}], 
+    CircleBox[{-79.43121142404625, -1.5317868094839298}], 
     CircleBox[{-57.70480743691898, -51.72581230633024}], 
     CircleBox[{-52.86510499046149, 5.011427825340887}], 
     CircleBox[{-58.06940401720977, 6.540758448566252}], 
-    CircleBox[{-56.90823754581298, -25.314739122998645`}], 
-    CircleBox[{-76.53966679041237, -10.985196269109965`}], 
-    CircleBox[{-55.268104238679285`, 5.820134660812235}], 
-    CircleBox[{-56.23812216304082, -34.096658757541064`}], 
+    CircleBox[{-56.90823754581298, -25.314739122998645}], 
+    CircleBox[{-76.53966679041237, -10.985196269109965}], 
+    CircleBox[{-55.268104238679285, 5.820134660812235}], 
+    CircleBox[{-56.23812216304082, -34.096658757541064}], 
     CircleBox[{-67.69370816746435, 10.07473160233792}]}, 
    {GrayLevel[0.5], 
-    InsetBox["\<\"Anguilla\"\>", {-61.055839659322345`, 18.213629883354933`}, \
+    InsetBox["\<\"Anguilla\"\>", {-61.055839659322345, 18.213629883354933}, \
 {-1, 0}], 
     InsetBox["\<\"AntiguaBarbuda\"\>", \
-{-59.83526757771751, 17.106630502816607`}, {-1, 0}], 
-    InsetBox["\<\"Aruba\"\>", {-67.98644587908004, 12.490075389156704`}, \
+{-59.83526757771751, 17.106630502816607}, {-1, 0}], 
+    InsetBox["\<\"Aruba\"\>", {-67.98644587908004, 12.490075389156704}, \
 {-1, 0}], 
-    InsetBox["\<\"Bahamas\"\>", {-75.53191669312258, 25.395413868246415`}, \
+    InsetBox["\<\"Bahamas\"\>", {-75.53191669312258, 25.395413868246415}, \
 {-1, 0}], 
-    InsetBox["\<\"Barbados\"\>", {-57.60562784308829, 13.119085127637941`}, \
+    InsetBox["\<\"Barbados\"\>", {-57.60562784308829, 13.119085127637941}, \
 {-1, 0}], 
-    InsetBox["\<\"Belize\"\>", {-86.45142564802183, 17.470750341064118`}, \
+    InsetBox["\<\"Belize\"\>", {-86.45142564802183, 17.470750341064118}, \
 {-1, 0}], 
     InsetBox["\<\"Bermuda\"\>", {-62.71002958579882, 32.34664940828402}, \
 {-1, 0}], 
-    InsetBox["\<\"BritishVirginIslands\"\>", {-62.629999999999995`, 18.43}, \
+    InsetBox["\<\"BritishVirginIslands\"\>", {-62.629999999999995, 18.43}, \
 {-1, 0}], 
     InsetBox["\<\"Canada\"\>", {-86.3362290912766, 46.67946919873847}, \
 {-1, 0}], 
@@ -17242,48 +18965,48 @@ WTy6Z3sLfLF36I4E/wN0VKth
 {-1, 0}], 
     InsetBox["\<\"Cuba\"\>", {-77.64188267174258, 21.94546491982234}, \
 {-1, 0}], 
-    InsetBox["\<\"Curacao\"\>", {-66.93643836725086, 12.119442531526362`}, \
+    InsetBox["\<\"Curacao\"\>", {-66.93643836725086, 12.119442531526362}, \
 {-1, 0}], 
-    InsetBox["\<\"Dominica\"\>", {-59.370595814560616`, 15.384279969682936`}, \
+    InsetBox["\<\"Dominica\"\>", {-59.370595814560616, 15.384279969682936}, \
 {-1, 0}], 
     InsetBox["\<\"DominicanRepublic\"\>", \
-{-68.21280130168883, 18.850694850993385`}, {-1, 0}], 
-    InsetBox["\<\"ElSalvador\"\>", {-87.10890911048205, 13.712302148148922`}, \
+{-68.21280130168883, 18.850694850993385}, {-1, 0}], 
+    InsetBox["\<\"ElSalvador\"\>", {-87.10890911048205, 13.712302148148922}, \
 {-1, 0}], 
     InsetBox["\<\"Greenland\"\>", {-49.59115425173302, 66.7335562777672}, \
 {-1, 0}], 
-    InsetBox["\<\"Grenada\"\>", {-59.68566841208757, 12.144105103778944`}, \
+    InsetBox["\<\"Grenada\"\>", {-59.68566841208757, 12.144105103778944}, \
 {-1, 0}], 
-    InsetBox["\<\"Guadeloupe\"\>", {-59.57248583494588, 16.263108916962764`}, \
+    InsetBox["\<\"Guadeloupe\"\>", {-59.57248583494588, 16.263108916962764}, \
 {-1, 0}], 
-    InsetBox["\<\"Guatemala\"\>", {-88.73601582357833, 14.770921016702546`}, \
+    InsetBox["\<\"Guatemala\"\>", {-88.73601582357833, 14.770921016702546}, \
 {-1, 0}], 
-    InsetBox["\<\"Haiti\"\>", {-70.47244498338497, 18.805693276791175`}, \
+    InsetBox["\<\"Haiti\"\>", {-70.47244498338497, 18.805693276791175}, \
 {-1, 0}], 
-    InsetBox["\<\"Honduras\"\>", {-85.47639768610475, 14.838958580498131`}, \
+    InsetBox["\<\"Honduras\"\>", {-85.47639768610475, 14.838958580498131}, \
 {-1, 0}], 
-    InsetBox["\<\"Jamaica\"\>", {-75.05753552581182, 18.067443088720452`}, \
+    InsetBox["\<\"Jamaica\"\>", {-75.05753552581182, 18.067443088720452}, \
 {-1, 0}], 
-    InsetBox["\<\"Martinique\"\>", \
-{-59.010796272172115`, 14.629319047540523`}, {-1, 0}], 
-    InsetBox["\<\"Mexico\"\>", {-98.64099666844331, 21.646177620764742`}, \
+    InsetBox["\<\"Martinique\"\>", {-59.010796272172115, 14.629319047540523}, \
 {-1, 0}], 
-    InsetBox["\<\"Montserrat\"\>", {-60.20632405892256, 16.749909381593717`}, \
+    InsetBox["\<\"Mexico\"\>", {-98.64099666844331, 21.646177620764742}, \
 {-1, 0}], 
-    InsetBox["\<\"Nicaragua\"\>", {-84.11160509043926, 12.356297214888228`}, \
+    InsetBox["\<\"Montserrat\"\>", {-60.20632405892256, 16.749909381593717}, \
+{-1, 0}], 
+    InsetBox["\<\"Nicaragua\"\>", {-84.11160509043926, 12.356297214888228}, \
 {-1, 0}], 
     InsetBox["\<\"Panama\"\>", {-78.08673226200696, 8.859568906122965}, \
 {-1, 0}], 
-    InsetBox["\<\"PuertoRico\"\>", {-64.27990158167512, 18.309124152415603`}, \
+    InsetBox["\<\"PuertoRico\"\>", {-64.27990158167512, 18.309124152415603}, \
 {-1, 0}], 
     InsetBox["\<\"SaintKittsNevis\"\>", \
-{-52.33508916380488, 17.310239976829823`}, {-1, 0}], 
-    InsetBox["\<\"SaintLucia\"\>", {-58.9685275280392, 13.926059776889076`}, \
+{-52.33508916380488, 17.310239976829823}, {-1, 0}], 
+    InsetBox["\<\"SaintLucia\"\>", {-58.9685275280392, 13.926059776889076}, \
 {-1, 0}], 
     InsetBox["\<\"SaintPierreMiquelon\"\>", \
-{-54.21419425146438, 46.838182808881626`}, {-1, 0}], 
+{-54.21419425146438, 46.838182808881626}, {-1, 0}], 
     InsetBox["\<\"SaintVincentGrenadines\"\>", \
-{-59.20677705852517, 13.164931409285993`}, {-1, 0}], 
+{-59.20677705852517, 13.164931409285993}, {-1, 0}], 
     InsetBox["\<\"SintMaarten\"\>", {-61.05468689087964, 18.0272575430336}, \
 {-1, 0}], 
     InsetBox["\<\"TrinidadTobago\"\>", \
@@ -17292,19 +19015,19 @@ WTy6Z3sLfLF36I4E/wN0VKth
 {-69.71012681159421, 21.67725845410628}, {-1, 0}], 
     InsetBox["\<\"UnitedStates\"\>", {-91.14875158306157, 37.67100014947028}, \
 {-1, 0}], 
-    InsetBox["\<\"UnitedStatesVirginIslands\"\>", \
-{-62.88950692041523, 18.19515570934256}, {-1, 0}], 
-    InsetBox["\<\"Argentina\"\>", \
-{-59.670530659643035`, -32.884404198027546`}, {-1, 0}], 
-    InsetBox["\<\"Bolivia\"\>", {-63.59498651843188, -17.426231038400005`}, \
+    InsetBox["\<\"UnitedStatesVirginIslands\"\>", {-62.88950692041523, 18.19515570934256},
+      {-1, 0}], 
+    InsetBox["\<\"Argentina\"\>", {-59.670530659643035, -32.884404198027546}, \
 {-1, 0}], 
-    InsetBox["\<\"Brazil\"\>", {-43.680321480755495`, -18.002574146450733`}, \
+    InsetBox["\<\"Bolivia\"\>", {-63.59498651843188, -17.426231038400005}, \
+{-1, 0}], 
+    InsetBox["\<\"Brazil\"\>", {-43.680321480755495, -18.002574146450733}, \
 {-1, 0}], 
     InsetBox["\<\"Chile\"\>", {-69.18780124231688, -33.71691816019109}, \
 {-1, 0}], 
     InsetBox["\<\"Colombia\"\>", {-72.84937448914575, 5.982831795635585}, \
 {-1, 0}], 
-    InsetBox["\<\"Ecuador\"\>", {-77.43121142404625, -1.5317868094839298`}, \
+    InsetBox["\<\"Ecuador\"\>", {-77.43121142404625, -1.5317868094839298}, \
 {-1, 0}], 
     InsetBox["\<\"FalklandIslands\"\>", \
 {-55.70480743691898, -51.72581230633024}, {-1, 0}], 
@@ -17312,28 +19035,1233 @@ WTy6Z3sLfLF36I4E/wN0VKth
 {-1, 0}], 
     InsetBox["\<\"Guyana\"\>", {-56.06940401720977, 6.540758448566252}, \
 {-1, 0}], 
-    InsetBox["\<\"Paraguay\"\>", {-54.90823754581298, -25.314739122998645`}, \
+    InsetBox["\<\"Paraguay\"\>", {-54.90823754581298, -25.314739122998645}, \
 {-1, 0}], 
-    InsetBox["\<\"Peru\"\>", {-74.53966679041237, -10.985196269109965`}, \
+    InsetBox["\<\"Peru\"\>", {-74.53966679041237, -10.985196269109965}, \
 {-1, 0}], 
-    InsetBox["\<\"Suriname\"\>", {-53.268104238679285`, 5.820134660812235}, \
+    InsetBox["\<\"Suriname\"\>", {-53.268104238679285, 5.820134660812235}, \
 {-1, 0}], 
-    InsetBox["\<\"Uruguay\"\>", {-54.23812216304082, -34.096658757541064`}, \
+    InsetBox["\<\"Uruguay\"\>", {-54.23812216304082, -34.096658757541064}, \
 {-1, 0}], 
     InsetBox["\<\"Venezuela\"\>", {-65.69370816746435, 10.07473160233792}, \
 {-1, 0}]}},
   ImageSize->400,
   PlotRange->{{-130, -30}, {-55, 55}}]], "Output",
  CellChangeTimes->{{3.709065097091238*^9, 3.709065157180244*^9}, {
-  3.709065197693254*^9, 3.7090652271583023`*^9}, {3.709065260551265*^9, 
-  3.709065276352701*^9}, {3.709065354966185*^9, 3.709065406902855*^9}}]
+   3.709065197693254*^9, 3.7090652271583023`*^9}, {3.709065260551265*^9, 
+   3.709065276352701*^9}, {3.709065354966185*^9, 3.709065406902855*^9}, 
+   3.709300619632216*^9},ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJysvQl8lNd1KD5BEhiMdze2s9lOmrVJmqRNX5qlbdKkeenylqYv7f816Wua
+tE76+v+3SdOmbZpmjIWMkDAIAwJ7YiwrEkYGhBiMYiyDEAIkPFjAIAQaaRCD
+BgaQEAgYJBjp/O/Z7ne/mW8Ebju/n5b5lruce+7Zz7l/8M0ffOcv/99v/uC7
+3/rmI1/+/jf/7jvf/dbfP/I7f/t9c6nkLaHQW66EQrPe90gI/4dQSH/R5wP4
+axZMT0+HSujC1NQUXJ+cCM2CyclrodvNnSl7PZu9AhMTV+n7jRvX4cb1Scjd
+uEH3bAvU2Cy8Zr7j2+YrXg+10G/u9z30/xy9Zz/4fezCWWptFj1TQtcuj49B
+LneDv4VK4erVcTh7ZojeOZs5WQrDqf7QXEifGoAz6aS5dRLOnz0Fo+dPw4XR
+DFwcO28Gf7mgWfmENjpD+0WdxJTpRx+a5hnSBOnylDtqhd/4+AUdkZkbDgl/
+J+D8uWGaAcKMZ8nwciHyAdv0tIWE9sjtl1Ebp4cHaYrUz5mTIZ56CV0bGz0L
+17JXQjoeZ5ihqNPXR5xpYD9XLl+E0+nkLKcpbV6vpYcH4OqVcXqRmv95EMiw
+01wuZydYkgfrSxdHZMBzTC8n6FrGrJW5AiNmrab43dCrTuOPeo3PpgsTE1la
+WHzpzOkTiBel3jO3GShP2vv0jHR0/uwwZK9epsfanA7e5b1cahf78uUxM7Ih
+he51g+kKyTL6zbhr+zh9wreyO5z2HxEgXDJIiAiKLZYJwk5N5SwW4buIIecy
+KUJg0z2OXZag1PYh2OF28U7pQjaimea4AQQP3cVzxX1EJBm6+eZvfnLiGg7l
+E/KoATfA6dPm+mSo0uny7e6a4zQM0UDkFMQvQ4TSoepf6f82Aicuo1kOQr7x
+S6N285jnPi4Qht27Ab74RYDSUu4X/+L33btDTzpjeZs0i11pswjNa9eu0FQv
+m6Yzp4fKdL6nEkQVzG2GDy277D18T8DIw5gLsHIlQIkBxTe+AfCqwc3jx/kv
+fsfrK1eG7lRwQQ6y4+OQnYTQ3XptMmtmlzV3IDRfrk1mx2E8m9OJyjUz9Cw/
+VxbQ3vy89njQhe/+UgFoymha45cu0KojtJnE87tINhQbZltKmoDRkdMwcS1r
+V1HJCf6v5H36w9TIbD8lx3VDwLzwgp3HCy/wJbN0OmaALLTVhKE6mpD53g+T
+mRjUhMMQlp/augaoNn8bYhnIJlvNtRpImCElo9VQ0ZyQ/kagudo8X9MGo+4z
+nQ2zsBEzunC4GhoaavNfnyXQySajEK6IAs01l4FobTjEr94GNbUVEK5upXvZ
+ZJttArIpaKoJ82Nz6HIsba5PJqHWDDiaGNfJSFPzi06G913C3KuGPvmeaKvj
+18rMyCrye5UmS7xuzTw+WGTdr1+fQCKZtwtvN/T8Eq07rjUSnJFzaWK+iCdI
+65ES4HveO7Nle+RoixCwDMU2u/l9HjUoc/DF2/k+TmC28PTXv27xnvbRl75k
+sUJxo7XaxY13QMIsWjjcACmzb3LZNLTWMI50picFnAy+hIMbybZafibjPpOB
+OnOtoqkHkKyPpbpoWXCVkcMlXOT4BCNHGJEjB7EG7DICPWmzfTM9EJHXGDm4
+eVymRDMvWTwzbkA0Bp115rkK8xytMmPHrUwnCDvG+6L0XFNX0hDlEWiv89Cj
+aL8Ahdhxf6D4pX+NIIGCjIs5tPL4HWn9tWtXiXaPXTgH54ysNXxqQFkJyihI
+/vFx89p73bXnD+PTLFemIkZjCPz09u2IZbMVEZDQIt03/Gcm5Ei2VtPMu5Jm
+byFdHYsxBCf9K4M7P1wXg/GRGFQggWljNuU9MwJNuKq1UUiNjCNB5bYZin7k
+KHOQg1+rbU/LXvklSLXV2NfcIYxnkpAwCGRWHdLJODTjwhvqM+4gx61OJx85
+CKlMn1Zckff6Zuo3kHbweuFKe/u3TGk/3zNc/PRwMnSH8FWjMFhh/xfz1tyl
+ASjkIE3y6EoZixim/xu9R1QoCjnoUcJMFwd4+vQMeGCu5cyOaKoh8uhRf94d
+PjxorVUKH65phTEBl/vIpNngddXhEnqslB5DiBMGNfQUYEC2jxAqmsxaOSeb
+UOzIWzUzyLa6Gss7KmqhPTEmC8kIIPMIce/3Bs4hf/FpZLWd3uLnkh5Pcbss
+8brMW/uHnHXDdTqbSVl+rWtplC8j7/CaIwXQNWcVZr6PqiCOIE9RCkIfs9On
+jSwwsXUL4tLNdnob00WBxHs9eptJQE88SbNFcSod91iAf6UNNlTXEmQrGmKg
+Erf3TA7SiR6IJxEcKG6NQFdDhWUH9L4sIn54W+O2GYNm02ZNW0oW/EN2++Uv
+OL0TroBoVxwyRnQbG8nAGO5rZ8VvPp8KiI8X2/Le+HKZTvtekX4/VLDb59Lq
+GP2MpALk6rgLUVJEtQk/mdMn7E5H6VlXndua7eMdDpWw6vZv/zYyfdnY/lfs
+BwWBL36R8e2PQbd3OBKFWE8MYjH86YKunhQtIu8uI061m8mNpKGruSYQARBA
+1a3mHSH5FQ1dBQvUg4wS6W0iDZl0H9NGQTRGAEPbW2OQShqaUIGyZjstVF9z
+NbXR3peCZIzHo4TCbT/TVWf+r4We1AhkkiJvRBN+BLjpfLDtZuhLJQ1pYP7A
+/KCN7kVaeyCdivP4hFwU6TdUiAElojledrTCEjJfiFHG7Gy+hlKBrj6L//Oc
+1Z9yjT6MBR0dMD1r1q2oA0TNW5NCzX+B9mOys5mHTT8V0NSZ4OXPW2IV+bJG
+nEMVoq4zVUB02xtqhSu81SxvREVnSLXXQU1DMzTVSj/mXk9G6aiRo5pYjAxX
+VFtRsYCoG4rQ1SRc5V6oqWsDasEl6jNMZzLdaXSNJmiLRrx7XSllJSmDXBXy
+WqQhQgvcl99riddrHl1/kP73G9xQwjudHiTZ3+jE1taDdF90A6MlyJqf8db8
+V4Vi3IpezAtZahe3ojkOk7kcWheRyqPKOskEma07xFAL1tXiiHPPgJjfKiJm
+WbZi4F/D8JdXSlzGGPpYwU6Ya7nfpYujlqbhd4QYyr9oGlVaiNqzHzJiuECN
+xjVc4HeD7nZcZsDRirAKF8zgmvt0cQRyBhyJZlp0IvVN5vmmPg8c3j0LjkQU
+VYBmYl3OfdttNkF41NTngMOILvhYPA8c75Dp4NQnjSA4Zsj+FYMY+D+C4cb1
+SSsIoEVWwfBJC/pJazuaK9fGM2lIpVL4Y77x78x4vnXN/J4cM3czRGSzhhim
+R7IepfDu2WnnxjOQSosYNzlu7qdRcPagnYMR0+1INudN26xAmh/zTftBaVL3
+ClqmVAu6ePH8fWoSNWoz2hpRjN3lvP5AwFZDhol2PbyGIvP90kbm9JCFWrvT
+BlI+KHH55+jIGTJjG7ZsaBebavCasloitMxyXePmffR/KeTJZLPkMipvaAKY
+MMqcQeoHxHaHDeMtlNzUHO+2eq8skuqEF82zsk9C2jRCjDiFGdTEtezbZcZo
+n9MZby9okpkQvorWfqV9eg27QtxDOOiWNLrmQwFSSWHTdxaIG+i+UIcDAgFV
+VvyLtA6bRpCaNh+06z0Q2PwvBIDYvFYqyjCiiUrJRmfW1sQdQe++UtBamY+J
+4t+R8+mQGjDN/+yPuXo59ICab83g0T8j4pdrnn+rs1r6wf/Pnxu2TaLuhtQN
+v+kQUfITGIVanfYedIbIbbG93CCRlRvQdoTmV/z2NqWUBktYKpwKvey094Cz
+9PIJqcEfIadGdvyZNOhjoPgOx9Jw5fIlnbXr5KBZsx8nqOkywigUeAn/TbM4
+/Hc5Io6os6EtgaCcygenVWUvGaFZh4vtGlU39Ii069j7Q5uddt+mg502hAN3
+nztntMOKdB56WBpSepTf0AN5a41/0Xdj0MOuNU6a1z9tJ6yuqfz2HnTWRvFj
+jqKwkRVxPc+cTgrOlBEaInpiH8wtcz7Xk9se7le3PdwpbKvMWbRGm6RqFAbo
+Ltrco01Nicg5NRViv2OZvYYftP4bimEdImSZypHDwkiYfvEmH9W5D48VIJiQ
++ghxnIVzcNBr9Pxp283FMcZ2/KYs44x0jd24O5Sp9Dyxqkyg1i0UaZDcQMh0
+8YPoY1BeAcY+xRv07V6HSilXcunK/R6GsdYuLi2fP1RXeLYSa2QLZifjt3sc
+jWCSibiPDDodlAqsJhWmbh+66mUOJl8RafOevOWAPFJ7v2L3lF/LsJ2K0/MM
+U3LrHGUqf84HKJdbuIB6R94OQjsnPou+LXXFIdlRpmTGqsuL6rI26S4vewBv
+02HZH6NSi7ttGkFwn7OvtBkXGd+eNzLhT0THS+3IBixrMX/v0+U0W4svT+lW
+wr9b8+etCKJ0Ed/WSaMXeyrHpn+zxR+QppFUIq4j81HyZhpxfdvvctAb+TfO
+Gzc7Mg15nCglwu/c2VPKL/AxhD4OyaVJD7uYhrsRtwsycbOj1XBEFmmZgPIz
+onvstwg15w+P25srZm/efjg1BTRyA6Qkw6kBy9DQy6wLVdCguY/G07Ps3raM
+UdUI/PYOB93l42vnne6SoEcG8c5bEp4RwtxtDAEb1NjDzh6U5bXtqO8XhYx3
+KqvKeaxqU0A7CBSRnLwogVMJlgbGx2w7qEkqkNx2XE4gSODbw8IFbdu6X4dP
+DViuRdck+MSN4WAuyCIZEknceIaruIZMFG7c5pFaIQ7iN2Wy+Joi4IaC5st0
+3xKusEw6JVOYretOP7hz8Fkj7b9bmkYUUOg2FUCFQzMQmrifp9VDXeajIEic
+UQN7VFmlYbsYjSPAfKmgVR7wBZEuRCa1ln3sjYkSh9WMnj8jTZfR5HI5z+uH
+7wWPelqBiO24TgMcHQoi2C0y+PcI66dRizCDeww3LpJqhOU6p4uHnC4QtkIk
+86N5WBCbtpEol9nnLRhTRjtIltRipRfF4AUrNRZ07QUzsUgJVskjDchACJcZ
+MZK2uBEmFY10+XkC/vHm98UWiPmgat20p9bp/EjgVURgOfuqdsUaIZM4d0Mw
+67idhonKGv5FIoAUV1FRg0JExLbDx00uC+9rU82GCGYltaUCZlwdq1uKbK3t
+sfhZ2J7rekBih0+rMCVtOEvJ0o+CtXg7l27ajkug5uFvwoe6gJmy9j7oCa2z
+ULPled1lxWF1kmqEHHIBxOwJhivxYZwfUg7ehFOhYr0poVaJD8euVOrDDinR
+8a8tWHP/+syeoR1k4soeg9rBPpQoz9SOax4u1g5KAW4715x2PqJC25QXvfac
+0847nHaEU1thMqgd3e4ztYPWK7cdXBtcS7TVfMTC57yFj9vOO512NL5LBU+S
+xjFKMnfDtuNKDUHtCEP3jeeMeNNRZ/kl1WMMJmp4xtoi88rmqWxnxQZlcDD0
+IWdPBK3XO+x4pgg33H2kczD0I/QBK/3aAK7Q80XXi6WhuXkSM357H/2eTzDD
+67i/cX/g2qApgXRpgze4r9gaRGRxtt2ySqJFIFhSZAwKW3cMskdCv0K/b6cx
+kPJlBCPkNmi7QzKOQYoXxDimUa/VAf0oE3T7QVKtuPlZR8TVNawK3CtTlgZo
+O+qSQZ32NxQXDH5cF1PN4iJ7TiUebQc5LVO0gdBvOvgqGklhtJ/F8YSvHRJC
+BX6/pWM0zwhdCi0KaAdhlz8ehI0qm1/QfXjZo80V+e3oopOfWsRsRXSXeP52
+HrJhMwuLbGDVRJUwqWhugBX6ksMQtZ1yp5132XamLJC0HSQCOrkvOde0nScC
+2/G0ZW1nRDZe5szJ0BfzJOPi45kmBuSwLbOPfttZco24cKGiYasoD+aTI5Vo
+ECq6VMyOpwraediBikQg2lVCiODquaiD9o6gJdfxuORRoXLuLJO180Z/+S3b
+dnbGdlQodceDrELHo1tLjez41pNF2sm3jKn9wrwb+pyFc0Jio/1b4lGnHZ9w
+IZYAJA8uyXCx2DpEnCBdtV+YL5CKd0K0uRmao20QT43ZiNRMvN1ca4fUeC70
+B4FjmSJ2N+woSMOJI3D69U4YHjhir6n7wpDD0GcckqbjYyn5toJAXoz+kEBe
+fIImz6bV2RAnj3oYahuaoAFjL9FZFcvc6Uyrq6FavLEcvPT7zhTeTf/P12WE
+cxsa4dpnP81dStf4Ha/jfQl3+IyDAZ5ewE2pnxPDFzA6LdtzAK5ve9n6Oaee
+fpoEOoopzl7xhS1RnO84OTnFBTYHctksjGetywvQD9XVEIFoT0b6nAN9GMjH
+05NPzjBtjgP23GBeXLG9Nt5H3uXWZDYALHcw036ynPzxV//wv8P5hrWQaX+F
+/uJ3vD5W/hMSOISG2l0/PNQLA8cOQX9/r2MNPEbXBsw11fjVZuvBsIxWGtue
+rqsjpo72aDew/dLTT9F9syyzhNQgIciKV/FS/06KpC2RkNi6triN45FYXunq
+rYwhHAFGP9W1NU6kbRZizeLLD1dDbbXny4fxhIROsPO9rq7aCwHRUOLbCkKJ
++ZPhoMGGWCHQS2wAxOjSxQLMMvxfJ0x2MPTreUEXh2B743Inhu1eCC9aBTsO
+xAlnB7oazdUq2NsvtsTBnbCEIkLjvnvdjYugvH4nPXPiwFaEoI3/WrYWYoNM
+RR8SNnx62AgjZttMi2sNLdHEo77wBbj+J39Ma6YUF3Hl2uc+bQeMQlPm+Guw
+mIIjGqAnmYYRIzR1CrCbekYIJAnfYj0Kk+l2G8yaHU9Da60Xu5KI8sJhbE0q
+3sZx4bogbXyvJz1G8bvevZljewkFJM4G42KSZj/9XsCSSYwyUm2Zc5mdMwrR
+tOanhwSH3wG76hdxaMbGVuiJvwE9e1pgZXnYLgUvyyLfklWa59ftOeS7t1eX
+bGgfrMExLmuE2LFe6D/QSkscXtECJ1P9D4k0LmGUwoDYgIOEGqmc2dLKR3B3
+4yWk3bpaA3vqTa/lsPfkeccaMcnhdnUcJudfrbkS61iDUBO011CzMcL/SGfG
+7ng3LINC1Jricu8uJ6B25mBbpHpdEYwAa6JQ67rYiG+1mF/5Y4cNFZ4thEWn
+PXbmFEqcyrVOxltorVZu7hRo3AvDx7ZDublWub7jTa8VXwvD1oPHtIu+/dth
+R8c+XCqrM7kMVINHVNiZmFDX6Rx6Bic4tLUBWhrXQn19PWxtM8OyW62ESDY+
+Y561C9rfsZbQrdtsa/W9EH1srbGsRGJXnQUtEk06KsGsiWyoINC1ADHKfIsm
+YbNCq2+z4XAYZUKBUMlxHkd1G17/3aD1lGjg6WPHUHLV9dRZXx04bgjTdQW2
+JXmDCqC7iS/Fdm6HWG9v4HriXqovvp5lSiar1yPcHeF3zkwShQ2XQqERP0g+
+SlRzNut/4/N/IfFlq+D5tcv5/2UboB+F8mJ79a00snB5Iw0FmYW3tB7Y88NU
+iwcKZ6CB92qxreqt7N1OFzNHyWa6MCYtAkQahajHRnKFq1tmdyvFigkdLcvb
+srnsVdTFFCixzcuJWO04pkL//bJ05bDrmCxrfxtt4a0HewOX9cT+DTSq+p3d
+cKLfLP3gG7B1RZgAa+CvKXko/dxEOgrN07Uy+gN+UIXWvMbkY9+HNT/4azgh
+ZvoT+9fTMHf3e7L01T/6Kpz/r182Q1CMLYXu9d4aG5xn5fYBC/+Lk5MwIIGo
+keZWiEa74CztSC9nyI0K7muuMvcWw6vxFCR7Wjl2sFrXuMK/xk4EcfFA2DFo
+RumoKS6dcfRzdWvCXeN36w5G6d7Ix6L16fIiECc+9xl69Py5tMJDSRfuYF7e
++yxVDS+KwO79HbB17SJe0kHkpvX0/26XY6begHXIcRetgV0HuqH7lXp6f822
+fVaCxa3rF8RKXEHMktftq7GdekQLuVYG5zIHmVet2aqClaznXGr3/Fcfg4Ui
+ctZEVtGab48fIxw4+OQTQg4fhDXrtyNbkPk9btd8YvwIVBkY9F7JwWDrYgg/
+Lm09Xwvl5v+F5Syy4rwXLWyAlI0tXQTLF0bg+FDME/Aw5+EJeMK8/sRSXtdU
+WwRzXXTLp7saoCLSLhlvbmBsmRcYa3SJWtNjZ0qZQAm/V0vvhb4StO5e6h+K
+tOqWViBf2rqZtSOG8wlZ46Y9cY8TG8ln3YpV0NIRszhQs3qpSGzl8Hy0QwTa
+TbDErDVKsXsdQXe4v9O8v0gF3cjmnQRuHocoeYZaIya6JgRXoLVouadeGbtF
+g6GuF+naxkOnYN86Fw0+aIbEFOb5b38Nhv78W9BYzkvYtOZZGPnW93jvLviJ
+2fZx6N62hp/teMNDdUGFa5fihAr7T52GwS0sWD7X1meAziGjzRgsfrMkoODM
+stD/cRaNs/Bv9ym4lzasC1QIke3cuHFD4DCfdJSmRdjucqOXHBKTTBx21FdR
+Xy0Hei1j7h7qV8fQ8NAhOHwwRtRRVs0yTUdwDQVJrrNE0BlOdZNsXLm2xbTV
+DT0H9pm/nbAJiXn4Z3De0Jze5sW+pVEOmkbmbZZ5+qNfYwHn9z8KvX/7Yxpm
+H05hCKfRa2SHVth74JC3NOG1SA3g3PAeWpr4pUnofZHBujFJoce3tDQz5HX5
+lobzp+ax3oy6iCtsfM4zX6B+ls1eVswe7u+AyCI3X6YM1mzmjTGwZy0NFxmR
+LsdABweb70JCuta8t7bNLofKoQYb7HIUyp0lsHe9bk7tsxRFa7JHH91kCFmk
+dZaIQEg3zVe138Fw32skia1rf93wv6UsdT0ASxpVqK6ArftivH8HUQivhKNX
+p+GyWYRKG1J/a4D351OVuOp76M8cwL9PCN30xLUCc1eanfFk1lM9HgXNIwd2
+wo5XtsL2tjbo6e31TGZGwojt70ZktxAfHjyk12Agvs8oi/Fb3gAM8U/CcHwr
+QXydoR0Ixp7ocmaHRhJCc+GRlqfM93qVXAX5ve/DvfK+EYC711fRHt7bG4d+
+NOT0sqJdY1YwX8Iay+wXFjUFl0Z74Ck0NA1OBKxBcKbSDBlOPuTXNZDwOR9N
+VuMSfvvFm9Hzz7oGik8SfdqEFp/VW+l/EhfM/4hf2Nfh5qdYMaxvhHWNLRDv
+Ws/f1xul/kAbPM87i+B28iArkUvqDREy67h1bRWtAcLKEo3qtbCvZx/spGSd
+pSS6HOlYT1Lqyq174fzV8Ty4FUnwKZ4YVARuuQK4oeldTckKt5uJQ3ztUTjS
+toZwZHcXz3nTfrZD4Toc3roGKpcthyXE61YRO44Z0atSRaHVq8y9Kthq+AG+
+09e1yUvwL18OrfsPeex8WQQ2rXsa1AL3/LZOWqeWZWoHuwdeHRyBzkiN+Xul
+WMqMIF7RVJtAmLlecoUZee0lWuC9b0I9mK0a32CHM9e1xGBOD0txlczJe0Uo
+0XhcieebJYqENTt09XLMaSYDY5PsQPibghnM0dW1PxyMNY3xHqH3u7rr5z4d
+xE7ETjEHdkR4xCu3dVM7OGKtCqRmX4yEk+Aqq/gMGwF03SLeHSgdrEeDTdwp
+GfPXAYNWM73+uE7JD+rmHfAMJ6p5DffHINa1D/qHvOVCbwkyHfx2p8AW7dga
+fT924Zy1xRiqnTi03+zAGzb8Bz9qtv5OwVBnE6t1hyp+T/XLoJuaNp5R+W8X
+UoQMA8PBtXzMNK+w3sY96Qb2yN+gztHQ53aOQSRGHNPOJUyMHDFzBPvQrE6V
+fdipRK4NXEf8O3o+rSaoYUpjuS6RU7oZblhQ/FXAqok30Vs1CStAb4EOKcvR
+3w5Rnm29qTQMCVsx796t9EgWH9QhFvLXMPp2wL6ddDztHq0bpfcwZVUdO7rJ
+vOGUWVea5i5dvHhewoPnaGSO9u2uT+gvA8YhdMLhNxz/mZP4bOVEE46L0Uab
+CIJeujhqI9LRLavuQq9YQlDP4nz09axOuCtXLknP83B21hWMMQyap4A9sduL
+gi4fEACgb1Sj5HTyEnIVuBCSOQquoqWecgya/bSgJYZyMCCnrOkatxbihMGF
+h6R7xFq0omVpW01xHR82fYW+FdC9RIz5utdCVqZZwYPZFC+P6M36DOe1GQr3
+LnkRDbLDbIHBrv4isKdLBT2h7R0/o6MZuwEoi8n0hm4TDft0qmKEvum07ZbI
+kJQXK8ng7GWtZBalGARrY8wMpLR5dwP9eZHmJczPi0xwsj0/K80jOcGQjhtU
+4cE2r3lXkMdD/c1f8DU/6UTcfc42P8jRTIaoGezT5t249z8LbN6LILBinkEP
+oY3isS8VIHPItmn+UbujPEIX3Py0UhPbPM5Gd+tvKoqYvUXNT2DzCW2efeEc
+//CNALTB5jUvocwBqD90ppTaweax0J5BK23ejRr7emDzXpSWleUkdMFQ+9Dn
+pXmOzmPy64zezf/5U6f590vzDv+xzeOWkygK2zxyAgqCNLMynE7zntxwZ7f5
+D0jzCNObN19GeK+MA5kqpj68y1krhVDQFNxYqjkO+mgfn3YWUtIHrJZHmRqT
+4msz2GzIhA24JyIncYFBc3NEHCewY9wGrPyavZMgGn1diCETXhIYrKHx4oXz
+tmDesESWI41RuoFJKpqd4IYdu+P6oIzr7JmhIuOaotSwj+G1WTicEAdnEaW+
+cT3kpkqMSeaHSgxODDW9qWovB8zlbFwWOkY0L8MpbBcIQN73owICl1ZMEQJ8
+VDgLPoMfvHeNElonCIlw65j+bOFBDDcwQ8DLyuQQDzDWU+2VVy5zMBNOy8BU
+R+r5SSH0vwNA6ojgTthf1kqlGgLK8UG0CcUVWGpzOYQnKmfBMpb4MUTNAkyj
+/IsNQ8Qq3zCQ7WoA2kd97ILzSDWP+4LQDPOslSYMNvAYjFCuY0CaPvMYpiyr
+0TGgPKQRqb/s0DX8GGy0/bme0tt8Y2URc5Z91/Oy6bgc95hvXB+Scbm6sbZN
+KWjCdT8m0pKEt9GzM3j85gi7QDwTUY9+MBYIMGFNdxeaFDfBuvq1UN+4Hnbt
+f4Pi8DFnUUsHukFZrkvll+S+xBb79qtIrc7Ib7dC1cWFj9+ipjqbYjFZUOMY
+Ahrb9LQOX6MbaiIRiCwrZzfajsNEB+6g4QUHZn0lYBoZh+wom9WcJTSsfVz2
+Ay7u1K52NVAUt0/MpiZlj/DoWdK16DSIpq243xnvXLPmulQcWiPLYV1bd0iV
+8N31ZrYLG/5DcVguFBQNiemc80cf2rqrRlz9hPLl3/oNMstjSdnisTdzaOzN
+lVQKy4gBI5T3IozEMo/u6Bo11JKpKhJZCnmhQvLsW2d8FvvaXr/U3qtBs1hl
+I1zFbfefEkQVCDEn38wLZ2d9EnPCPq4MW4yoN1q3EZQRcjZuNciYambzkkAO
+P1rL1Ms8Z29D+dpWMtr27W9h49Yichv7fU83fbaKoNjS0WnIwXqO6Fm8iSD3
+nxnR9F8DMc7jogo/15iq8FOzf/bgG9aeofArNP+XEvzQEVS1JYFslPkWykYx
+eJ6iG+ohFj9ENlbXxe0H20zPvkH3VkbZGoWbJPnKsvzQov+MyKJgqHnJSAo1
+pO2a2a3U6nxqgDALI5CMVD+7KMLNsQAL/7QVBpIJ6O7aCXv3dMCRY8csKTpx
+sBXWiB9nlvhUwtUMOXGi3PRRCYdYtyeuEZXsNm8y6DYF/f95ETxfDqDyImr4
+qLyr7fyy3Ll8yautMvWFL8DE1/4ImVBxKz6TabLi28I5b4U1G9sM1hyDnj2t
+sKsLvSIYlhoz5Lzcbj72dKgXZKZnuwklDMYx4B6A2MYqQsakUVzjmxZDxab+
+gBicf1eATCgIeq4c6VdF2Zj0YaHoKEdy+g7nwyPNonSVmxj2eZP+mkXF8vod
+cIPUoDNwsj9mqHuVxmPAjtUcxdi6Zx8cPtAG9dVMzwYsSD2HSesMz+6u5/gN
+pH3dbY2Em3pvb2M5LGzotBUkB/9jASlBIJ12Mn80nkztbijLnjmd/JBsk6ti
+h9DahUbwEuS7NfN/mQhiCt3Kxp1u8g+cEEfspq44Gc1bIktl5841EFkO2yXM
+N7Z5ld+1knCfvc/3LEa/bF3r8eSIkWMqV2wg6MY2LoeajRw1gSaBU3t/BhXP
+7vwPxX78DoP4Nvwzy+4FjZ510pStsRUVCzG/ECTQOPs+WQgUtKkuBtvHtXb+
+TN4KLVTtofB2OD96jiqKneh/Q1CYQoQkMJ1L8agd2Px8tQia+FUnroakAZW4
+jjjydyu3xHoLgi+oc6Kxz/ooHL+F8g60tg+fOoKux5AGGa7cuNNCS+2QVM5H
+jATm538WGSqWhlFkY4vPaVJDjOorTXE5GTaTTVoFU1xNUodqHhuvNLkbWdtg
+HxztPQwnh4ZgINFPIRZ9x3rfI90ghLQy7P8IGBqnDLJaolUDOUtpyooHNDSJ
+n2Mb5DipHZjLgwrdL8gzmvGE00CFUi0MV69csqmHzJH57ID/VgRUqozqeLSG
+B4JBi1Ox4sB6uZpRLjlcy9MUPFXsAw5yqUPB/Lh5AB+WYbiWeh2Gm/X2oEUq
+m83HBk8DDh0OmmrVnPDLFllOuLWffjega8d5ZbvWJEYXgSQjysH/UpuwjXvA
+6CZq90LziiY+fVzlHbORNQ/xKwHDcD366m9EVEdblf5gd/hBq70OCxFEU/lv
+U5FLbDcs1CZs3Yopz0r8K0KBsEafi/pSP4aqCQRl5P+6M/SPKPWT+giuJKgp
+6NNO1QEX0mr4UHcMFj6Y60xJDeM6dsRJ/KBZ8JN07S5S+xG/6cfsAdwHuCdQ
+dkdwIe2kIyMyfGQE9iWG+tCnA+bh5vMpoaXqX54Dy9Y0NCAXalZKS60wNGNQ
+EFwSlEelVS2xnq8tYZMv3aTJTwVgBllDzw07KxxcqkQsE9ivPFeGvNuSHEnh
+8wKKz50isUneeUAInlunCrEFvyt70F1sVldTNd0Uy/8SOPqpgnJWWkgDbcUs
+cN1tPShisyH2oWX2hYBZRJyWhEC1446eP032dccAiPmXTMLvIF8z4iM259Tp
+sLV88X/OOJ2yNSy/bNmGl+P4a0W27aU83VFLTfASMA3RhddSCFRD07yHlAZZ
+E5IHxFGvlhLvF913zmk3Je4ZLuKVLbMxDUhjqFpQ5pTVC7BznBiC6HctOfO8
+Jp8sgnXq/NKJablHV1JU0zJKjGYMtpQYV1Yjrl8ivzFtHOeNZ7CoM9c1MP6h
+XHO9Xb8asE/dFHIaxiy8pD1LIr3QCBk4hRNM0bbTApNugQbtWbNli/V83aFg
+rhNSCfBDzuzFjmX702OO8NtX5dp1J8/5V4Jm6rjOvRp1vFGwtpxyZ2xX87O1
+VpYWJ3H7czer25+76Loa1rIhmawY0PIOZ4WU1Wp/rsVE+0OjqWZQB/VHu+fi
+qK8/pLiqzc3Un5TLoW9/ZNeZwxuw9U8EzQ8tZXymi3VQU3GPaSpBZLkN9qdr
+da9d00FLXv+XXNNc0KL9ObZM7Q/PjRFOaPvTwiBo5b3XrvOoXb+vBeyMjwfg
+i1NayW5+rZGIlEXZELIC2shGfNLAJbXuoYSp/ble86D+NIDGnR/CWIuGeNx7
+AMTJyP0pJcNF1cogClR3U3ysCFDzO0VgKQC1ms4V8XegmfNOQbHTjvKAoitS
+xD8O2BxB/bqmB+1Xw3tQLH5EOLSWByNqLOZSbJsJU0JPgZKyWNbdnzOs+U8C
+9k3QUJwoI1+BF3HNyFBYeUGGKv5JH/dDHEQCf/nyGBEnCTlzSABJD+oD1qG5
+W+yXA4bmBrvYA7TSSTFg4PbLqG6LwjzyP9ndpSSdMHnHW65sQ5WCRBewNi/H
+F6Y6gLsh3dEFqTu6hlelog0SgF+VaypZIO58SnjgTNltSvjdDfrRgP5d9c87
+Qc3TFj7psMWsbCL2gt+ageVeC3dJPh/0CIHL3ILG5paW88pDepEBdwTA/b1K
+REX2REavc7jVlCLXaqmR+ZUr1sLeXk4R8jtgboMTB7eye8DG0a4hV0Lkld3Q
+VB1mw+cccqQc7POOknKOlQq9twhqjEuITomDTvgx0pnohjOjgYYPu5qWotSt
+pdZ4tjHMb969pw12dWyHHVEJGy6PwBEnP2SWcEQKYw+vgVj/MTjZvw/BwOk5
+B3phdyNbIp/deRQytsR4Rs4Dq/YdndKXBxtyWSut1mpISMSt/9t6R1VRvjU8
+vasAT48JIyolSnHd0G5xQn7CQbub58CUWPhVru8IaWpS/84I5GXFWXiTOwUt
+s13dMDCkKQCcTYdtUSJkeBX0jXvHc2QDYGf+d0HHIRpzLKcRDc6KbwY97JAx
+oEnlajWR3ZqhuoRioSWS2jnVpxzWNG4l2z72ObC/xUuAmw+VqzdQwLVbEKGg
+cIJk2Vc2tmkxCveRwd0N1qPi94Fq9MLNcmQKlqtRlwQ3Ry/salxqDe15fh2y
+DFNSgU75Tv/YUzFYvxhB0gBpqYVxCyv2focQ0AEQRmAqkRGpkIi8Q1U5w/vV
+CHOzvc3NvNfmV9c0tsDejjbYbfZ2Sz0nO9ds7PTC4levh8P9vZQSUCle0+OS
+uLs7oGYCZ4kynvYMyaLLM4fPJshNWP78z4M8rzbc5M3sLyXXs6C8vJyX4A54
+/pV9TK993iQzkIM7YcfODuocs4t7dtqJSKPz4HRqP6Veh2vb+HiGmy/Xe13a
+JBYGh3eVWrsKE+PRN5dKVGKTDJq6eh3EPAYt1ZwBG9/DVSJ29UuC+oPimTW3
+nOXxL1UvbF1mlmLFGk6z3/mGs1SVcPzKOYZCsGf4YzfDts+6nOQR3lrVfGRL
+S3QTtGzeAPWRKs/DEuCn4lkZZrp5OyXvtHrOAug/sBN27dxuuFIHxH6+kp6r
+buqBy06ydZHFcg89u851jn3BHXxwYs4zQd9ihp2XCRL3Fqm/k08fXL1VNk0Y
+s+OVVx55ZQ0tUm+xRZJ6Fy0HDsFuTPxbtgnSmVMwnniZZnb43EU4efjn6FkO
+2ZQ5cUAPO/vpzYg/yq94jG+na/W4Z+vbaJUK/F2Dx6A7utamEnH2L6fzdm/k
+ggBmZ0JVVRXU1FRDdaQdLmJKUDVnR7uHxbjL9G53TznV+u0auPrO/H/HhvI4
+lRkecSr8vhR22MoE5bCj126ovRhjNMOGim1eSnIPykQn5PX4pWkYOx6VZ2Z0
+fH/8TUgspSJ9ul61E6bJE4OGTB9opZkZseIuaTLrhfUC5MaN5DXCB7YUgbxb
+XwxtmK6JX0MxjVpmgX5riX0ex6mMNMJWpAEbGyUmIgKHJS6HNgvWBti/D/Zu
+Y07iJTkq1LWuAAekoOd22Hm/tj0FJ2Meh5rBNy4RXDM7Mcuc3bGu3FUO8Pdy
+2M3KgSj2c0mJ00+2r4nmEM/6zvnxwfthF9PxZbVCWBeQGPqxlqQuxJuRyYh1
+7HdYx1AHXavv4Ky+k707oX6ZMM95ht62ceKrA3PN49//BlY4qsKaCRp8h5sc
+HdUnjrxsU/39DvMS1wlulZBAx6vB4r4DnRDbj1IZ/i6BHklExycUpZ0DDeUc
+IT6DyD1zyAWxW2QReTAeAaH5TOobwVLab0ZvKNNdKGj9fFs3nBzqNbswDt2v
+MOo2dcU19tRH1738evWAkK/33KBe/roMzkk+850Y7VbDRJEdA49VaUGLjfh9
+0fR++y2guG5brM5SGfajeHmkxTIUjUTVLPWDI5dh9GAD/X9g9HIZlazluuiZ
+118ASVrXybg1pd3J+OqESnoEvXK36Ex0qIF4RzgqYcgzAQzkhyHPpp3as5/Q
+SH7Mzu+Nz9XbkvGNGHPjyigkB1NwZXJiNiVPmu2WSdqEcB26W3a58OTuEuvu
+QDeSWoXV0oUB2VrG17qbjNDxmFzT+vj5bT/ogoUzdrhcqWdZSYgWPGrrDY+I
+sz5tOtUO3HrjbgfekT5TZL42GrR1hmi0LtYO1rYxr0E1bG3bLSPotv1WBzBo
+icLxPODDA7blafooJTPhyVET2dB3lMY5Jl+37fudtiUYxVq91PeE0fLatoau
+4ZGo2rYGpea3fZ/TNlr50Ir0NosEbCbFQFYNKEBrrybGmb/fyVvn/ObvcdfU
+Pb+D+piF+KLQxi2sxmuFthqB8pu92xk1Hwh70hq8z9lq0lcsGuJqX5KI9Mcs
+5AYC277THbK41uiVdzkopzKBglyWl74RTD6S36KYpvQhTXFSgoff3m/XirPF
+z5hN812nAx3thwLadvN5HnUgqiV2tW3Nt8Rv2raapou17WYnPJIHZfR1atsa
+uoFxPn+dh4vF2nY9Ctq2On69ucy1icyaX3id65dbmzlaDLRPN23M7fMu6dPN
+WXjYYoNHWx6WPhGpuQ92NCP+Uv1vI7Og3ILE728cWAf1eYczT0yPxqe91MJx
+6+rSaDD1puC6mfX/vjyKXOBmzUu6mm1eSRWC5u3SPJId5ZVmSj+QyyoyS9iI
+e0bnfKcH9U+6tlZ09bDGwLwLHReKCCpN/4PcU0kROcUVPuBAzmcu7As91m5f
+7HNkQ9190h5eI9+KnAIy7WSLY+SWCpb/IIwQ03D0QIlhSZY377zfGcLtzhA0
+MF0t7eweZffhPS6OSCQHNo80EwNi0DrLQQUDoX+y1MzLJ5zlTEtp/nsDxjGV
+zcKZ2F5i9woK9ZZhuW0VgjTPEMdoEKFchzyRf/o5N69Vf6mSDx6CHGBR91JU
+mVWh4mlLLQjZumRE9ArL0gbtOWJuXxSO6ZzMOvWnf2qEy+dvzTjd3xtyyyMM
+9PsdKzht9tT6vanqaHoyj1zhSN7jjG0O/e9VCMNKwPaYxOIahtS1tfGeUsfW
++kVsIVsxKq7bc8gmvAwf2wlryj3jwZrVi0g9GzrDzn7M978nb6UN5oQqLZX1
+YpbeXTAVr0gsnsJT3CBa4hYQFdl+3swFXvvt87Zy0kaOyN5x4A2ybS4R2+aY
+oVZmU6jcRoEnQvsWW7z3aug/6sxiti6IUzzVELLiqQt+Q5Sqhk71Uwt4W/7U
+mzhtRyT93evMIjz/qnV0kelv4UuUA4OZS3okDbIdg/ual8h+u9O+mdFRdBKG
+WjizEltGdDJ+eAb72lyLZys3thrxvAO69+yEvV37PNtuV6ME697PFUE9MNB9
+RHn3BGqE9uC2KkoLuDrtHdaGY1XfKVIyI0vNt9PzpJoqRyTTYgGPBE3PLByV
+t21quGWTVIkkTCAubd1/aOaimAKWNVIIBrkeTnPhizE6ChgFnN6WxWb1WuCU
+EagNH1FfONJqJYhmxre7s5RIkWqlF44o/nDALAlYn/88biwvbbvABvRWr6rr
+zhjRr5NDhobF2yBSziVWTxSvD2mU053ibC2HdRvroXl7FxXJXNi4T7lHt1dD
+y0aFaSIQLtLo+fTcgFkucQQ2neW7AjYhmQk2vzRTtmO+3WWdLZpYBj2UoFLP
+vjAugGhTCmwFRENxnq9eBEuWsTGctO9Xn4Wno29YHtmzbQ2Uc9pASEM4kNko
+1nLUwoAv/1SjNp/SxbninQT9TmeqfLLzfNrJemraLVhDyvI26fNmfdkYYoim
+rq/Y3BTjUfZS9q+gJF4l3mrNucZV0qNknKytoFkNy+GkuBkLZ3W7xgVYgeff
+ZxOZR4acVpvUwRGimtPMR5KP4O5SZKDIeVHlmFTO4aMVx71X8D4fk3jSLjRN
+UQ5gWRpAb97hTNE9lU/9/RYZC2wknOCWbyNBU9uArdV0h5VbNYZAo4vxg0ov
+qpBnpCiEnHFmBUFUsDV2TZU1Nr/lZF6nQjVKDx3q8vaAOWH/acYWOVabD7rU
+s1lsRuMcakprKOFHzyKatOfIltGQEanQqIPyJuoty2Uo6l3Fjt/mDKXEgnfa
+Rs3oULzA8Rso7mvoO3IK3IoSY7tResg6Z7A/FNAD6uaqYqvFhM8e8CcBuCna
+L1nRNGEj+922g452fdBBKPyg+r5d5Swn1PhBp523OO2opqaWF6QofBrXgG1H
+azHO1M4IRxDb8Vyw9VBOh9rkmnv61QNOO2qokYPK3FoVWjLhtQAxMaAJrSWi
+TVBVKFGvtAlUwfKacMpg2bxnbUIjfdHWt1OuTTpqMZvIQlO+Js75mtCYFrT8
+t1sMPW+tedJELgA5H3RQArUQLBWxK4CbSxM3nCbUMqR2r+vOsUi+UUz5RnHd
+1wQHamlUsBbGQVhoE+4pLtLEpNOEaptqx+JUDA6SVnC6dcekiQmnCS1z9K48
+1MIiIjsUFo4mJIt6zdcEK05qi0GJUJIwLF64KyJNZJ0m1Eqg+qO6c3CjaBNu
+oQ5p4qrbhARUqykDZWqkE2huf83CYjq/iSu2iSkNhrRKMxM6JCkDoVcDYPFg
+YRMq2f+ii1qGnKNdVZtwbfwFTXgM+732cUYj/KZEw7XtPOiHhZ756x/FgBhe
+LoZesTvVi718yN+EW8TIrWwh5DSkh9Yj+mk8vRGuWujybfQ6847ztCpoX3BC
+Wd/m78wNSlZPj2aXyHbQLDuboyiZc0h8UCZAe9FL8ox7FLV0CJKMovIq9aw+
+p7OiQmM7iC7418xVcw6RuiB+29Rus5YIfIxcXqcbV3wH2MV73PW80zVV0o8K
+Vkh9x6WyhZph1XVgrj2qkDSDw+XXik3YC1JdxCADjDpHpNNTcN/rDmCea4e1
+PFgjtjWBzPBjrxANF7FB+5/mSOICyYlQ3om0lJp5jYwMP1Vma5pXxvo+dxRz
+LIBxoFJQRrd9yJVVdfe8V7HBPI+YpFvfQD4UCYD6+wvJAYIJHTPWZ3bhvEUz
+V+b02ydncyaMmQnuczXkmlk942wDNUN+0KVjZaDR4TgwBC3mderk3AwF7Qmx
+VD9T5GyguklrLDiHVHhT8y0971b5vCDJEbpvNA0VLSdGrniP9HROnAPCfTVc
++l8dSqmgUUlFrUjYl3g6XMaDH4xcdxcPP7igOj8chAbhn7aRucM/cqQHJXUP
+ONCVU2xD4g1xOaY/14XT3tVRZmRpna7iufqOhET9i7ylmSHEQMcvvFXhbfaa
+VtWTeGtl+G6yp2aBax41MjoEFnIqPWVas3uHRebHQ4N/JPdUeFaZ7Iz1SjOZ
+llPoGW8lJn7CW/cyu3dGTiWtwjJbqBXGdbOpngnkhDM47+DoAUVPTXKSwc1W
+zLZ9SBzAXGl+WHgAiqN+4p4LzcrDDvz2yw7aSiUqmxvY0cFWx2KVqLjSmk6G
+amqeTYm3e7Ycrn2WoInLjK4WQ4s0PtHVXxX91GpOxRAojXZKUVFxCIep9Vcs
+vkm2LNIERFccFaoaKGY51WU9gmoW6dcccsTLdjvBCkX9bNUiPlfiG9+Aq5s3
+Blq03YNWRb/1bGBDXN78RMoxyw715tWAKpPSlFNwjQ5nzlLG7iyqonQHzYMT
+AXMwPnYBzo96uaK4QCRim35ODPbDxA2WworDao479wJYfM4lzd6jiEYan3Pj
+uZ9SkuFMFnTv+AKtlVIC67p4abqjEa9gTLgcNnXE6PqRnfW2GkT5Knh+RTks
+Wd9hoJGCV5+t8MKvq/leeCUXh7l6ch8sDYc1tmPFy2jyPQZ7N68Jab5DfZsb
+CUqhzKEfKODTVp7RHA4tjcKcYrbVhDQqjO0DCVsvssDyXioBXcthO4Yh79w+
+CyM7Ddt7o9tM9dINSPe8xHGg0Q6zaodgRz1HyXeb/8lWuGIDHO4/hJOg5556
+sRMmBrlQ+6Y9b9Bq7928ir4jjC6NHoVn0LS2egMcGeyF2DYuTI4HGvR3sL0R
+IxgHzHuHtj1L31v2+44rCv297FUk6k4VHS1V6YMJ2w3Pnxq8+YFvJQyL8nrn
+NIL3EYPFSkDhheu90wHwAJbVa2BX7FWflZtiAg1Qqjb3wtXkKxJA24Z1IcAt
+dVJwLpNzT4/h0MORrmUzsCHsvkdA+KYjV+mZqHdZLsHHTCOxEn1HKze5QDkT
+2wMSWztTaC0jCJt1FZGObllMpvvUWU0unmetj+rJoHpri7FqGJv/Y9vqMZ6W
+Mf1eOcGinqI+uwc9OGwSOJA1mY/yo3vjl9Kwvcogjh8Of668V8wDIidpnp8q
+VS7h+EohKEbTQzfHj484p9CUm6mU0xryKQbrpdgPbo71MKxu3f4OaNm4FfoS
+fifPmXQfbDNzqWqOUzja3rZW6Ok/Rpul7+BOCqREGGgo6w6LJ2/YoEtO9fGi
+60dH+qicVx5+hb4pkHCqX3BWgxEPbrdCq637iz+/Vwgg5HNCVIp7GErtgrZs
+a4HW6KZZGGpqpNmtr+wkfNYTIarW74Kegx3QtIxPx+k5LnGS3cfEjn6V4LNw
+XbuBSSe7ZlY0QvfBbuhu49MhaqKYZSBV0arXwt4D++QALCYm6rZZsnaT6asT
+oj/le68dTTqnT0SgqbEedsePhf6PI9L6VDxOFbZHgpvbYkTUc4F3OQKKat8f
+9zh0KQkGI83rb8VzwRSIdr/IXndBf1cL1GrBwMoVsB3PgzAUqG7hYnh18Col
+SY9dSMHW1YtgTbST+ceBVlhTXS6s6BdgCSaSSELIiYPbtRwalC9bTtBcImG8
+Rzo2QI36gxeuhH2DHPlGIajEzhZp2kDoz0V405JU+pkWLwhGDGlxW9R2UehR
+A7RThmaXg2YW6NPTnEbt1eq8Ullxi1GhSrLWwpEhPJXqxGAvHubZ32tpCYnP
+k6wkqZVAU68xq81z/PcSPTI0x65QVhyv+O0v5ZpbQ2GWu/Ioy6KaeYVTS+my
+FCrqwD+ENFxg4DYS/mbwiahGNLCnPk9gKaNzGnViEnzhpcx6lgBnYnFYh23U
+t1k6f0aUG3T5a1iaW0a3xA74jwrxXhZOiiXMERObJ68UOkHQt/OGOkDMN/w9
+jxwh/cIN1Gwptkhr3TpzOnmPoB6GKx8+1mu7IRvjFFXvCP2pzBiHcUNggH81
+hRhVGEQslBqukix7kdQW7E5M3lpreXeACvIJ55rUOQ9pMViX65ATQjLBMddP
+Yzw1IAqtiN+Qa+NOfe7ZHh6VWE3FGVO7XY5fc0aihkY9owH3nQrQ6ofFSWK9
+c9VPGc5sBtSRpEWXw5b/Kni58dt/kWtiOqeXeXlvJ50TtSlUHRG+ymDGpdqJ
+Agfjid8WMJQ/k2tuSX053EHVZ82l9LqdbQ+153T6SSpVZ5bWC+W1EVfSa5lF
+NKyny5UTEjbM152Z1oLRc+oDRpR23KqK5xqK7DFKNmlJ9RZb3IIxYsqjIg52
+MUh5hqNG7x7z8txU5/6KjnjU87XIKRTXHRKLGIKGJLM8WrodNQa8LIdpkMND
+DWU4VwwVU68F1ju6XeVMibtS5EIjmhdJfr4Abo43Ug+ouGGx2OimuCO1agti
+j2qO6FSWuo0yLtbTETDqYmSCM8Awn0+YgfDVQoWoziMhIDvGdXYDoRlJll19
+FKNO+qAGkrrHCsiop10aT8dGSdCdQbgP5CEV9oIkBk2GWi7MHnZDlskzmlKE
+hjnHUEWPISnBeZq5a1Aj81GvgAOaT7XMm4ZT4jDdkzne4mAANovy3Onh5Ad8
+c/S7ONXUc/XKuC0jhQ5eZffSlJCReXzgxg0vQBW1jwmqL5Kzh0SYJVDng+t2
+dkcqgyRrgcFk88YH8xYCnWlU6cesMxpLiJDrj9lrtK8kqnbUsQmb61qpC7ea
+gspcvl+ViGE+UYZ8yWr0mUO4phZb/OTo3I/rdJSJW+9PN28B4HVTjDj1mhi9
+7qEXcdRYfR5nQOWIcFZU9S5rjbkKFEQSddLgNSy9qSFSjmHUJkJojDKaAxnR
+7hQPd4I2PnJVPdsGx8ImRi5FgmNSU5S5/pCAyY2eMD/uWTMu3VL69jFBby3d
+hrNlA9SUdbiYGd0hO1uNrPjj1TMa0IyhKafI9W2KehTl5sKJFwoXiXZLjniB
+BkhibACKcVJxyB6kg9cp4sOA1JX31Xj7l4ET9Ypl6ETRBOXQP5oBDw2Hfk51
+UyRxCCNUJ/CDjPAu2y2fO3DJCGPzdFuKkVQj0rUQoaVj5jqVrjPDV9TV1SRo
+CJnkAjC5kMY8KFbxG9y/I9MHTJuTjJBlIEYbzPoV3VdmSBqzYi7rkiIQkQbq
+yU74MaPUyaICg0QJ6btW1yCHs1ffiyYiy2stqYxINjgB5HwkMo4hJcIucSLj
+Qo0U6bBilut91Im653gxcMosFaT2DRphhNDHZLbqQ8cFMDik66oeaRx+lqSP
+MZvv5qyb7yT06WmuDzjL2aE4dCSBGTmNQ9cP20e8wemoiw9xyQzByyVOiA/z
+sp2pe9iJO1M3ilBjOfT4i2viHsPIap2CW7/sXmdaugu0cIXWC0MDrCZ/OckO
+1ndkntMhsts3J3D0rgUNe44z7AvS9UctQl0XGp60Owo3vE7PjQXW2nY6bPcU
+NKWrevwKxirNttPjayhJ61jdvAt3rLfJWN3oIh2rc0aVPWEEaa/GKOtYlY55
+dI9PKuLzcCawb83KYz8U+wl1Q09wFLRPCMXVUNA+FjBcR/myw9WKdijO6HBZ
+qfBXzDnvVEl1q6kyy0rYKbj5umaKd9pHNUwj6YM4XsMT27QbNwPOncJcZwqS
+6WCPllGFArFDQeaeA2Vl9DMnrXylz6kfC0mVupNULvFOPUtY0OjZNNjunDww
+nLP7XcukTs04D60NpfOgDS6F9+cLRdFNTierEWbdsHWl9Lgy4uaGJumctOqx
+i90UaSP93eXAXw4N84IbnRpQ6iDClNgp76xQiv3/bj56uTltmlqpyXejmlJi
+GCJP7G57KJfwAHEyXiACy6kw19neLYhzRTR6pGBmSys7V+8zqji6azWFDteU
+iBxlApYIRGco8+RVrDCzxQ3hHt/p0ic5JM6hTzfs/p4vG4EjZ/lEINOuHlGp
+KXlSj9SKNzhvszlmO7ig65V/ZiKuq66h5hlilIkNNL1JhPGligVeTXAxQmjG
+HJfxHzezmQzdnn9tEut4COWjA2D4Wpley5prWXb+zy54F7z2nMNj3KBbl0yp
+C+TDDvlhnnrS4jkyJH1uvjAk/I5xMCrl8lmHA1rqCAUWySJCCjrHQtsjeBpS
+rAd3SsW6gBoBpdbie2Pna9ikCmBakSzpnJjjViljeedumEzHoNZN7Kltpioe
+eLh0qxySzJ8stNVQnX/6Ju/pyTK1zTHzQNFXVLKdzMShqbYavOpKZVBRUwed
+iRF5ZRK6mmpC2mx1bQ0E1Fgz7cS8olNlUFvXQCdkNMQydEKGd8JGqXktag81
+sEfhlELeUThubK2HA149PcUBNoSyUvuwbCek1ZqkpyHwYrpA+SvIZDNPUMUh
+dfQa19OcUgruFuLQHUhVCL/+dTyePm9hucQaX/ts4ansuTQdaBOubYXU+CSM
+p3vYBxLpwv1hT8TWlWut1sN5Mlw3qK4dMmYLjfS1cSWE+JkZ3sETDmJQEebD
+cdp7EpDOpCER78QTTuj91qTRQ+VAjqaupNmhaWitDectN4+fTpsJN0Aqa/To
+rHmuhtvoTE9qBhAv9zxe7nD0Zuf3BK+3F7SjtN3lRRoxqpn0SAMfcfY8S4iM
+A7LYepaBUlq8RfKqkVZmC9EoxgyutG71jsf2yuCUWrE3YatLYg4Z5pKZPvz7
+n2vBMErMKUAJPfy8M6MRMW8zcIpDT196RpSYTDEKxHTTmqd7og0Q7RmaASUm
+ob2G66alcqIKYYRvkrAwSmexR5Vk8SfTCQGln/joFzyaJJmBLKqhYzG+NwnF
+sWHGc4mKYYNGfPlOxihSnlHzrF1bgmKHChDILTTqzdB2zdwY9YrDMg00hAOV
+NJRpS26RoU6vWMHMyClupe+mk0cNZTkHVyckAuj4cZ4uJup5J6sFkJGyIJyR
+pLzbIVzTZt4bhY0Lw7DJ0hlvzfl8LOZBJbIiYPHK/3zVxkOQvZwiXlTbnuYF
+vAfGknHo6opBrJNL7TCe5FG2yYTZ2oV4QoesGGZSYkk+UxY6Q6mhZ5adoeJI
+/hFMJd4RTOBPd1AkcQsHqCXoVkrNKE84OcjxUZjxqwT+RH+cHItem/5Slq4P
+Tl0z9uyTIe98vdm2vUO2PSVrSK68Y66nC8olq20W6RWKsmrFx5rjtuRrgTAy
+1xFGdro0i2EkCXLe8VYNZru+woRr9Kjv/LrnasvZDXkHrRqu7OgeDPh5HLaf
+5RWsqGdffHM8Axf7NpqtvAF24tFiTzwl4sPd5vdiYfLLYD3GedQ8CRUvvixE
+77JIJ0ch3t4GPamTsApjHbawzJXsfFEDqBaYyy8nbQy7oRx6cs+jNNo2c+9W
+kTKbSUBPPEk8adLsu3Tc7jnTbo3FRPyk8Gw6OtNxxjOufIlBroqgGWqzi65Y
+0MGOJVQ+6nk+b9JKaTVrN8CRIQ1V6oamFeVWSguXL6cia3iv2zlgzlca9EFb
+GvTK5QxsM4ttHcyDNt+cvp/Yvx7sAYnruURguYqn5au0PJfT1RuwaUW5dwqb
+RMgtowCaMiGyiNqoD5HBzcjVaJRFcQt1KFtmKE8ck8BxVUwL66J9ErJf/Z8o
+ipGZRu+PnDsGmxYzJrcY1tzUuB62vdYGEcTwn/wQRszz+ecOLpMJNrbHoPWn
+FfDEMy8bwheHsZyivrm/tAkal5dD+boY0dBwdQPECFhc5fNJkne64RXis0/A
+QnynYgXdW/VspWGMPXx2V8Vz8EKleX41x9dFk2lY9Ti+sxBa29bZ8MRnOofM
+NuBnql8+yaj1sBBMRtlCVHfKNcrxiA3tcciMpKGruSYP1Q2pb41BKtnDm7+m
+nbZF8aPHAlDdFulkc50oRcXWKyhc8Vcp8CUixQJbdnZCX28Mdkel6umKTRTi
+sSPCYUVYCeDEsU6uOYdhRkPOoYozVFg9Y/Y9rllDV69Fejd8y60m1r2eTxRb
+h9nhpq91GNJUXk+bR/s6IeFGAfGQOtUJyZo8bQ/HmltUgrmwZaNKPCFVVJWA
+jzU1oLtqtlhNNIjN7AyYNFhN0sdzK0QpMOw51S6Cfxi6Viwxf/8V+nbs9h8Z
+WQZ968ppg/TlrNRmQ3Qv7scAzgUQeYYPtl1Qd8SgUwqikWpBzrfBC+0HYL0o
+rNFnl8KzTU2wSLpdanSVHq0MMJ6A5toq0GoUTe0JQ0JHYQUuzKo6qJJ3nqpr
+o80GRlRc/6S5tuRlxDiWW95JJ7NFjKYaHzGzTnVCdUWD6Mm4AZJmb0cAWcSk
+UwkTaXXSCC7VYY+zNXUmSPpMtddBTUOz0YbDNmysJyMN+k6HK/FOh8vbAK6o
+qi4614h2K4Uze6jKZTlsj+t+KIPD2xiXtr6xG1aG6UhGWzdiON4CUkjT4iJH
+DznVau+y1Wr7jTqxxaD9iwcGb472HJ0pXc2Hk0TafIW1hTcERsD6D7CfItcH
+o/1nbiqTTT39NLnMkDGgvHOl/yhvj2PHyHGKkvXZ9KARmFOQPn2KLId0MtqB
+bn4unYbpGxMwvvxpyJU8CpnvPAaTr77Kkvar2+CVfzMr/OOfEFI7agpJAFkj
+evNmWADdBrsGNhtkrX/dbC+jIE/m/KoPi672veKy6x1WdqV3SMn3S+f84Y1Q
+0zFKUg0VTTX4UhvtgfGcYncG2iKsyKMkb8uweJVHfSX/XazML/l/a4W7S0ne
+3Y59LiIerog5PPQG7DWiZd8xJrT1e7Qy70NEfKkQRcch6H5xEVRs6JVSrWHo
+PnfZZpAM7TaEfWETnB4dIsxsOpzxSSFBmLk375QArSDQcqDXd6KuLxy5xAZA
+4ks6s7MSxsWWoAHrEnZEs1KxEiMyji2rYgLbQbF9bC81CKmVY8SgFlJRFY1p
+u/vPmXssWI/0bPYOmXxiKTT900/gqb/7K2j+3g+RSFtWX7+ftdJEdDEsqCy3
+lKf8cdC4QO4CMaQZziYZsIu2JAzeIAVZwK+8HcJPGlR+fIGhy9shOcPBrH5h
+dxLaqlF46ROcOwNPodDx2ml5LgKJMbH2jvWRkvhUZLU9yrG1b0xlc2v1dQq1
+BqKn4024ZaLpqytfzmWVPRWNi9Uu2aho/H6hYGEsrgrHt1RBxcajcOHYFhK0
+YucnrE/x+KYKEfTZgrp2jwgzgx2SC8BCw8n9XhFcrd2tMf0nnBLuFieLx4Fb
+Yf+sBJmgR0qx0RWcdO+xyijnpX396wBf+pIo9XdRblTuL/92ZnvfX3/TPPff
+WHCNoC1xHBLtDYKBnwKsUV637me2ylRznNf06M8W0Pe2hPmey0LHKv5etb4L
+uqTAeEVtAzSu3wGZJFsJnjSk9fi6Cvq/snEXpAa6YdUT3O6y1uRMEqaVTCOt
+PZDs67TjicYSRk/8GQtdfZchl+mi/2uau0i67Wxi6dZIQGaYI+bdOMRiMYj3
+JWFs0jrdnOK2RammnoRaFrAcxWuy85ngVD1/NaU48KO/BLspqt9IPq90QE/X
+VlhZzkXmLxiV5ZjByoX1u2CmUs3UbCVLT1sNHdqxfrnVxXZ07YRNq5F5raKS
+zyq6rlxvsG7/dq4DZo9hLxesLBp9b6esLmGsBHpbwO5UK6gmnZFZCxkuW0HV
++A+7d0L7v/DZvNbqiPm3YnX8fbMEOzbJ6dqqzpwjlojyHxmO402EK/UrDN5V
+vgiXzbXBjVWi2fTB2PgkpLtegAULDE4atppqfw7KjTK1kCLe62BwaCdUmO+V
+mxMwuPkpxt3FKvStgbpKYcc+oe8+V+gjYbE60gQNYveuiEShL9FlHTc1De2g
+FHAs2ek5dIxQ2pUaD/1WEUTTyiFlAVxopowCzhNZDrEhjz4MdG2AlasbJSMg
+DtsbV1kDQaVZ6YFz7Dl8fb3HL311qh+ydarpZJTVVVATWWOr0Ec2thqdLGLF
++PptnJRABgIDxjXVmnwQgW5JbcHK9ivlBGZ/8kKJm7xgEwq0LCla1VBUQAly
+trB8R3Kh9lACpHggdt6rg8sxrVqTutEX2Kz5F5+nRErE07Fdr0DX2jqIff+H
+TF2eWk56tNrCVThb/TgLQSNG2WpHVcFoKS+EWb3vkcdSXVGkvMyfbzfbKAEF
+VtbcOdhQyQjqvGLtnDVWHoTQ/3KQxWdN8h3Y+GZKat8LJw620BbnDD1enZNG
+iKMqUuGfwtHhJMvYZgUwvIHOCJUgHTSeC0O718G/8sYOH+8+0dsNh3t7RXfg
+BdVEds0QwYRvtQflmyfRKS4SVkidKA5FscfzQDZB9KJ18w7kgXQ/+dgPrS3M
+LEwbKYL8WNTxhWyplAOkHiRTw+owl7ZHQTrR0wNpdGYYDjeWSZDHrVoWEiWC
+OvG1ZPteJHx54qW+md77Y2cNfbFYFPadCGmO9EzlslQA6uvwklmtXIjMM81u
+9jKhtVpcbC+ea7G2za4Vf/Wt1W4U7VdvF12Rr+lZnxiDq75tN+XUDF+d/LSJ
+jMiB39RkoJunqUcIodkw5N8wS8fL+W67dNE8/1TF5h7oWvcULcquYynSfNg+
+1wRjOd684UgrJDMZSPa0kZhT25kGdXCTDTiehETnRoLU2q6MWZCi78niXBW4
+qeeH2diUW58V5TK0T9rTMJyMl3mC6VcupuFkfxw6du2APV0xOEHqaYpKhWB0
+zRmKyh5Ut6OKsAPxfdAT5wL+9wRcKw24dqfcOScBSPgx20ZXS7nHxDOrcfTq
+nIYXXuAc8t27ZSXwzjhBnjxIamSZ7zOyoL+6oaKaN5MsVmddNdR19kN7pAJq
+NarAYMUYurJrASXGbNpowTWaLz0fagzBzOT09RqINDVZe0xNncc25T1FcO81
+CH2N14tiymZ5xL5UQmsuEMUaH79A9+bap8QXKBVubGaM1qceGz0rp/9xYSn2
+HCcteb248HGCpnIMNiW8yt8RnCtXytaba7Q81nVmUtv/2ZlFyE2wmrKk7ZxX
+jAcmLl4gq4bZP3MEzBq6d01qKWMtBq2FQZRWMth0VppT4Imtc8lrTYlQqM8K
+9SRChX/xu0ESZTp9bXV5yqdf0/snntG4II+mIehewggwRMkbv/Wblr5RN0g5
+du8uFdhpLBU+jpk2GrWHo8SFxYi++5110hl9SrBe69yjbnT+XFr3DW43ia2y
+iTcuTZonQA1QFUI/4omdt6jE63wH9YPZJhSAbBBPWTDpY0VwpFTelRgwW21C
+z3vXCGB7vOug50LUkyaca/QMwgg/6KC2rkfnVMgPy2oj/dGAZmQ9No7JwFWr
+xSzLn6y3uzyPuBnsrDwqk129cmYqgyU8rsKrhsos3tRD3brVmCSIB7qja7yT
+7XyHzal/yTuirl5LkXpv3e28xSa62IuefKsKWeV67zvaDdDzJSdNWoJjD5rs
+lphFqZMpWUBm0xF0ahhcGY/MzHW4xzTFDmiqAlkyDVfGihg6C2WpkguFTUxZ
+cQfRBjeh5av3gvLIynXtbpU5jsKm4MBuKqiMPo6AE+BUctPDp7zE/yKvLW6G
+S6bprnV+KGolA/2+TqA4w+GUofcJ9vKh86cJa1Hj0VIsmGhEIHyaYXomDwXn
++xBlONWvcdY2ygsBkhk6rnKk8lZkt1IESuD4gCtK2mZzRoBrWYwT67A8VXMD
+OPb0IKeiBx/ZlmeWdIEbC36vYhucuzzmM1nOBNwZTq/0AdfFCS3ThXxlJcN1
+WNELK14L+dN0C6SauBaI5lw2h6o2clU2s2aUSaTHXWld6cMHqdgoT/t+yjtz
+C7qoDkZG+WkqTGqnGV7TDAMnjCY+eBwSCYMX4zkZdg6Gj7yKOew2XETOXfMd
+EFnmlq4we7jVOartTjK5nzCj8deZKASw0gA5bNI7e8qeMxkYDK0hRkiqtSju
+aoZxSqg8lXlHBufyVaxcZPit5pFqfbZLY+cpZpm3/30e/JzK5MRUzfOSd0Ve
+86wUn0OURsw/m0o4ZyTGoeWpsFhmPwB1bX1wY/oG5WXvOdAHAQelFZzpGLNV
+lfmAtX09/XD50nkYPXcS9qEFefFm33tnSSa5AC2VSE/aZBxc1QKhPMMZkSWu
+HlQksEtTabXOGqYKrmGonxQs1sL/rqxG0MM4TVaFaVSIZZckiUuTfZmIGyUt
+N0lRyhS9jCuIbSmN/xTcmLgEp1JDcEJiMLJf/R9q/6OIoVMnEzB+9SzrM5uO
+kreHPEiXRyBGjvdlcGgkCweeZ9Pna7FD+Wen2fMaa9ZvhVhXKxvvqjcQ4PjM
+tRrY1z8MwycPw4tPFb737NZuiB/YYU2mG3bth11SwweDO9hPGHj+o5awfzPn
+++K0VVLRCD3dLkSVkR1mvThva4L1Qt5s3Lj73Gx7jZ1s+O1feMGHtAk5TcFI
+HULK7hD5c4LTsD2jmS3CyOWktbzpOMSiEeu2CS9cCj2f/wBLMWYQaBhXOvSz
+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
+j73Yttln0T3+8jLho9Ww+ectzKafWgVP63kx5mfhc3XgKzN19iDFh85crW6M
+xJURI9z7TV/Y9xlIn0jCkR2eNXkGq7ZjDb8Mp/oPwpZlPLbogUEDIBThSiAz
+bomWRX0UoVRc8qF+mRvExXq1LZYeVIXk1wnvN0pAjw3F06J9DuJ7Uj1PtaET
+pzMOPc1snTx+fAaDel4GzAwRBTCj8d3Q07xEXntvhjaFL8wleo8ShJ7MgNKv
+PT2a4eYdV3HtmoYjenwF+R2GNVpOz+GKPd9DWG1A6ZEv/4INWAiHV0DqsjN9
+CVooX4BhLRvI5FW/6QWZxhFoXRgWGo0G6yro6euk55dtfEm29btga/1mM8VR
+aFzIS7RsPedhxI6Kv/jVV6Dnu98zWL8RrLHWCBztS/j5yi0+gyxSMsLynzVi
+BOQKyCu8Ru90ZnI8tXe9qVp9QXbiGWzWM9m65QCQXsVzCRelcFCma9bpXlhx
+ZLYNiK1qPmLxPN4sgVUfL0DzfHsK2Y/rGqDn8M+LTiw/+W4mIMxkLLfbxclB
+0nsztOkqbLMpvJlON8D4P8FlAyuLyhLVbPattVVpPUfUVZV8oAA9+aVvMyno
+SUHGbElUKoe62EG0aHP+vHOQOrCd8Dp6/Ihklp6T8Rv8rmL8bu6Igq+8CMYQ
+NtWE1M9fgXnN/4ghY/8CyUfFJPLrvw5aQDD1szVe9qnReP7uzyC7mc9YfKnd
+K9zX9HJdEEr7SgkWKQ1YHZi0Oo+IzQx2Y7+pucQVrPTMFYvCsgZY7gUTKDDn
+x4sbyT++8C5C4ZdQRNlCahlc7RdS3NVHQlhzHg47AU1WQZDZOCJpqfg1Lc7N
+KvrovTc1VhcmEwcCMygBmLBXLWeUA+ZDTw7kl6gxj0ob0PkTnzV99lMYDyfy
+41th08mcO0XuUsd69JCg7zkZq4emjW0tTCbHNdCpBY68/jocMGKPncedUPNP
+HNzYaVaCuv/iVyD+F9+Gnm9/ExJf+xqkv/lnAFsbjPoX5goj//h/IfuVx/j1
+D1IP6+sWCqZib6wBXhxkzy8WGyT9ZXIMOtH8iBkV42dpoetiXg1jChJq1hTd
+AzB0cdIaZ+tNO4ubjxYQtuzJNmI0gQbmnqje81wZVju9TDqWUUrtPQ1nzmb5
+x9Oi2cw6ma/ByvPYhqcbTkp5bZBsNU+rzYEbOo2aO7d3h9OHas75GjH2wc+F
+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\
+\>"],ExpressionUUID->"97e94295-cdc7-4c8e-8ade-555a444e5f5c"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Export", "Section",
- CellChangeTimes->{{3.7090655744018908`*^9, 3.709065575121051*^9}}],
+ CellChangeTimes->{{3.7090655744018908`*^9, 
+  3.709065575121051*^9}},ExpressionUUID->"91a37af2-f0cd-4d77-88a5-\
+69efbff72981"],
 
 Cell[CellGroupData[{
 
@@ -17350,7 +20278,9 @@ Cell[BoxData[
         RowBox[{"[", "2", "]"}], "]"}]}], "}"}], "&"}], ",", 
     RowBox[{"{", 
      RowBox[{"countries", ",", "centroids"}], "}"}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.7090655922374697`*^9, 3.709065614246256*^9}}],
+ CellChangeTimes->{{3.7090655922374697`*^9, 
+  3.709065614246256*^9}},ExpressionUUID->"55d47d8b-53ef-4e38-ae10-\
+88b5ba8299cc"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -17521,7 +20451,9 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"\<\"Venezuela\"\>", ",", "10.07473160233792`", ",", 
      RowBox[{"-", "67.69370816746435`"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{{3.709065600135154*^9, 3.7090656145532303`*^9}}]
+ CellChangeTimes->{{3.709065600135154*^9, 3.7090656145532303`*^9}, 
+   3.709300619762598*^9},ExpressionUUID->"da24e1d5-2c3f-4c31-8374-\
+aa10e52b0781"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -17531,19 +20463,23 @@ Cell[BoxData[
   RowBox[{"\"\<centroids.tsv\>\"", ",", "data", ",", "\"\<Table\>\""}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.709065575861541*^9, 3.709065582714431*^9}, {
-  3.709065616807002*^9, 3.709065631087557*^9}}],
+  3.709065616807002*^9, 
+  3.709065631087557*^9}},ExpressionUUID->"b712a8c2-a5b9-4e53-bbc2-\
+602191bb08af"],
 
 Cell[BoxData["\<\"centroids.tsv\"\>"], "Output",
- CellChangeTimes->{{3.709065627427023*^9, 3.709065632085445*^9}}]
+ CellChangeTimes->{{3.709065627427023*^9, 3.709065632085445*^9}, 
+   3.709300619860951*^9},ExpressionUUID->"dd92bce5-2ed8-4723-ac8f-\
+bd53b0a8bc1c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1513, 1200},
-WindowMargins->{{Automatic, 508}, {94, Automatic}},
+WindowSize->{1280, 751},
+WindowMargins->{{-1920, Automatic}, {Automatic, -280}},
 Magnification:>1.25 Inherited,
-FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
-2015)",
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -17558,74 +20494,122 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 105, 1, 114, "Title"],
+Cell[422, 15, 165, 3, 115, "Title", "ExpressionUUID" -> \
+"4da7e6bc-6753-4482-9b5c-432c77a81bab"],
 Cell[CellGroupData[{
-Cell[710, 27, 169, 3, 36, "Input"],
-Cell[882, 32, 132, 1, 36, "Output"]
+Cell[612, 22, 229, 5, 40, "Input", "ExpressionUUID" -> \
+"191f32b3-8285-43d5-99f8-bb20edea1ceb"],
+Cell[844, 29, 232, 4, 40, "Output", "ExpressionUUID" -> \
+"1b8cee6e-f099-462c-9fa1-4b28a0133f7a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1051, 38, 158, 2, 80, "Section"],
-Cell[1212, 42, 291, 7, 36, "Input"],
+Cell[1113, 38, 218, 4, 81, "Section", "ExpressionUUID" -> \
+"5d2567e4-b3f3-4372-a880-ce23f131dc22"],
+Cell[1334, 44, 397, 9, 40, "Input", "ExpressionUUID" -> \
+"9150f972-78e1-4377-a6f1-39923ca0f17b"],
 Cell[CellGroupData[{
-Cell[1528, 53, 148, 3, 35, "Input"],
-Cell[1679, 58, 464, 10, 49, "Output"]
+Cell[1756, 57, 208, 5, 40, "Input", "ExpressionUUID" -> \
+"ff74f355-de38-4395-a87a-1789c964761b"],
+Cell[1967, 64, 572, 12, 50, "Output", "ExpressionUUID" -> \
+"bb5f9714-76f1-4d78-a778-62d8a8882038"]
 }, Open  ]],
-Cell[2158, 71, 381, 10, 36, "Input"],
-Cell[2542, 83, 337, 10, 36, "Input"],
-Cell[2882, 95, 336, 10, 36, "Input"],
-Cell[3221, 107, 832, 24, 36, "Input"],
-Cell[4056, 133, 322, 10, 36, "Input"],
-Cell[4381, 145, 324, 10, 36, "Input"],
-Cell[4708, 157, 323, 10, 36, "Input"],
-Cell[5034, 169, 269, 8, 36, "Input"],
-Cell[5306, 179, 273, 8, 36, "Input"],
-Cell[5582, 189, 320, 9, 36, "Input"],
-Cell[5905, 200, 260, 7, 36, "Input"],
+Cell[2554, 79, 442, 12, 40, "Input", "ExpressionUUID" -> \
+"42e8ffdd-9cdb-464b-994c-1c4bf5f8d477"],
 Cell[CellGroupData[{
-Cell[6190, 211, 148, 3, 35, "Input"],
-Cell[6341, 216, 140, 3, 35, "Output"]
+Cell[3021, 95, 105, 1, 40, "Input", "ExpressionUUID" -> \
+"f1e262cd-cf40-4340-9f50-73ae1d7db0e1"],
+Cell[3129, 98, 61996, 1659, 661, "Output", "ExpressionUUID" -> \
+"80c2f7e3-10c6-4ca6-aad1-33c1b414b0b0"]
+}, Open  ]],
+Cell[65140, 1760, 394, 11, 40, "Input", "ExpressionUUID" -> \
+"65d1be1e-2278-49f7-ae79-f57e9e49bf8f"],
+Cell[65537, 1773, 393, 11, 40, "Input", "ExpressionUUID" -> \
+"1b33a600-b36c-426f-be7c-af3e72bad12e"],
+Cell[65933, 1786, 889, 25, 40, "Input", "ExpressionUUID" -> \
+"2844a577-de51-4f58-b918-4ca6da54f5a1"],
+Cell[66825, 1813, 382, 12, 40, "Input", "ExpressionUUID" -> \
+"41bd0613-7d03-4595-a42a-af2c5d3782b4"],
+Cell[67210, 1827, 384, 12, 40, "Input", "ExpressionUUID" -> \
+"c8897a85-eeec-4510-af92-a7f0d758741c"],
+Cell[67597, 1841, 383, 12, 40, "Input", "ExpressionUUID" -> \
+"acfa56da-e34c-4e77-9ab8-c6dd0d8ee90b"],
+Cell[67983, 1855, 329, 10, 40, "Input", "ExpressionUUID" -> \
+"58e1cac2-2638-49e6-9897-bdd0c285156c"],
+Cell[68315, 1867, 333, 10, 40, "Input", "ExpressionUUID" -> \
+"2fc401a5-1c42-44d2-a5a2-1f2d70d578c9"],
+Cell[68651, 1879, 380, 11, 40, "Input", "ExpressionUUID" -> \
+"6ca00bdf-8711-42eb-b578-52086d66a90c"],
+Cell[69034, 1892, 317, 8, 40, "Input", "ExpressionUUID" -> \
+"03d80906-f3da-41a1-aa78-0d0c2883a814"],
+Cell[CellGroupData[{
+Cell[69376, 1904, 208, 5, 40, "Input", "ExpressionUUID" -> \
+"438121e9-3da5-43a8-a4a8-846b27fff965"],
+Cell[69587, 1911, 222, 5, 40, "Output", "ExpressionUUID" -> \
+"e534ddbc-e85b-422b-9cc6-5f15a30a50e8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6518, 224, 444, 13, 36, "Input"],
-Cell[6965, 239, 239, 6, 35, "Output"]
+Cell[69846, 1921, 504, 15, 40, "Input", "ExpressionUUID" -> \
+"0bbbe402-1c3f-4396-a68f-2e769d5103e1"],
+Cell[70353, 1938, 322, 8, 40, "Output", "ExpressionUUID" -> \
+"8f609215-41ff-4eda-95e7-1eeb7f9ee5db"]
 }, Open  ]],
-Cell[7219, 248, 4103, 115, 330, "Input"],
+Cell[70690, 1949, 4163, 117, 405, "Input", "ExpressionUUID" -> \
+"f24446fd-b481-4155-a667-777a6409b459"],
 Cell[CellGroupData[{
-Cell[11347, 367, 151, 2, 36, "Input"],
-Cell[11501, 371, 189, 5, 35, "Output"]
+Cell[74878, 2070, 211, 4, 40, "Input", "ExpressionUUID" -> \
+"f527bc5f-c96c-41a8-be17-7eaccde6f051"],
+Cell[75092, 2076, 271, 7, 40, "Output", "ExpressionUUID" -> \
+"f24c0fe7-2f91-4ebf-9086-f3bcee75cd43"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11727, 381, 151, 2, 36, "Input"],
-Cell[11881, 385, 169, 4, 35, "Output"]
+Cell[75400, 2088, 211, 4, 40, "Input", "ExpressionUUID" -> \
+"ae549fdd-6514-49c8-a91c-0d759fe36f0a"],
+Cell[75614, 2094, 253, 6, 40, "Output", "ExpressionUUID" -> \
+"68690ab8-23ab-404d-9a9a-ac838e2dd3ef"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12099, 395, 94, 1, 80, "Section"],
+Cell[75916, 2106, 154, 3, 81, "Section", "ExpressionUUID" -> \
+"8abeaad9-80cc-4027-9cff-cc329020df2b"],
 Cell[CellGroupData[{
-Cell[12218, 400, 450, 10, 36, "Input"],
-Cell[12671, 412, 1652, 26, 120, "Output"]
+Cell[76095, 2113, 511, 12, 40, "Input", "ExpressionUUID" -> \
+"31d2e942-0db7-4a29-b1fc-cf72c9063baf"],
+Cell[76609, 2127, 1736, 28, 402, "Output", "ExpressionUUID" -> \
+"43ccc4eb-6d63-4e0d-83be-78b110c40954"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14360, 443, 237, 5, 36, "Input"],
-Cell[14600, 450, 6244, 168, 204, "Output"]
+Cell[78382, 2160, 294, 6, 40, "Input", "ExpressionUUID" -> \
+"cdf063fc-d70a-46b0-b0cb-d94e731661e9"],
+Cell[78679, 2168, 6328, 170, 301, "Output", "ExpressionUUID" -> \
+"98f2a538-edea-41db-89c0-cfa1ca5825c5"]
 }, Open  ]],
-Cell[20859, 621, 358, 11, 36, "Input"],
-Cell[21220, 634, 583, 18, 36, "Input"],
+Cell[85022, 2341, 415, 12, 40, "Input", "ExpressionUUID" -> \
+"ef504ae1-db42-4dc0-b177-17bca8d43e23"],
+Cell[85440, 2355, 643, 20, 40, "Input", "ExpressionUUID" -> \
+"59fced34-fbd2-49ec-af54-e6f1de2553cb"],
 Cell[CellGroupData[{
-Cell[21828, 656, 3005, 55, 57, "Input",
+Cell[86108, 2379, 3060, 55, 93, "Input", "ExpressionUUID" -> \
+"b74afd52-8ce3-4476-a7b1-954145346161",
  CellID->1143417716],
-Cell[24836, 713, 989403, 16615, 568, "Output"]
+Cell[89171, 2436, 1062725, 17818, 569, 989117, 16612, "CachedBoxData", \
+"BoxData", "Output", "ExpressionUUID" -> \
+"97e94295-cdc7-4c8e-8ade-555a444e5f5c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1014288, 17334, 93, 1, 80, "Section"],
+Cell[1151945, 20260, 153, 3, 81, "Section", "ExpressionUUID" -> \
+"91a37af2-f0cd-4d77-88a5-69efbff72981"],
 Cell[CellGroupData[{
-Cell[1014406, 17339, 457, 13, 36, "Input"],
-Cell[1014866, 17354, 7650, 169, 309, "Output"]
+Cell[1152123, 20267, 517, 15, 40, "Input", "ExpressionUUID" -> \
+"55d47d8b-53ef-4e38-ae10-88b5ba8299cc"],
+Cell[1152643, 20284, 7733, 171, 379, "Output", "ExpressionUUID" -> \
+"da24e1d5-2c3f-4c31-8374-aa10e52b0781"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1022553, 17528, 245, 5, 36, "Input"],
-Cell[1022801, 17535, 114, 1, 35, "Output"]
+Cell[1160413, 20460, 305, 7, 40, "Input", "ExpressionUUID" -> \
+"b712a8c2-a5b9-4e53-bbc2-602191bb08af"],
+Cell[1160721, 20469, 197, 3, 194, "Output", "ExpressionUUID" -> \
+"dd92bce5-2ed8-4723-ac8f-bd53b0a8bc1c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -17633,4 +20617,3 @@ Cell[1022801, 17535, 114, 1, 35, "Output"]
 ]
 *)
 
-(* End of internal cache information *)
