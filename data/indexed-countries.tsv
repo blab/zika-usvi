@@ -1,53 +1,1 @@
-xml_index	country	region
-0	canada	north_america
-1	united_states	north_america
-2	bermuda	north_america
-3	mexico	north_america
-4	belize	central_america
-5	guatemala	central_america
-6	honduras	central_america
-7	el_salvador	central_america
-8	nicaragua	central_america
-9	costa_rica	central_america
-10	panama	central_america
-11	bahamas	caribbean
-12	cuba	caribbean
-13	turks_and_caicos	caribbean
-14	cayman_islands	caribbean
-15	jamaica	caribbean
-16	haiti	caribbean
-17	dominican_republic	caribbean
-18	puerto_rico	caribbean
-19	usvi	caribbean
-20	bvi	caribbean
-21	anguilla	caribbean
-22	saint_martin	caribbean
-23	sint_maarten	caribbean
-24	saint_barthelemy	caribbean
-25	bonaire_sint_eustatius_saba	caribbean
-26	saint_kitts_and_nevis	caribbean
-27	antigua_and_barbuda	caribbean
-28	montserrat	caribbean
-29	guadeloupe	caribbean
-30	dominica	caribbean
-31	martinique	caribbean
-32	saint_lucia	caribbean
-33	saint_vincent_and_the_grenadines	caribbean
-34	barbados	caribbean
-35	grenada	caribbean
-36	trinidad_and_tobago	caribbean
-37	curacao	caribbean
-38	aruba	caribbean
-39	french_guiana	south_america
-40	suriname	south_america
-41	guyana	south_america
-42	venezuela	south_america
-43	colombia	south_america
-44	ecuador	south_america
-45	peru	south_america
-46	bolivia	south_america
-47	brazil	south_america
-48	paraguay	south_america
-49	uruguay	south_america
-50	argentina	south_america
-51	chile	south_america
+country	regionunited_states	north_americabermuda	north_americamexico	north_americabelize	central_americaguatemala	central_americahonduras	central_americael_salvador	central_americanicaragua	central_americacosta_rica	central_americapanama	central_americabahamas	caribbeancuba	caribbeanturks_and_caicos	caribbeancayman_islands	caribbeanjamaica	caribbeanhaiti	caribbeandominican_republic	caribbeanpuerto_rico	caribbeanusvi	caribbeansaint_kitts_and_nevis	caribbeanantigua_and_barbuda	caribbeanguadeloupe	caribbeandominica	caribbeanmartinique	caribbeansaint_lucia	caribbeansaint_vincent_and_the_grenadines	caribbeanbarbados	caribbeangrenada	caribbeantrinidad_and_tobago	caribbeancuracao	caribbeanaruba	caribbeanfrench_guiana	south_americasuriname	south_americaguyana	south_americavenezuela	south_americacolombia	south_americaecuador	south_americaperu	south_americabolivia	south_americabrazil	south_americaparaguay	south_americauruguay	south_americaargentina	south_americachile	south_america
