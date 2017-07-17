@@ -74,7 +74,7 @@ Thumbs.db
 scripts/\.ipynb_checkpoints/
 
 # excel autosave nonsense #
-data/~\$zika-usvi-sample-table\.xlsx
+~$*.xlsx
 
 #large data tables when condensed informative versions should be released #
 data/zika-usvi-sample-table-uncondensed\.xlsx
