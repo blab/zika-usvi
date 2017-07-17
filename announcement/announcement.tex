@@ -9,6 +9,9 @@
 \usepackage{parskip}
 \usepackage{float}
 
+% tables exported from pandas
+\usepackage{booktabs}
+
 % text layout
 \usepackage{geometry}
 \geometry{textwidth=16cm} % 15.25cm for single-space, 16.25cm for double-space
@@ -56,9 +59,10 @@ Genetic characterization of the Zika virus epidemic in the US Virgin Islands
 \author[1]{Barney Potter}
 \author[1]{Gytis Dudas}
 \author[1]{Leora Feldstein}
-\author[3]{\\Nathan D Grubaugh}
+\author[1]{\\M. Elizabeth Halloran}
+\author[3]{Nathan D Grubaugh}
 \author[3]{Kristian G Andersen}
-\author[4]{Brett R Ellis}
+\author[4]{\\Brett R Ellis}
 \author[4]{Esther M Ellis}
 \author[1]{Trevor Bedford}
 
@@ -92,7 +96,7 @@ All we ask is that you please let us know if you plan to use these data in a pub
 We intend for this announcement to serve as a `marker paper' specifying analyses we have planned for these data, namely to investigate Zika transmission in the USVI.
 For greater detail please see the `Genome Announcement' below.
 We plan to replace this `announcement' with a preprint and eventually with a publication.
-The citation will be continually updated throughout this process.
+The citation will be continually updated throughout this process as new sequences become available.
 
 \pagebreak
 
@@ -114,13 +118,13 @@ We will also use joint inference of genomic and epidemiological data to estimate
 
 \section*{Preliminary results}
 
-To date we have sequenced 11 Zika viruses from the USVI. In Figure \ref{zika_usvi_tree} we show where they fall in the broader spectrum of viral diversity.
+To date we have sequenced 43 viruses from the USVI, of which 31 sequences have sufficient coverage to include in phylogenetic analyses. In Figure \ref{zika_usvi_tree} we show where these 31 genomes fall in the broader spectrum of viral diversity.
 It is clear that many of the infections are quite similar, while other infections appear to represent shorter transmission chains following introduction.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth]{figures/zika_usvi_tree}
-	\caption{\textbf{Preliminary phylogeny showing 11 Zika genomes from the USVI.}
+	\caption{\textbf{Preliminary phylogeny showing 31 Zika genomes from the USVI.}
 	This tree is taken from \href{https://nextstrain.org/zika}{nextstrain.org/zika} and shows a time calibrated phylogeny of publicly available Zika genomes.
 	}
 	\label{zika_usvi_tree}
@@ -128,7 +132,63 @@ It is clear that many of the infections are quite similar, while other infection
 
 \section*{Data}
 
-All genome sequence data and metadata can be found on GitHub at \href{https://github.com/blab/zika-usvi}{github.com/blab/zika-usvi}.
+All sequence data and metadata can be found on GitHub at \href{https://github.com/blab/zika-usvi}{github.com/blab/zika-usvi}. Sequencing statistics and sample metadata for all sequenced samples, including full coverage ($>$80\%), partial coverage (50-80\%), and poor coverage ($<$50\%) genomes, can be found in Table 1 below.
+
+
+\begin{table}
+\caption{Sequencing statistics and metadata for 43 genomes sequenced from diagnostic specimens collected in the USVI. Of these genomes 31 sequences have sufficient coverage to include in our analysis.}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\toprule
+sample ID &   RT-qPCR Ct &  platform & coverage & collection date &      island & country \\
+\midrule
+    VI1 &   25.404 &  minion,miseq &            $>$80\% &      2016-09-28 &   Saint Croix &    usvi \\
+   VI10 &  unknown &         miseq &            $<$50\% &      2016-02-22 &   Saint Croix &    usvi \\
+   VI11 &  unknown &         miseq &          50-80\% &      2016-03-22 &  Saint Thomas &    usvi \\
+   VI12 &   29.137 &         miseq &            $>$80\% &      2016-11-04 &   Saint Croix &    usvi \\
+   VI13 &    25.72 &         miseq &            $>$80\% &      2016-08-13 &  Saint Thomas &    usvi \\
+   VI14 &   29.506 &         miseq &            $<$50\% &      2016-09-03 &    Saint John &    usvi \\
+   VI15 &   28.741 &        minion &            $<$50\% &      2016-09-13 &  Saint Thomas &    usvi \\
+   VI16 &   27.912 &        minion &            $<$50\% &      2016-10-19 &   Saint Croix &    usvi \\
+   VI17 &   33.033 &        minion &            $<$50\% &      2016-08-22 &  Saint Thomas &    usvi \\
+   VI18 &   33.099 &        minion &            $<$50\% &      2016-07-22 &  Saint Thomas &    usvi \\
+   VI19 &   27.001 &        minion &            $>$80\% &      2016-11-21 &   Saint Croix &    usvi \\
+    VI2 &   28.056 &        minion &            $>$80\% &      2016-09-28 &   Saint Croix &    usvi \\
+   VI20 &   25.413 &        minion &            $>$80\% &      2016-10-13 &   Saint Croix &    usvi \\
+   VI21 &   30.529 &        minion &            $>$80\% &      2016-11-07 &    Saint John &    usvi \\
+   VI22 &   28.845 &        minion &          50-80\% &      2016-09-07 &  Saint Thomas &    usvi \\
+   VI23 &   28.323 &        minion &            $>$80\% &      2016-07-12 &  Saint Thomas &    usvi \\
+   VI24 &   29.472 &        minion &          50-80\% &      2016-09-13 &  Saint Thomas &    usvi \\
+   VI25 &   30.059 &        minion &            $>$80\% &      2016-09-27 &  Saint Thomas &    usvi \\
+   VI26 &   26.354 &        minion &            $<$50\% &      2016-08-26 &  Saint Thomas &    usvi \\
+   VI27 &   29.918 &        minion &            $>$80\% &      2016-08-19 &  Saint Thomas &    usvi \\
+   VI28 &   29.813 &        minion &          50-80\% &      2016-11-28 &   Saint Croix &    usvi \\
+   VI29 &   30.036 &        minion &            $<$50\% &      2016-09-14 &  Saint Thomas &    usvi \\
+    VI3 &   29.221 &        minion &          50-80\% &      2016-09-26 &  Saint Thomas &    usvi \\
+   VI30 &   31.319 &        minion &            $>$80\% &      2016-08-07 &   Saint Croix &    usvi \\
+   VI31 &   33.034 &        minion &            $<$50\% &      2016-05-03 &  Saint Thomas &    usvi \\
+   VI32 &   26.578 &        minion &            $>$80\% &      2016-08-11 &   Saint Croix &    usvi \\
+   VI33 &   32.897 &        minion &            $<$50\% &      2016-09-01 &  Saint Thomas &    usvi \\
+   VI34 &   29.888 &        minion &            $>$80\% &      2016-08-01 &  Saint Thomas &    usvi \\
+   VI35 &    29.64 &        minion &            $>$80\% &      2016-09-08 &  Saint Thomas &    usvi \\
+   VI36 &   29.655 &        minion &            $>$80\% &      2016-09-13 &   Saint Croix &    usvi \\
+   VI37 &   31.713 &        minion &            $>$80\% &      2016-10-06 &   Saint Croix &    usvi \\
+   VI38 &   31.025 &        minion &            $>$80\% &      2016-10-25 &  Saint Thomas &    usvi \\
+   VI39 &   30.342 &        minion &            $>$80\% &      2016-11-09 &   Saint Croix &    usvi \\
+    VI4 &   25.639 &  minion,miseq &            $>$80\% &      2016-10-14 &  Saint Thomas &    usvi \\
+   VI40 &   29.128 &        minion &            $>$80\% &      2016-11-05 &  Saint Thomas &    usvi \\
+   VI41 &   23.859 &        minion &            $>$80\% &      2016-11-10 &   Saint Croix &    usvi \\
+   VI42 &   29.467 &        minion &            $>$80\% &      2016-10-26 &   Saint Croix &    usvi \\
+   VI43 &   24.511 &        minion &            $>$80\% &      2016-07-19 &  Saint Thomas &    usvi \\
+    VI5 &   29.484 &        minion &            $>$80\% &      2016-10-17 &  Saint Thomas &    usvi \\
+    VI6 &   26.515 &         miseq &            $>$80\% &      2016-10-19 &    Saint John &    usvi \\
+    VI7 &   28.328 &         miseq &            $>$80\% &      2016-10-27 &  Saint Thomas &    usvi \\
+    VI8 &   29.487 &         miseq &            $<$50\% &      2016-10-21 &  Saint Thomas &    usvi \\
+    VI9 &   28.877 &         miseq &            $<$50\% &      2016-10-21 &    Saint John &    usvi \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table} 
 
 \bibliographystyle{plos}
 \bibliography{announcement}
