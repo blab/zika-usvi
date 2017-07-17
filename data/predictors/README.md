@@ -12,3 +12,4 @@
 
 ### Possible other predictors
 * Country population size that is native-born or foreign-born (available from UNdata) as a possible measure of population-level migrancy?
+* Annual mean temperature/precipitation? (Concerned that this might be too heterogeneous within countries when countries are large.)
