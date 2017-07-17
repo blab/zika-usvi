@@ -78,3 +78,5 @@ scripts/\.ipynb_checkpoints/
 
 #large data tables when condensed informative versions should be released #
 data/zika-usvi-sample-table-uncondensed\.xlsx
+
+data/unpublished-seq-accessions\.xlsx
