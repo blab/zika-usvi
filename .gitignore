@@ -80,3 +80,5 @@ scripts/\.ipynb_checkpoints/
 data/zika-usvi-sample-table-uncondensed\.xlsx
 
 data/unpublished-seq-accessions\.xlsx
+
+figures/\.ipynb_checkpoints/
