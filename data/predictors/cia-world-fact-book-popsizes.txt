@@ -193,8 +193,8 @@ rank	country	pop_size
 192	kiribati	106925
 193	tonga	106513
 194	micronesia_federated_states_of	104719
-195	usvi	102951
-196	saint_vincent_and_the_grenadines	102350
+195	united_states_virgin_islands	102951
+196	saint_vincent_grenadines	102350
 197	jersey	98069
 198	antigua_and_barbuda	93581
 199	seychelles	93186
@@ -208,12 +208,12 @@ rank	country	pop_size
 207	cayman_islands	57268
 208	american_samoa	54194
 209	northern_mariana_islands	53467
-210	saint_kitts_and_nevis	52329
-211	turks_and_caicos	51430
+210	saint_kitts_nevis	52329
+211	turks_caicos_islands	51430
 212	faroe_islands	50456
 213	sint_maarten	41486
 214	liechtenstein	37937
-215	bvi	34232
+215	british_virgin_islands	34232
 216	san_marino	33285
 217	saint_martin	31949
 218	monaco	30581
