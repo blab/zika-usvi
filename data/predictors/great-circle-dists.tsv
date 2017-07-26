@@ -1,5 +1,4 @@
 origin	destination	great_circle_dist_km
-united_states	united_states	0.0
 united_states	jamaica	2684.91026348
 united_states	honduras	2600.36515012
 united_states	colombia	3981.40842915
@@ -48,7 +47,6 @@ united_states	grenada	4220.35436172
 united_states	guadeloupe	3900.11776152
 united_states	antigua_barbuda	3815.24931602
 jamaica	united_states	2684.91026348
-jamaica	jamaica	0.0
 jamaica	honduras	1167.67527642
 jamaica	colombia	1365.33328115
 jamaica	mexico	2496.47970178
@@ -97,7 +95,6 @@ jamaica	guadeloupe	1657.2957042
 jamaica	antigua_barbuda	1617.05243054
 honduras	united_states	2600.36515012
 honduras	jamaica	1167.67527642
-honduras	honduras	0.0
 honduras	colombia	1695.26844985
 honduras	mexico	1582.19065139
 honduras	saint_kitts_nevis	3548.47241126
@@ -146,7 +143,6 @@ honduras	antigua_barbuda	2751.45553698
 colombia	united_states	3981.40842915
 colombia	jamaica	1365.33328115
 colombia	honduras	1695.26844985
-colombia	colombia	0.0
 colombia	mexico	3275.72471713
 colombia	saint_kitts_nevis	2561.41839236
 colombia	turks_caicos_islands	1778.01299188
@@ -195,7 +191,6 @@ mexico	united_states	1922.06469663
 mexico	jamaica	2496.47970178
 mexico	honduras	1582.19065139
 mexico	colombia	3275.72471713
-mexico	mexico	0.0
 mexico	saint_kitts_nevis	4862.43666067
 mexico	turks_caicos_islands	2986.20192403
 mexico	sint_maarten	3943.7635023
@@ -244,7 +239,6 @@ saint_kitts_nevis	jamaica	2407.81487795
 saint_kitts_nevis	honduras	3548.47241126
 saint_kitts_nevis	colombia	2561.41839236
 saint_kitts_nevis	mexico	4862.43666067
-saint_kitts_nevis	saint_kitts_nevis	0.0
 saint_kitts_nevis	turks_caicos_islands	1884.07804402
 saint_kitts_nevis	sint_maarten	927.442807399
 saint_kitts_nevis	saint_vincent_grenadines	869.52207823
@@ -293,7 +287,6 @@ turks_caicos_islands	honduras	1829.13946751
 turks_caicos_islands	colombia	1778.01299188
 turks_caicos_islands	mexico	2986.20192403
 turks_caicos_islands	saint_kitts_nevis	1884.07804402
-turks_caicos_islands	turks_caicos_islands	0.0
 turks_caicos_islands	sint_maarten	992.058340528
 turks_caicos_islands	saint_vincent_grenadines	1461.37292977
 turks_caicos_islands	paraguay	5465.56822484
@@ -342,7 +335,6 @@ sint_maarten	colombia	1853.13156746
 sint_maarten	mexico	3943.7635023
 sint_maarten	saint_kitts_nevis	927.442807399
 sint_maarten	turks_caicos_islands	992.058340528
-sint_maarten	sint_maarten	0.0
 sint_maarten	saint_vincent_grenadines	575.887744595
 sint_maarten	paraguay	4866.47586354
 sint_maarten	nicaragua	2551.69952231
@@ -391,7 +383,6 @@ saint_vincent_grenadines	mexico	4277.85791059
 saint_vincent_grenadines	saint_kitts_nevis	869.52207823
 saint_vincent_grenadines	turks_caicos_islands	1461.37292977
 saint_vincent_grenadines	sint_maarten	575.887744595
-saint_vincent_grenadines	saint_vincent_grenadines	0.0
 saint_vincent_grenadines	paraguay	4305.24519182
 saint_vincent_grenadines	nicaragua	2702.06877377
 saint_vincent_grenadines	barbados	173.500230263
@@ -440,7 +431,6 @@ paraguay	saint_kitts_nevis	4749.19993604
 paraguay	turks_caicos_islands	5465.56822484
 paraguay	sint_maarten	4866.47586354
 paraguay	saint_vincent_grenadines	4305.24519182
-paraguay	paraguay	0.0
 paraguay	nicaragua	5251.16483968
 paraguay	barbados	4284.84079868
 paraguay	canada	8609.01238787
@@ -489,7 +479,6 @@ nicaragua	turks_caicos_islands	1847.48439449
 nicaragua	sint_maarten	2551.69952231
 nicaragua	saint_vincent_grenadines	2702.06877377
 nicaragua	paraguay	5251.16483968
-nicaragua	nicaragua	0.0
 nicaragua	barbados	2875.56043701
 nicaragua	canada	3823.34285748
 nicaragua	united_states_virgin_islands	2365.81501504
@@ -538,7 +527,6 @@ barbados	sint_maarten	659.152239637
 barbados	saint_vincent_grenadines	173.500230263
 barbados	paraguay	4284.84079868
 barbados	nicaragua	2875.56043701
-barbados	barbados	0.0
 barbados	canada	4595.7633887
 barbados	united_states_virgin_islands	799.206045559
 barbados	curacao	1018.77773197
@@ -587,7 +575,6 @@ canada	saint_vincent_grenadines	4506.23148624
 canada	paraguay	8609.01238787
 canada	nicaragua	3823.34285748
 canada	barbados	4595.7633887
-canada	canada	0.0
 canada	united_states_virgin_islands	3825.9853792
 canada	curacao	4253.05901738
 canada	bolivia	7486.0903777
@@ -636,7 +623,6 @@ united_states_virgin_islands	paraguay	4915.95928207
 united_states_virgin_islands	nicaragua	2365.81501504
 united_states_virgin_islands	barbados	799.206045559
 united_states_virgin_islands	canada	3825.9853792
-united_states_virgin_islands	united_states_virgin_islands	0.0
 united_states_virgin_islands	curacao	803.253614961
 united_states_virgin_islands	bolivia	3962.78518276
 united_states_virgin_islands	panama	1941.95374364
@@ -685,7 +671,6 @@ curacao	nicaragua	1866.78676958
 curacao	barbados	1018.77773197
 curacao	canada	4253.05901738
 curacao	united_states_virgin_islands	803.253614961
-curacao	curacao	0.0
 curacao	bolivia	3306.69233585
 curacao	panama	1272.00552598
 curacao	uruguay	5313.02828298
@@ -734,7 +719,6 @@ bolivia	barbados	3460.51631031
 bolivia	canada	7486.0903777
 bolivia	united_states_virgin_islands	3962.78518276
 bolivia	curacao	3306.69233585
-bolivia	bolivia	0.0
 bolivia	panama	3329.42664331
 bolivia	uruguay	2074.99219098
 bolivia	bahamas	4935.1435419
@@ -783,7 +767,6 @@ panama	canada	4278.93870895
 panama	united_states_virgin_islands	1941.95374364
 panama	curacao	1272.00552598
 panama	bolivia	3329.42664331
-panama	panama	0.0
 panama	uruguay	5399.63668523
 panama	bahamas	1858.98230136
 panama	bermuda	3055.15992916
@@ -832,7 +815,6 @@ uruguay	united_states_virgin_islands	5888.0142818
 uruguay	curacao	5313.02828298
 uruguay	bolivia	2074.99219098
 uruguay	panama	5399.63668523
-uruguay	uruguay	0.0
 uruguay	bahamas	6988.66932733
 uruguay	bermuda	7443.21650177
 uruguay	aruba	5381.94161491
@@ -881,7 +863,6 @@ bahamas	curacao	1730.5653005
 bahamas	bolivia	4935.1435419
 bahamas	panama	1858.98230136
 bahamas	uruguay	6988.66932733
-bahamas	bahamas	0.0
 bahamas	bermuda	1467.06456483
 bahamas	aruba	1639.15329748
 bahamas	peru	4047.90756933
@@ -930,7 +911,6 @@ bermuda	bolivia	5536.85357361
 bermuda	panama	3055.15992916
 bermuda	uruguay	7443.21650177
 bermuda	bahamas	1467.06456483
-bermuda	bermuda	0.0
 bermuda	aruba	2273.2399824
 bermuda	peru	4981.06713624
 bermuda	costa_rica	3191.22414205
@@ -979,7 +959,6 @@ aruba	panama	1175.27117872
 aruba	uruguay	5381.94161491
 aruba	bahamas	1639.15329748
 aruba	bermuda	2273.2399824
-aruba	aruba	0.0
 aruba	peru	2709.50188765
 aruba	costa_rica	1570.47104139
 aruba	anguilla	978.388488781
@@ -1028,7 +1007,6 @@ peru	uruguay	3295.5319739
 peru	bahamas	4047.90756933
 peru	bermuda	4981.06713624
 peru	aruba	2709.50188765
-peru	peru	0.0
 peru	costa_rica	2477.60663547
 peru	anguilla	3569.08267519
 peru	venezuela	2538.50175062
@@ -1077,7 +1055,6 @@ costa_rica	bahamas	1853.0918705
 costa_rica	bermuda	3191.22414205
 costa_rica	aruba	1570.47104139
 costa_rica	peru	2477.60663547
-costa_rica	costa_rica	0.0
 costa_rica	anguilla	2450.96129726
 costa_rica	venezuela	1802.5342441
 costa_rica	french_guiana	3492.10102705
@@ -1126,7 +1103,6 @@ anguilla	bermuda	1580.66774465
 anguilla	aruba	978.388488781
 anguilla	peru	3569.08267519
 anguilla	costa_rica	2450.96129726
-anguilla	anguilla	0.0
 anguilla	venezuela	1034.0207481
 anguilla	french_guiana	1839.21607522
 anguilla	cayman_islands	1929.50788683
@@ -1175,7 +1151,6 @@ venezuela	aruba	367.02067976
 venezuela	peru	2538.50175062
 venezuela	costa_rica	1802.5342441
 venezuela	anguilla	1034.0207481
-venezuela	venezuela	0.0
 venezuela	french_guiana	1728.72297763
 venezuela	cayman_islands	1790.8805073
 venezuela	brazil	3949.27354876
@@ -1224,7 +1199,6 @@ french_guiana	peru	3167.81477934
 french_guiana	costa_rica	3492.10102705
 french_guiana	anguilla	1839.21607522
 french_guiana	venezuela	1728.72297763
-french_guiana	french_guiana	0.0
 french_guiana	cayman_islands	3472.02624234
 french_guiana	brazil	2678.4282311
 french_guiana	trinidad_tobago	1120.6345992
@@ -1273,7 +1247,6 @@ cayman_islands	costa_rica	1082.24491542
 cayman_islands	anguilla	1929.50788683
 cayman_islands	venezuela	1790.8805073
 cayman_islands	french_guiana	3472.02624234
-cayman_islands	cayman_islands	0.0
 cayman_islands	brazil	5691.83443581
 cayman_islands	trinidad_tobago	2354.54866294
 cayman_islands	dominican_republic	1171.48074525
@@ -1322,7 +1295,6 @@ brazil	anguilla	4453.75563721
 brazil	venezuela	3949.27354876
 brazil	french_guiana	2678.4282311
 brazil	cayman_islands	5691.83443581
-brazil	brazil	0.0
 brazil	trinidad_tobago	3607.69428378
 brazil	dominican_republic	4897.7628573
 brazil	cuba	5779.83993499
@@ -1371,7 +1343,6 @@ trinidad_tobago	venezuela	688.646307454
 trinidad_tobago	french_guiana	1120.6345992
 trinidad_tobago	cayman_islands	2354.54866294
 trinidad_tobago	brazil	3607.69428378
-trinidad_tobago	trinidad_tobago	0.0
 trinidad_tobago	dominican_republic	1327.77458921
 trinidad_tobago	cuba	2323.877607
 trinidad_tobago	guatemala	3215.74150535
@@ -1420,7 +1391,6 @@ dominican_republic	french_guiana	2431.55340923
 dominican_republic	cayman_islands	1171.48074525
 dominican_republic	brazil	4897.7628573
 dominican_republic	trinidad_tobago	1327.77458921
-dominican_republic	dominican_republic	0.0
 dominican_republic	cuba	1041.23628534
 dominican_republic	guatemala	2230.24151229
 dominican_republic	chile	5847.81336835
@@ -1469,7 +1439,6 @@ cuba	cayman_islands	342.754018509
 cuba	brazil	5779.83993499
 cuba	trinidad_tobago	2323.877607
 cuba	dominican_republic	1041.23628534
-cuba	cuba	0.0
 cuba	guatemala	1416.19103491
 cuba	chile	6255.59738533
 cuba	martinique	2126.79613674
@@ -1518,7 +1487,6 @@ guatemala	brazil	6138.73775844
 guatemala	trinidad_tobago	3215.74150535
 guatemala	dominican_republic	2230.24151229
 guatemala	cuba	1416.19103491
-guatemala	guatemala	0.0
 guatemala	chile	5777.63481208
 guatemala	martinique	3195.67214202
 guatemala	haiti	1994.73887955
@@ -1567,7 +1535,6 @@ chile	trinidad_tobago	5022.48968061
 chile	dominican_republic	5847.81336835
 chile	cuba	6255.59738533
 chile	guatemala	5777.63481208
-chile	chile	0.0
 chile	martinique	5484.57572489
 chile	haiti	5843.48248635
 chile	belize	5980.64070283
@@ -1616,7 +1583,6 @@ martinique	dominican_republic	1086.45605719
 martinique	cuba	2126.79613674
 martinique	guatemala	3195.67214202
 martinique	chile	5484.57572489
-martinique	martinique	0.0
 martinique	haiti	1305.85587498
 martinique	belize	2947.57484691
 martinique	argentina	5285.23898411
@@ -1665,7 +1631,6 @@ haiti	cuba	824.91227671
 haiti	guatemala	1994.73887955
 haiti	chile	5843.48248635
 haiti	martinique	1305.85587498
-haiti	haiti	0.0
 haiti	belize	1694.89751105
 haiti	argentina	5862.89950638
 haiti	dominica	1239.72824527
@@ -1714,7 +1679,6 @@ belize	guatemala	386.978963053
 belize	chile	5980.64070283
 belize	martinique	2947.57484691
 belize	haiti	1694.89751105
-belize	belize	0.0
 belize	argentina	6282.9967328
 belize	dominica	2896.0556264
 belize	suriname	3831.45990033
@@ -1763,7 +1727,6 @@ argentina	chile	889.26329893
 argentina	martinique	5285.23898411
 argentina	haiti	5862.89950638
 argentina	belize	6282.9967328
-argentina	argentina	0.0
 argentina	dominica	5368.83972511
 argentina	suriname	4357.79075096
 argentina	saint_lucia	5207.08734088
@@ -1812,7 +1775,6 @@ dominica	martinique	92.4409954521
 dominica	haiti	1239.72824527
 dominica	belize	2896.0556264
 dominica	argentina	5368.83972511
-dominica	dominica	0.0
 dominica	suriname	1255.22688126
 dominica	saint_lucia	167.863504823
 dominica	el_salvador	2990.08427131
@@ -1861,7 +1823,6 @@ suriname	haiti	2358.5994888
 suriname	belize	3831.45990033
 suriname	argentina	4357.79075096
 suriname	dominica	1255.22688126
-suriname	suriname	0.0
 suriname	saint_lucia	1096.50860512
 suriname	el_salvador	3807.19420324
 suriname	puerto_rico	1832.36040781
@@ -1910,7 +1871,6 @@ saint_lucia	belize	2966.42159709
 saint_lucia	argentina	5207.08734088
 saint_lucia	dominica	167.863504823
 saint_lucia	suriname	1096.50860512
-saint_lucia	saint_lucia	0.0
 saint_lucia	el_salvador	3037.65875549
 saint_lucia	puerto_rico	748.036955454
 saint_lucia	british_virgin_islands	635.478798238
@@ -1959,7 +1919,6 @@ el_salvador	argentina	5946.39437463
 el_salvador	dominica	2990.08427131
 el_salvador	suriname	3807.19420324
 el_salvador	saint_lucia	3037.65875549
-el_salvador	el_salvador	0.0
 el_salvador	puerto_rico	2491.64669997
 el_salvador	british_virgin_islands	2665.96298598
 el_salvador	ecuador	2003.36180183
@@ -2008,7 +1967,6 @@ puerto_rico	dominica	615.519061843
 puerto_rico	suriname	1832.36040781
 puerto_rico	saint_lucia	748.036955454
 puerto_rico	el_salvador	2491.64669997
-puerto_rico	puerto_rico	0.0
 puerto_rico	british_virgin_islands	174.678762451
 puerto_rico	ecuador	2634.70921298
 puerto_rico	guyana	1582.86134275
@@ -2057,7 +2015,6 @@ british_virgin_islands	suriname	1731.67899895
 british_virgin_islands	saint_lucia	635.478798238
 british_virgin_islands	el_salvador	2665.96298598
 british_virgin_islands	puerto_rico	174.678762451
-british_virgin_islands	british_virgin_islands	0.0
 british_virgin_islands	ecuador	2748.15057644
 british_virgin_islands	guyana	1501.40034725
 british_virgin_islands	grenada	767.129898607
@@ -2106,7 +2063,6 @@ ecuador	saint_lucia	2664.06408466
 ecuador	el_salvador	2003.36180183
 ecuador	puerto_rico	2634.70921298
 ecuador	british_virgin_islands	2748.15057644
-ecuador	ecuador	0.0
 ecuador	guyana	2535.98655709
 ecuador	grenada	2481.3550021
 ecuador	guadeloupe	2786.54663522
@@ -2155,7 +2111,6 @@ guyana	el_salvador	3487.3079257
 guyana	puerto_rico	1582.86134275
 guyana	british_virgin_islands	1501.40034725
 guyana	ecuador	2535.98655709
-guyana	guyana	0.0
 guyana	grenada	738.789817622
 guyana	guadeloupe	1146.67836172
 guyana	antigua_barbuda	1244.44316732
@@ -2204,7 +2159,6 @@ grenada	puerto_rico	844.401434369
 grenada	british_virgin_islands	767.129898607
 grenada	ecuador	2481.3550021
 grenada	guyana	738.789817622
-grenada	grenada	0.0
 grenada	guadeloupe	458.303803763
 grenada	antigua_barbuda	552.19770344
 guadeloupe	united_states	3900.11776152
@@ -2253,7 +2207,6 @@ guadeloupe	british_virgin_islands	404.278045957
 guadeloupe	ecuador	2786.54663522
 guadeloupe	guyana	1146.67836172
 guadeloupe	grenada	458.303803763
-guadeloupe	guadeloupe	0.0
 guadeloupe	antigua_barbuda	97.9100190605
 antigua_barbuda	united_states	3815.24931602
 antigua_barbuda	jamaica	1617.05243054
@@ -2302,4 +2255,3 @@ antigua_barbuda	ecuador	2832.31391408
 antigua_barbuda	guyana	1244.44316732
 antigua_barbuda	grenada	552.19770344
 antigua_barbuda	guadeloupe	97.9100190605
-antigua_barbuda	antigua_barbuda	0.0

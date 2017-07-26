@@ -1,5 +1,4 @@
 origin	destination	north_south_indicator
-united_states	united_states	0
 united_states	jamaica	1
 united_states	honduras	1
 united_states	colombia	1
@@ -48,7 +47,6 @@ united_states	grenada	1
 united_states	guadeloupe	1
 united_states	antigua_barbuda	1
 jamaica	united_states	-1
-jamaica	jamaica	0
 jamaica	honduras	1
 jamaica	colombia	1
 jamaica	mexico	-1
@@ -97,7 +95,6 @@ jamaica	guadeloupe	1
 jamaica	antigua_barbuda	1
 honduras	united_states	-1
 honduras	jamaica	-1
-honduras	honduras	0
 honduras	colombia	1
 honduras	mexico	-1
 honduras	saint_kitts_nevis	-1
@@ -146,7 +143,6 @@ honduras	antigua_barbuda	-1
 colombia	united_states	-1
 colombia	jamaica	-1
 colombia	honduras	-1
-colombia	colombia	0
 colombia	mexico	-1
 colombia	saint_kitts_nevis	-1
 colombia	turks_caicos_islands	-1
@@ -195,7 +191,6 @@ mexico	united_states	-1
 mexico	jamaica	1
 mexico	honduras	1
 mexico	colombia	1
-mexico	mexico	0
 mexico	saint_kitts_nevis	1
 mexico	turks_caicos_islands	-1
 mexico	sint_maarten	1
@@ -244,7 +239,6 @@ saint_kitts_nevis	jamaica	-1
 saint_kitts_nevis	honduras	1
 saint_kitts_nevis	colombia	1
 saint_kitts_nevis	mexico	-1
-saint_kitts_nevis	saint_kitts_nevis	0
 saint_kitts_nevis	turks_caicos_islands	-1
 saint_kitts_nevis	sint_maarten	-1
 saint_kitts_nevis	saint_vincent_grenadines	1
@@ -293,7 +287,6 @@ turks_caicos_islands	honduras	1
 turks_caicos_islands	colombia	1
 turks_caicos_islands	mexico	1
 turks_caicos_islands	saint_kitts_nevis	1
-turks_caicos_islands	turks_caicos_islands	0
 turks_caicos_islands	sint_maarten	1
 turks_caicos_islands	saint_vincent_grenadines	1
 turks_caicos_islands	paraguay	1
@@ -342,7 +335,6 @@ sint_maarten	colombia	1
 sint_maarten	mexico	-1
 sint_maarten	saint_kitts_nevis	1
 sint_maarten	turks_caicos_islands	-1
-sint_maarten	sint_maarten	0
 sint_maarten	saint_vincent_grenadines	1
 sint_maarten	paraguay	1
 sint_maarten	nicaragua	1
@@ -391,7 +383,6 @@ saint_vincent_grenadines	mexico	-1
 saint_vincent_grenadines	saint_kitts_nevis	-1
 saint_vincent_grenadines	turks_caicos_islands	-1
 saint_vincent_grenadines	sint_maarten	-1
-saint_vincent_grenadines	saint_vincent_grenadines	0
 saint_vincent_grenadines	paraguay	1
 saint_vincent_grenadines	nicaragua	1
 saint_vincent_grenadines	barbados	1
@@ -440,7 +431,6 @@ paraguay	saint_kitts_nevis	-1
 paraguay	turks_caicos_islands	-1
 paraguay	sint_maarten	-1
 paraguay	saint_vincent_grenadines	-1
-paraguay	paraguay	0
 paraguay	nicaragua	-1
 paraguay	barbados	-1
 paraguay	canada	-1
@@ -489,7 +479,6 @@ nicaragua	turks_caicos_islands	-1
 nicaragua	sint_maarten	-1
 nicaragua	saint_vincent_grenadines	-1
 nicaragua	paraguay	1
-nicaragua	nicaragua	0
 nicaragua	barbados	-1
 nicaragua	canada	-1
 nicaragua	united_states_virgin_islands	-1
@@ -538,7 +527,6 @@ barbados	sint_maarten	-1
 barbados	saint_vincent_grenadines	-1
 barbados	paraguay	1
 barbados	nicaragua	1
-barbados	barbados	0
 barbados	canada	-1
 barbados	united_states_virgin_islands	-1
 barbados	curacao	1
@@ -587,7 +575,6 @@ canada	saint_vincent_grenadines	1
 canada	paraguay	1
 canada	nicaragua	1
 canada	barbados	1
-canada	canada	0
 canada	united_states_virgin_islands	1
 canada	curacao	1
 canada	bolivia	1
@@ -636,7 +623,6 @@ united_states_virgin_islands	paraguay	1
 united_states_virgin_islands	nicaragua	1
 united_states_virgin_islands	barbados	1
 united_states_virgin_islands	canada	-1
-united_states_virgin_islands	united_states_virgin_islands	0
 united_states_virgin_islands	curacao	1
 united_states_virgin_islands	bolivia	1
 united_states_virgin_islands	panama	1
@@ -685,7 +671,6 @@ curacao	nicaragua	-1
 curacao	barbados	-1
 curacao	canada	-1
 curacao	united_states_virgin_islands	-1
-curacao	curacao	0
 curacao	bolivia	1
 curacao	panama	1
 curacao	uruguay	1
@@ -734,7 +719,6 @@ bolivia	barbados	-1
 bolivia	canada	-1
 bolivia	united_states_virgin_islands	-1
 bolivia	curacao	-1
-bolivia	bolivia	0
 bolivia	panama	-1
 bolivia	uruguay	1
 bolivia	bahamas	-1
@@ -783,7 +767,6 @@ panama	canada	-1
 panama	united_states_virgin_islands	-1
 panama	curacao	-1
 panama	bolivia	1
-panama	panama	0
 panama	uruguay	1
 panama	bahamas	-1
 panama	bermuda	-1
@@ -832,7 +815,6 @@ uruguay	united_states_virgin_islands	-1
 uruguay	curacao	-1
 uruguay	bolivia	-1
 uruguay	panama	-1
-uruguay	uruguay	0
 uruguay	bahamas	-1
 uruguay	bermuda	-1
 uruguay	aruba	-1
@@ -881,7 +863,6 @@ bahamas	curacao	1
 bahamas	bolivia	1
 bahamas	panama	1
 bahamas	uruguay	1
-bahamas	bahamas	0
 bahamas	bermuda	-1
 bahamas	aruba	1
 bahamas	peru	1
@@ -930,7 +911,6 @@ bermuda	bolivia	1
 bermuda	panama	1
 bermuda	uruguay	1
 bermuda	bahamas	1
-bermuda	bermuda	0
 bermuda	aruba	1
 bermuda	peru	1
 bermuda	costa_rica	1
@@ -979,7 +959,6 @@ aruba	panama	1
 aruba	uruguay	1
 aruba	bahamas	-1
 aruba	bermuda	-1
-aruba	aruba	0
 aruba	peru	1
 aruba	costa_rica	1
 aruba	anguilla	-1
@@ -1028,7 +1007,6 @@ peru	uruguay	1
 peru	bahamas	-1
 peru	bermuda	-1
 peru	aruba	-1
-peru	peru	0
 peru	costa_rica	-1
 peru	anguilla	-1
 peru	venezuela	-1
@@ -1077,7 +1055,6 @@ costa_rica	bahamas	-1
 costa_rica	bermuda	-1
 costa_rica	aruba	-1
 costa_rica	peru	1
-costa_rica	costa_rica	0
 costa_rica	anguilla	-1
 costa_rica	venezuela	-1
 costa_rica	french_guiana	1
@@ -1126,7 +1103,6 @@ anguilla	bermuda	-1
 anguilla	aruba	1
 anguilla	peru	1
 anguilla	costa_rica	1
-anguilla	anguilla	0
 anguilla	venezuela	1
 anguilla	french_guiana	1
 anguilla	cayman_islands	-1
@@ -1175,7 +1151,6 @@ venezuela	aruba	-1
 venezuela	peru	1
 venezuela	costa_rica	1
 venezuela	anguilla	-1
-venezuela	venezuela	0
 venezuela	french_guiana	1
 venezuela	cayman_islands	-1
 venezuela	brazil	1
@@ -1224,7 +1199,6 @@ french_guiana	peru	1
 french_guiana	costa_rica	-1
 french_guiana	anguilla	-1
 french_guiana	venezuela	-1
-french_guiana	french_guiana	0
 french_guiana	cayman_islands	-1
 french_guiana	brazil	1
 french_guiana	trinidad_tobago	-1
@@ -1273,7 +1247,6 @@ cayman_islands	costa_rica	1
 cayman_islands	anguilla	1
 cayman_islands	venezuela	1
 cayman_islands	french_guiana	1
-cayman_islands	cayman_islands	0
 cayman_islands	brazil	1
 cayman_islands	trinidad_tobago	1
 cayman_islands	dominican_republic	1
@@ -1322,7 +1295,6 @@ brazil	anguilla	-1
 brazil	venezuela	-1
 brazil	french_guiana	-1
 brazil	cayman_islands	-1
-brazil	brazil	0
 brazil	trinidad_tobago	-1
 brazil	dominican_republic	-1
 brazil	cuba	-1
@@ -1371,7 +1343,6 @@ trinidad_tobago	venezuela	1
 trinidad_tobago	french_guiana	1
 trinidad_tobago	cayman_islands	-1
 trinidad_tobago	brazil	1
-trinidad_tobago	trinidad_tobago	0
 trinidad_tobago	dominican_republic	-1
 trinidad_tobago	cuba	-1
 trinidad_tobago	guatemala	-1
@@ -1420,7 +1391,6 @@ dominican_republic	french_guiana	1
 dominican_republic	cayman_islands	-1
 dominican_republic	brazil	1
 dominican_republic	trinidad_tobago	1
-dominican_republic	dominican_republic	0
 dominican_republic	cuba	-1
 dominican_republic	guatemala	1
 dominican_republic	chile	1
@@ -1469,7 +1439,6 @@ cuba	cayman_islands	1
 cuba	brazil	1
 cuba	trinidad_tobago	1
 cuba	dominican_republic	1
-cuba	cuba	0
 cuba	guatemala	1
 cuba	chile	1
 cuba	martinique	1
@@ -1518,7 +1487,6 @@ guatemala	brazil	1
 guatemala	trinidad_tobago	1
 guatemala	dominican_republic	-1
 guatemala	cuba	-1
-guatemala	guatemala	0
 guatemala	chile	1
 guatemala	martinique	1
 guatemala	haiti	-1
@@ -1567,7 +1535,6 @@ chile	trinidad_tobago	-1
 chile	dominican_republic	-1
 chile	cuba	-1
 chile	guatemala	-1
-chile	chile	0
 chile	martinique	-1
 chile	haiti	-1
 chile	belize	-1
@@ -1616,7 +1583,6 @@ martinique	dominican_republic	-1
 martinique	cuba	-1
 martinique	guatemala	-1
 martinique	chile	1
-martinique	martinique	0
 martinique	haiti	-1
 martinique	belize	-1
 martinique	argentina	1
@@ -1665,7 +1631,6 @@ haiti	cuba	-1
 haiti	guatemala	1
 haiti	chile	1
 haiti	martinique	1
-haiti	haiti	0
 haiti	belize	1
 haiti	argentina	1
 haiti	dominica	1
@@ -1714,7 +1679,6 @@ belize	guatemala	1
 belize	chile	1
 belize	martinique	1
 belize	haiti	-1
-belize	belize	0
 belize	argentina	1
 belize	dominica	1
 belize	suriname	1
@@ -1763,7 +1727,6 @@ argentina	chile	1
 argentina	martinique	-1
 argentina	haiti	-1
 argentina	belize	-1
-argentina	argentina	0
 argentina	dominica	-1
 argentina	suriname	-1
 argentina	saint_lucia	-1
@@ -1812,7 +1775,6 @@ dominica	martinique	1
 dominica	haiti	-1
 dominica	belize	-1
 dominica	argentina	1
-dominica	dominica	0
 dominica	suriname	1
 dominica	saint_lucia	1
 dominica	el_salvador	1
@@ -1861,7 +1823,6 @@ suriname	haiti	-1
 suriname	belize	-1
 suriname	argentina	1
 suriname	dominica	-1
-suriname	suriname	0
 suriname	saint_lucia	-1
 suriname	el_salvador	-1
 suriname	puerto_rico	-1
@@ -1910,7 +1871,6 @@ saint_lucia	belize	-1
 saint_lucia	argentina	1
 saint_lucia	dominica	-1
 saint_lucia	suriname	1
-saint_lucia	saint_lucia	0
 saint_lucia	el_salvador	1
 saint_lucia	puerto_rico	-1
 saint_lucia	british_virgin_islands	-1
@@ -1959,7 +1919,6 @@ el_salvador	argentina	1
 el_salvador	dominica	-1
 el_salvador	suriname	1
 el_salvador	saint_lucia	-1
-el_salvador	el_salvador	0
 el_salvador	puerto_rico	-1
 el_salvador	british_virgin_islands	-1
 el_salvador	ecuador	1
@@ -2008,7 +1967,6 @@ puerto_rico	dominica	1
 puerto_rico	suriname	1
 puerto_rico	saint_lucia	1
 puerto_rico	el_salvador	1
-puerto_rico	puerto_rico	0
 puerto_rico	british_virgin_islands	-1
 puerto_rico	ecuador	1
 puerto_rico	guyana	1
@@ -2057,7 +2015,6 @@ british_virgin_islands	suriname	1
 british_virgin_islands	saint_lucia	1
 british_virgin_islands	el_salvador	1
 british_virgin_islands	puerto_rico	1
-british_virgin_islands	british_virgin_islands	0
 british_virgin_islands	ecuador	1
 british_virgin_islands	guyana	1
 british_virgin_islands	grenada	1
@@ -2106,7 +2063,6 @@ ecuador	saint_lucia	-1
 ecuador	el_salvador	-1
 ecuador	puerto_rico	-1
 ecuador	british_virgin_islands	-1
-ecuador	ecuador	0
 ecuador	guyana	-1
 ecuador	grenada	-1
 ecuador	guadeloupe	-1
@@ -2155,7 +2111,6 @@ guyana	el_salvador	-1
 guyana	puerto_rico	-1
 guyana	british_virgin_islands	-1
 guyana	ecuador	1
-guyana	guyana	0
 guyana	grenada	-1
 guyana	guadeloupe	-1
 guyana	antigua_barbuda	-1
@@ -2204,7 +2159,6 @@ grenada	puerto_rico	-1
 grenada	british_virgin_islands	-1
 grenada	ecuador	1
 grenada	guyana	1
-grenada	grenada	0
 grenada	guadeloupe	-1
 grenada	antigua_barbuda	-1
 guadeloupe	united_states	-1
@@ -2253,7 +2207,6 @@ guadeloupe	british_virgin_islands	-1
 guadeloupe	ecuador	1
 guadeloupe	guyana	1
 guadeloupe	grenada	1
-guadeloupe	guadeloupe	0
 guadeloupe	antigua_barbuda	-1
 antigua_barbuda	united_states	-1
 antigua_barbuda	jamaica	-1
@@ -2302,4 +2255,3 @@ antigua_barbuda	ecuador	1
 antigua_barbuda	guyana	1
 antigua_barbuda	grenada	1
 antigua_barbuda	guadeloupe	1
-antigua_barbuda	antigua_barbuda	0
