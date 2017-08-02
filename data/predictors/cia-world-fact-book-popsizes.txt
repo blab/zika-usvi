@@ -158,7 +158,7 @@ rank	country	pop_size
 157	mauritius	1348242
 158	timor-leste	1261072
 159	estonia	1258545
-160	trinidad_and_tobago	1220479
+160	trinidad_tobago	1220479
 161	cyprus	1205575
 162	fiji	915303
 163	djibouti	846687
@@ -196,7 +196,7 @@ rank	country	pop_size
 195	united_states_virgin_islands	102951
 196	saint_vincent_grenadines	102350
 197	jersey	98069
-198	antigua_and_barbuda	93581
+198	antigua_barbuda	93581
 199	seychelles	93186
 200	isle_of_man	88195
 201	andorra	85660
