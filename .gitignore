@@ -82,7 +82,7 @@ data/zika-usvi-sample-table-uncondensed\.xlsx
 data/unpublished-seq-accessions\.xlsx
 
 ### files related to flight traffic data ###
-data/predictors/Americas-to-Americas-2012-2016_KK_DB\.xlsx
-data/predictors/pax_volume_needNameFix\.tsv
-data/predictors/countries-without-pax-volume\.tsv
-data/predictors/predictor-tsv/pax-volume-snakecase\.tsv
+data/phylo-glm/raw-predictor-data/pax_volume_needNameFix\.tsv
+data/phylo-glm/raw-predictor-data/countries-without-pax-volume\.tsv
+data/phylo-glm/raw-predictor-data/Americas-to-Americas-2012-2016_KK_DB\.xlsx
+data/phylo-glm/origin-destin-tsv/pax-volume-snakecase\.tsv
