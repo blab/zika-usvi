@@ -38,7 +38,7 @@
 
 4) Import all origin-destination pair data from each of the `tsv` files, then make flattened matrices. _Note that matrix indexing for GLM predictor matrices is unique. We've accounted for this in our code_.
 
-5) Take natural log of all values in the matrix, then standardize the log transformed values by doing the following for each value in the matrix.
+5) Take ln of all values in the matrix, then standardize the log transformed values by doing the following for each value in the matrix. _Note that the predictor for latitudinal direction of ZIKV migration is not ln-transformed, but is still standardized._
 
 >(value - mean)/(standard deviation)
 
