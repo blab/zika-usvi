@@ -34,7 +34,7 @@
 
 2) All `tsv` files that are not pairwise, are collated within a single dataframe by left-joining on `indexed-countries-45.tsv`. This allows filtering out of countries that are not included in the analysis.
 
-3) Make pairwise-format `tsv` files from the non-pairwise data by assigning either the origin value to the destination value to all origin-destination pairs.
+3) Make pairwise-format `tsv` files from the non-pairwise data by assigning either the origin value to the destination value to all origin-destination pairs. These `tsv` files are the input files for making the predictor matrices. They are stored in the [`origin-destin-tsv` directory](origin-destin-tsv/).
 
 4) Import all origin-destination pair data from each of the `tsv` files, then make flattened matrices. _Note that matrix indexing for GLM predictor matrices is unique. We've accounted for this in our code_.
 
@@ -42,4 +42,4 @@
 
 >(value - mean)/(standard deviation)
 
-6) Export log-transformed and standardized flattened matrices to `tsv`.
+6) Export log-transformed and standardized flattened matrices to `tsv`. These tsv files can be directly copied and pasted into the BEAST xml file for the phylogeographic analysis. These `tsv` files are stored in the [`transformed-linearized-matrices` directory](transformed-linearized-matrices/) .
