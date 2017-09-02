@@ -102,3 +102,5 @@ data/glm/pax_volume_needNameFix\.tsv
 data/glm/origin-destin-formatted-data/pax-volume\.tsv
 
 data/glm/countries-without-pax-volume\.tsv
+
+data/glm/origin-destin-formatted-data/test-predictors\.tsv
