@@ -1,7 +1,0 @@
-origin	destination	great_circle_dist_km
-united_states	mexico	1922.06469663
-united_states	canada	1077.10699075
-mexico	united_states	1922.06469663
-mexico	canada	2997.40071088
-canada	united_states	1077.10699075
-canada	mexico	2997.40071088
