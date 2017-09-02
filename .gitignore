@@ -92,3 +92,13 @@ data/phylo-glm/origin-destin-tsv/pax_volume\.tsv
 scripts/zikamask2502\.tif
 
 data/phylo-glm/origin-destin-tsv/pax-volume\.tsv
+
+data/glm/standardized-data/std-pax-volume\.tsv
+
+data/glm/raw-data/Americas-to-Americas-2012-2016_KK_DB\.xlsx
+
+data/glm/pax_volume_needNameFix\.tsv
+
+data/glm/origin-destin-formatted-data/pax-volume\.tsv
+
+data/glm/countries-without-pax-volume\.tsv
