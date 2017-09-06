@@ -21,7 +21,7 @@ bangladesh	0.35035
 bulgaria	0.74266
 bahrain	0.88835
 bahamas	0.82951
-bosniaand_herzegovina	0.3994
+bosnia_herzegovina	0.3994
 belarus	0.77046
 belize	0.43845
 bermuda	1.0
@@ -33,7 +33,7 @@ bhutan	0.39377
 botswana	0.5771
 central_african_republic	0.40332
 canada	0.82006
-central_europeandthe_baltics	0.6245838614
+central_europebaltics	0.6245838614
 switzerland	0.7399
 channel_islands	0.31577
 chile	0.89697
@@ -122,7 +122,7 @@ kenya	0.26055
 kyrgyz_republic	0.3585
 cambodia	0.20945
 kiribati	0.44447
-saint_kitts_nevis	0.32153
+st._kitts_nevis	0.32153
 korea,_rep.	0.82592
 kuwait	0.98358
 latin_america&_caribbean(excludinghighincome)	0.7983025766
@@ -193,7 +193,7 @@ puerto_rico	0.93569
 korea,_dem._people’s_rep.	0.61048
 portugal	0.64017
 paraguay	0.59924
-west_bankand_gaza	0.75481
+west_bank_gaza	0.75481
 pacificislandsmallstates	0.3803060494
 postdemographicdividend	0.8120951351
 french_polynesia	0.55802
@@ -216,7 +216,7 @@ sub_saharan_africa(excludinghighincome)	0.3826626407
 south_sudan	0.1903
 sub_saharan_africa	0.3826772557
 smallstates	0.5461276641
-sao_tomeand_principe	0.65647
+sao_tome_principe	0.65647
 suriname	0.66015
 slovak_republic	0.53468
 slovenia	0.49627
@@ -250,7 +250,7 @@ uppermiddleincome	0.6504545862
 uruguay	0.9546
 united_states	0.81788
 uzbekistan	0.36479
-saint_vincent_grenadines	0.50899
+st._vincentgrenadines	0.50899
 venezuela	0.89043
 british_virgin_islands	0.46502
 united_states_virgin_islands	0.95459
