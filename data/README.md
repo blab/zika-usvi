@@ -31,5 +31,10 @@ USVI/1/2016 | VI1       | 2016-09-28      | usvi    | saint_croix | saint_croix 
 
     * `cd` into nextstrain-augur repo, then into `zika` directory.
     * Prepare for augur processing by running `python zika.prepare.py -v 0`. Default subsampling is turned off with `-v 0`.
-    * Process with augur by running `python zika.process.py --clean`. This does the tree building as well, which we do later in the analysis anyways, so I quit the augur processing once the alignment step has finished (e.g. when you move from `*** notification *** Running alignment` to `*** notification *** Building newick tree`).
+    * Process with augur by running `python zika.process.py --clean`. Allow augur to run fully to completion, which allows filtering of outlier clades, genomes with too much terminal branch length, or genomes that demonstrate large deviations from the molecular clock. This filtering of the alignment will occur after the alignment has been written to disk, hence why augur should be run to completion.
     * Alignment is written to `processed/zika_aligned_stripped.mfa`.
+    * As a QC step, you can visualize the augur-built trees via [auspice](https://github.com/nextstrain/auspice). Make sure the tree and the tmrca look appropriate. To visualize your augur build locally via auspice move JSONs from `augur/zika/auspice/` to `auspice/data/`, then do:
+
+      `npm install`
+
+      `npm run start:local` and visualize on local-host 4000.
