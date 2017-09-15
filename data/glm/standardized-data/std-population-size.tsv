@@ -1,9 +1,7 @@
 country	population_size
 samoa	200108
-wallis_futuna	15714
 kosovo	1895250
 tokelau	1285
-saint_kitts_nevis	52715
 united_states	326625791
 azerbaijan	9961396
 sint_maarten	42083
@@ -16,6 +14,7 @@ taiwan	23508428
 tajikistan	8468555
 timor_leste	1291358
 bhutan	758288
+bosniaand_herzegovina	3856181
 lithuania	2823859
 mongolia	3068243
 congo_republicofthe	4954674
@@ -31,10 +30,11 @@ australia	23232413
 cuba	11147407
 anguilla	17087
 zambia	15972000
-sao_tome_principe	201025
+trinidad_tobago	1218208
 guatemala	15460732
 zimbabwe	13805084
 belgium	11491346
+sao_tomeand_principe	201025
 haiti	10646714
 macau	601969
 kazakhstan	18556698
@@ -43,11 +43,13 @@ kyrgyzstan	5789122
 netherlands	17084719
 sierra_leone	6163195
 portugal	10839514
+turks_caicos_islands	52570
 denmark	5605948
 philippines	104256076
 montserrat	5292
 djibouti	865267
 moldova	3474121
+saint_kittsand_nevis	52715
 latvia	1944643
 croatia	4292095
 papua_new_guinea	6909701
@@ -58,9 +60,7 @@ bulgaria	7101510
 jamaica	2990561
 congo_democratic_republicofthe	83301151
 angola	29310273
-falkl_islands(_islas_malvinas)	2931
 brunei	443593
-saint_helena_ascension_tristanda_cunha	7828
 serbia	7111024
 malaysia	31381992
 mozambique	26573706
@@ -89,7 +89,7 @@ new_zealand	4510327
 korea_south	51181299
 china	1379302771
 armenia	3045191
-saint_pierre_miquelon	5533
+saint_pierreand_miquelon	5533
 korea_north	25248140
 iraq	39192111
 bermuda	70864
@@ -100,6 +100,7 @@ holy_see(_vatican_city)	1000
 south_africa	54841552
 oman	3424386
 finland	5518371
+wallisand_futuna	15714
 macedonia	2103721
 russia	142257519
 puerto_rico	3351827
@@ -116,7 +117,7 @@ romania	21529967
 seychelles	93920
 egypt	97041072
 guam	167358
-pitcairn_islands	54
+saint_helena_ascensionand_tristanda_cunha	7828
 svalbard	2667
 austria	8754413
 united_arab_emirates	6072475
@@ -148,7 +149,7 @@ bolivia	11138234
 malawi	19196246
 ecuador	16290913
 israel	8299706
-trinidad_tobago	1218208
+san_marino	33537
 albania	3047987
 ireland	5011102
 algeria	40969443
@@ -173,17 +174,18 @@ morocco	33986655
 sweden	9960487
 gabon	1772255
 saudi_arabia	28571770
+antigua_barbuda	94731
 mali	17885245
 grenada	111724
 yemen	28036829
 poland	38476269
 american_samoa	51504
 bahrain	1410942
+falkland_islands(_islas_malvinas)	2931
 united_states_virgin_islands	107268
 chad	12075985
 mexico	124574795
 india	1281935911
-san_marino	33537
 cabo_verde	560899
 paraguay	6943739
 belarus	9549747
@@ -195,7 +197,6 @@ el_salvador	6172011
 botswana	2214858
 mauritius	1356388
 italy	62137802
-bosnia_herzegovina	3856181
 cambodia	16204486
 ethiopia	105350020
 guyana	737718
@@ -214,7 +215,7 @@ coted'_ivoire	24184810
 slovenia	1972126
 honduras	9038741
 germany	80594017
-turks_caicos_islands	52570
+pitcairn_islands	54
 new_caledonia	279070
 dominica	73897
 gambia_the	2051363
@@ -229,7 +230,6 @@ cook_islands	9290
 curacao	149648
 liechtenstein	38244
 vietnam	96160163
-antigua_barbuda	94731
 guernsey	66502
 kuwait	2875422
 sri_lanka	22409381

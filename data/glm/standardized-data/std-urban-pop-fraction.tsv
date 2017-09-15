@@ -21,7 +21,7 @@ bangladesh	0.35035
 bulgaria	0.74266
 bahrain	0.88835
 bahamas	0.82951
-bosnia_herzegovina	0.3994
+bosniaand_herzegovina	0.3994
 belarus	0.77046
 belize	0.43845
 bermuda	1.0
@@ -193,7 +193,7 @@ puerto_rico	0.93569
 korea,_dem._people’s_rep.	0.61048
 portugal	0.64017
 paraguay	0.59924
-west_bank_gaza	0.75481
+west_bankand_gaza	0.75481
 pacificislandsmallstates	0.3803060494
 postdemographicdividend	0.8120951351
 french_polynesia	0.55802
@@ -216,7 +216,7 @@ sub_saharan_africa(excludinghighincome)	0.3826626407
 south_sudan	0.1903
 sub_saharan_africa	0.3826772557
 smallstates	0.5461276641
-sao_tome_principe	0.65647
+sao_tomeand_principe	0.65647
 suriname	0.66015
 slovak_republic	0.53468
 slovenia	0.49627
