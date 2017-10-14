@@ -3413,6 +3413,71 @@
 		<nodeHeights internalNodes="true" rootNode="true">
 			<parameter id="treeModel.allInternalNodeHeights"/>
 		</nodeHeights>
+
+		<!-- START Tip date sampling                                                 -->
+		<leafHeight taxon="Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil">
+			<parameter id="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique">
+			<parameter id="age(MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique)"/>
+		</leafHeight>
+		<leafHeight taxon="PRVABC59|2015-12-XX|north_america|puerto_rico">
+			<parameter id="age(PRVABC59|2015-12-XX|north_america|puerto_rico)"/>
+		</leafHeight>
+		<leafHeight taxon="Brazil/2016/ZBRY8|2016-01-XX|south_america|brazil">
+			<parameter id="age(Brazil/2016/ZBRY8|2016-01-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="HS_2015_BA_01|2015-08-XX|south_america|brazil">
+			<parameter id="age(HS_2015_BA_01|2015-08-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="EcEs089_16|2016-04-XX|south_america|ecuador">
+			<parameter id="age(EcEs089_16|2016-04-XX|south_america|ecuador)"/>
+		</leafHeight>
+		<leafHeight taxon="SPH2015|2015-03-XX|south_america|brazil">
+			<parameter id="age(SPH2015|2015-03-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="Brazil/PE243/2015|2015-XX-XX|south_america|brazil">
+			<parameter id="age(Brazil/PE243/2015|2015-XX-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="EcEs062_16|2016-04-XX|south_america|ecuador">
+			<parameter id="age(EcEs062_16|2016-04-XX|south_america|ecuador)"/>
+		</leafHeight>
+		<leafHeight taxon="PAN/BEI_259634_V4/2016|2016-XX-XX|north_america|panama">
+			<parameter id="age(PAN/BEI_259634_V4/2016|2016-XX-XX|north_america|panama)"/>
+		</leafHeight>
+		<leafHeight taxon="Brazil/2016/ZBRY10|2016-01-XX|south_america|brazil">
+			<parameter id="age(Brazil/2016/ZBRY10|2016-01-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="MEX_I_7|2015-11-XX|north_america|mexico">
+			<parameter id="age(MEX_I_7|2015-11-XX|north_america|mexico)"/>
+		</leafHeight>
+		<leafHeight taxon="Brazil/2016/ZBRY11|2016-01-XX|south_america|brazil">
+			<parameter id="age(Brazil/2016/ZBRY11|2016-01-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="Bahia02|2015-05-XX|south_america|brazil">
+			<parameter id="age(Bahia02|2015-05-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="Natal_RGN|2015-XX-XX|south_america|brazil">
+			<parameter id="age(Natal_RGN|2015-XX-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="Aedes_aegypti/MEX/MEX_I_44/2016|2016-XX-XX|north_america|mexico">
+			<parameter id="age(Aedes_aegypti/MEX/MEX_I_44/2016|2016-XX-XX|north_america|mexico)"/>
+		</leafHeight>
+		<leafHeight taxon="Bahia03|2015-05-XX|south_america|brazil">
+			<parameter id="age(Bahia03|2015-05-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="V17271|2015-12-XX|south_america|french_guiana">
+			<parameter id="age(V17271|2015-12-XX|south_america|french_guiana)"/>
+		</leafHeight>
+		<leafHeight taxon="Bahia01|2015-05-XX|south_america|brazil">
+			<parameter id="age(Bahia01|2015-05-XX|south_america|brazil)"/>
+		</leafHeight>
+		<leafHeight taxon="COL/FLR/2015|2015-12-XX|south_america|colombia">
+			<parameter id="age(COL/FLR/2015|2015-12-XX|south_america|colombia)"/>
+		</leafHeight>
+		<leafHeight taxon="Paraiba_01|2015-XX-XX|south_america|brazil">
+			<parameter id="age(Paraiba_01|2015-XX-XX|south_america|brazil)"/>
+		</leafHeight>
 	</treeModel>
 
 
@@ -3745,6 +3810,71 @@
 				<parameter idref="treeModel.allInternalNodeHeights"/>
 			</down>
 		</upDownOperator>
+
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(PRVABC59|2015-12-XX|north_america|puerto_rico)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Brazil/2016/ZBRY8|2016-01-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(HS_2015_BA_01|2015-08-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(EcEs089_16|2016-04-XX|south_america|ecuador)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(SPH2015|2015-03-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Brazil/PE243/2015|2015-XX-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(EcEs062_16|2016-04-XX|south_america|ecuador)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(PAN/BEI_259634_V4/2016|2016-XX-XX|north_america|panama)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Brazil/2016/ZBRY10|2016-01-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(MEX_I_7|2015-11-XX|north_america|mexico)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Brazil/2016/ZBRY11|2016-01-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Bahia02|2015-05-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Natal_RGN|2015-XX-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Aedes_aegypti/MEX/MEX_I_44/2016|2016-XX-XX|north_america|mexico)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Bahia03|2015-05-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(V17271|2015-12-XX|south_america|french_guiana)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Bahia01|2015-05-XX|south_america|brazil)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(COL/FLR/2015|2015-12-XX|south_america|colombia)"/>
+		</uniformOperator>
+		<uniformOperator weight="0.1">
+			<parameter idref="age(Paraiba_01|2015-XX-XX|south_america|brazil)"/>
+		</uniformOperator>
+
 	</operators>
 
 	<!-- Define MCMC                                                             -->
@@ -3885,6 +4015,31 @@
 			<gmrfSkyGridLikelihood idref="skygrid"/>
 		</log>
 
+		<!-- write tip dates to a separate log file than tree parameters                                                       -->
+		<log id="tipDatesLog" logEvery="100000" fileName="AmZika-StrictClock-SkyGrid100.tipDates.log" overwrite="false">
+			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
+			<parameter idref="age(MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique)"/>
+			<parameter idref="age(PRVABC59|2015-12-XX|north_america|puerto_rico)"/>
+			<parameter idref="age(Brazil/2016/ZBRY8|2016-01-XX|south_america|brazil)"/>
+			<parameter idref="age(HS_2015_BA_01|2015-08-XX|south_america|brazil)"/>
+			<parameter idref="age(EcEs089_16|2016-04-XX|south_america|ecuador)"/>
+			<parameter idref="age(SPH2015|2015-03-XX|south_america|brazil)"/>
+			<parameter idref="age(Brazil/PE243/2015|2015-XX-XX|south_america|brazil)"/>
+			<parameter idref="age(EcEs062_16|2016-04-XX|south_america|ecuador)"/>
+			<parameter idref="age(PAN/BEI_259634_V4/2016|2016-XX-XX|north_america|panama)"/>
+			<parameter idref="age(Brazil/2016/ZBRY10|2016-01-XX|south_america|brazil)"/>
+			<parameter idref="age(MEX_I_7|2015-11-XX|north_america|mexico)"/>
+			<parameter idref="age(Brazil/2016/ZBRY11|2016-01-XX|south_america|brazil)"/>
+			<parameter idref="age(Bahia02|2015-05-XX|south_america|brazil)"/>
+			<parameter idref="age(Natal_RGN|2015-XX-XX|south_america|brazil)"/>
+			<parameter idref="age(Aedes_aegypti/MEX/MEX_I_44/2016|2016-XX-XX|north_america|mexico)"/>
+			<parameter idref="age(Bahia03|2015-05-XX|south_america|brazil)"/>
+			<parameter idref="age(V17271|2015-12-XX|south_america|french_guiana)"/>
+			<parameter idref="age(Bahia01|2015-05-XX|south_america|brazil)"/>
+			<parameter idref="age(COL/FLR/2015|2015-12-XX|south_america|colombia)"/>
+			<parameter idref="age(Paraiba_01|2015-XX-XX|south_america|brazil)"/>
+		</log>
+		
 		<!-- write tree log to file                                                  -->
 		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-StrictClock-SkyGrid100-1Bstates.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
@@ -3894,6 +4049,40 @@
 			<posterior idref="posterior"/>
 		</logTree>
 	</mcmc>
+	
+	<!-- START Marginal Likelihood Estimator                                     -->
+
+	<!-- Define marginal likelihood estimator (PS/SS) settings                   -->
+	<marginalLikelihoodEstimator chainLength="5000000" pathSteps="100" pathScheme="betaquantile" alpha="0.3">
+		<samplers>
+			<mcmc idref="mcmc"/>
+		</samplers>
+		<pathLikelihood id="pathLikelihood">
+			<source>
+				<posterior idref="posterior"/>
+			</source>
+			<destination>
+				<prior idref="prior"/>
+			</destination>
+		</pathLikelihood>
+		<log id="MLELog" logEvery="1000" fileName="mlePSSS_Strict_SkyGrid.mle.log">
+			<pathLikelihood idref="pathLikelihood"/>
+		</log>
+	</marginalLikelihoodEstimator>
+
+	<!-- Path sampling estimator from collected samples                          -->
+	<pathSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
+		<likelihoodColumn name="pathLikelihood.delta"/>
+		<thetaColumn name="pathLikelihood.theta"/>
+	</pathSamplingAnalysis>
+
+	<!-- Stepping-stone sampling estimator from collected samples                -->
+	<steppingStoneSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
+		<likelihoodColumn name="pathLikelihood.delta"/>
+		<thetaColumn name="pathLikelihood.theta"/>
+	</steppingStoneSamplingAnalysis>
+
+	<!-- END Marginal Likelihood Estimator                                       -->
 	<report>
 		<property name="timer">
 			<mcmc idref="mcmc"/>
