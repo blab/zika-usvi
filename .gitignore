@@ -106,3 +106,5 @@ data/glm/countries-without-pax-volume\.tsv
 data/glm/origin-destin-formatted-data/test-predictors\.tsv
 
 data/fastas/published-sequences-in-analysis\.tsv
+
+beast/preliminary_files/
