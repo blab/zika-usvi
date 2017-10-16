@@ -3359,6 +3359,7 @@
 
 <!-- TREE BUILDING CODE BLOCKS -->
 
+	<!-- No codon partitioning for 5' UTR (nts 1 to 90 ,including 90)            -->
 	<patterns id="five_prime_utr.patterns" from="1" to="90" every="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
@@ -3400,6 +3401,7 @@
 		<taxa idref="taxa"/>
 		<constantSize idref="initialDemo"/>
 	</coalescentSimulator>
+
 
 	<!-- Generate a tree model                                                   -->
 	<treeModel id="treeModel">
@@ -3495,7 +3497,6 @@
 		<treeModel idref="treeModel"/>
 	</monophylyStatistic>
 
-
 	<!-- Generate a gmrfSkyGridLikelihood for the Bayesian SkyGrid process       -->
 	<gmrfSkyGridLikelihood id="skygrid">
 		<populationSizes>
@@ -3517,17 +3518,35 @@
 		</populationTree>
 	</gmrfSkyGridLikelihood>
 
-	<!-- The strict clock (Uniform rates across branches)                        -->
-	<strictClockBranchRates id="branchRates">
-		<rate>
-			<parameter id="clock.rate" value="1.0E-4" lower="0.0"/>
-		</rate>
-	</strictClockBranchRates>
+	<!-- The uncorrelated relaxed clock (Drummond, Ho, Phillips & Rambaut (2006) PLoS Biology 4, e88 )-->
+	<discretizedBranchRates id="branchRates">
+		<treeModel idref="treeModel"/>
+		<distribution>
+			<logNormalDistributionModel meanInRealSpace="true">
+				<mean>
+					<parameter id="ucld.mean" value="1.0E-4" lower="0.0"/>
+				</mean>
+				<stdev>
+					<parameter id="ucld.stdev" value="0.3333333333333333" lower="0.0"/>
+				</stdev>
+			</logNormalDistributionModel>
+		</distribution>
+		<rateCategories>
+			<parameter id="branchRates.categories"/>
+		</rateCategories>
+	</discretizedBranchRates>
 	<rateStatistic id="meanRate" name="meanRate" mode="mean" internal="true" external="true">
 		<treeModel idref="treeModel"/>
-		<strictClockBranchRates idref="branchRates"/>
+		<discretizedBranchRates idref="branchRates"/>
 	</rateStatistic>
-
+	<rateStatistic id="coefficientOfVariation" name="coefficientOfVariation" mode="coefficientOfVariation" internal="true" external="true">
+		<treeModel idref="treeModel"/>
+		<discretizedBranchRates idref="branchRates"/>
+	</rateStatistic>
+	<rateCovarianceStatistic id="covariance" name="covariance">
+		<treeModel idref="treeModel"/>
+		<discretizedBranchRates idref="branchRates"/>
+	</rateCovarianceStatistic>
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="cds.CP1.hky">
@@ -3679,6 +3698,7 @@
 		<parameter idref="three_prime_utr.mu"/>
 	</compoundParameter>
 
+
 	<!-- Likelihood for tree given sequence data                                 -->
 	<treeLikelihood id="cds.CP1.treeLikelihood" useAmbiguities="false">
 		<patterns idref="cds.CP1.patterns"/>
@@ -3754,7 +3774,7 @@
 		<deltaExchange delta="0.01" weight="1">
 			<parameter idref="three_prime_utr.frequencies"/>
 		</deltaExchange>
-
+		
 		<!-- Alpha operators, need for all codon positions and both UTRs-->
 		<scaleOperator scaleFactor="0.75" weight="1">
 			<parameter idref="cds.CP1.alpha"/>
@@ -3772,8 +3792,12 @@
 			<parameter idref="three_prime_utr.alpha"/>
 		</scaleOperator>
 		
+		
 		<scaleOperator scaleFactor="0.75" weight="3">
-			<parameter idref="clock.rate"/>
+			<parameter idref="ucld.mean"/>
+		</scaleOperator>
+		<scaleOperator scaleFactor="0.75" weight="3">
+			<parameter idref="ucld.stdev"/>
 		</scaleOperator>
 		<deltaExchange delta="0.75" parameterWeights="4454 4839 4839 4839 4454" weight="5">
 			<parameter idref="allMus"/>
@@ -3804,13 +3828,12 @@
 		</scaleOperator>
 		<upDownOperator scaleFactor="0.75" weight="3">
 			<up>
-				<parameter idref="clock.rate"/>
+				<parameter idref="ucld.mean"/>
 			</up>
 			<down>
 				<parameter idref="treeModel.allInternalNodeHeights"/>
 			</down>
 		</upDownOperator>
-
 		<uniformOperator weight="0.1">
 			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
 		</uniformOperator>
@@ -3875,10 +3898,16 @@
 			<parameter idref="age(Paraiba_01|2015-XX-XX|south_america|brazil)"/>
 		</uniformOperator>
 
+		<swapOperator size="1" weight="10" autoOptimize="false">
+			<parameter idref="branchRates.categories"/>
+		</swapOperator>
+		<uniformIntegerOperator weight="10">
+			<parameter idref="branchRates.categories"/>
+		</uniformIntegerOperator>
 	</operators>
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="1000000000" autoOptimize="true" operatorAnalysis="AmZika-StrictClock-SkyGrid100-1Bstates.ops">
+	<mcmc id="mcmc" chainLength="500000000" autoOptimize="true" operatorAnalysis="AmZika-UCLDClock-SkyGrid100.ops">
 		<posterior id="posterior">
 			<prior id="prior">
 				<booleanLikelihood>
@@ -3936,17 +3965,17 @@
 				</exponentialPrior>
 
 				<!-- Improper uniform prior: allMus                                          -->
-				<ctmcScalePrior>
-					<ctmcScale>
-						<parameter idref="clock.rate"/>
-					</ctmcScale>
-					<treeModel idref="treeModel"/>
-				</ctmcScalePrior>
+				<exponentialPrior mean="0.3333333333333333" offset="0.0">
+					<parameter idref="ucld.stdev"/>
+				</exponentialPrior>
+				<logNormalPrior mean="0.005" stdev="2.75" offset="0.0" meanInRealSpace="true">
+					<parameter idref="ucld.mean"/>
+				</logNormalPrior>
 				<gammaPrior shape="0.001" scale="1000.0" offset="0.0">
 					<parameter idref="skygrid.precision"/>
 				</gammaPrior>
 				<gmrfSkyGridLikelihood idref="skygrid"/>
-				<strictClockBranchRates idref="branchRates"/>
+				<discretizedBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
 				<treeLikelihood idref="cds.CP1.treeLikelihood"/>
@@ -3972,13 +4001,13 @@
 			<column label="rootHeight" sf="6" width="12">
 				<parameter idref="treeModel.rootHeight"/>
 			</column>
-			<column label="clock.rate" sf="6" width="12">
-				<parameter idref="clock.rate"/>
+			<column label="ucld.mean" sf="6" width="12">
+				<parameter idref="ucld.mean"/>
 			</column>
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="100000" fileName="AmZika-StrictClock-SkyGrid100-1Bstates.log" overwrite="false">
+		<log id="fileLog" logEvery="100000" fileName="AmZika-UCLDClock-SkyGrid100.log" overwrite="false">
 			<posterior idref="posterior"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -4003,20 +4032,23 @@
 			<parameter idref="five_prime_utr.alpha"/>
 			<parameter idref="three_prime_utr.alpha"/>
 			<compoundParameter idref="allMus"/>
-			<parameter idref="clock.rate"/>
+			<parameter idref="ucld.mean"/>
+			<parameter idref="ucld.stdev"/>
 			<rateStatistic idref="meanRate"/>
+			<rateStatistic idref="coefficientOfVariation"/>
+			<rateCovarianceStatistic idref="covariance"/>
 			<treeLikelihood idref="cds.CP1.treeLikelihood"/>
 			<treeLikelihood idref="cds.CP2.treeLikelihood"/>
 			<treeLikelihood idref="cds.CP3.treeLikelihood"/>
 			<treeLikelihood idref="five_prime_utr.treeLikelihood"/>
 			<treeLikelihood idref="three_prime_utr.treeLikelihood"/>
-			<strictClockBranchRates idref="branchRates"/>
+			<discretizedBranchRates idref="branchRates"/>
 			<gmrfSkyrideLikelihood idref="skygrid"/>
 			<gmrfSkyGridLikelihood idref="skygrid"/>
 		</log>
 
 		<!-- write tip dates to a separate log file than tree parameters                                                       -->
-		<log id="tipDatesLog" logEvery="100000" fileName="AmZika-StrictClock-SkyGrid100.tipDates.log" overwrite="false">
+		<log id="tipDatesLog" logEvery="100000" fileName="AmZika-UCLDClock-SkyGrid.tipDates.log" overwrite="false">
 			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
 			<parameter idref="age(MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique)"/>
 			<parameter idref="age(PRVABC59|2015-12-XX|north_america|puerto_rico)"/>
@@ -4041,15 +4073,14 @@
 		</log>
 		
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-StrictClock-SkyGrid100-1Bstates.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-UCLDClock-SkyGrid100.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
-				<strictClockBranchRates idref="branchRates"/>
+				<discretizedBranchRates idref="branchRates"/>
 			</trait>
 			<posterior idref="posterior"/>
 		</logTree>
 	</mcmc>
-	
 	<!-- START Marginal Likelihood Estimator                                     -->
 
 	<!-- Define marginal likelihood estimator (PS/SS) settings                   -->
@@ -4065,24 +4096,25 @@
 				<prior idref="prior"/>
 			</destination>
 		</pathLikelihood>
-		<log id="MLELog" logEvery="1000" fileName="mlePSSS_Strict_SkyGrid.mle.log">
+		<log id="MLELog" logEvery="1000" fileName="mlePSSS_UCLD_SkyGrid.mle.log">
 			<pathLikelihood idref="pathLikelihood"/>
 		</log>
 	</marginalLikelihoodEstimator>
 
 	<!-- Path sampling estimator from collected samples                          -->
-	<pathSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
+	<pathSamplingAnalysis fileName="mlePSSS_UCLD_SkyGrid.mle.log">
 		<likelihoodColumn name="pathLikelihood.delta"/>
 		<thetaColumn name="pathLikelihood.theta"/>
 	</pathSamplingAnalysis>
 
 	<!-- Stepping-stone sampling estimator from collected samples                -->
-	<steppingStoneSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
+	<steppingStoneSamplingAnalysis fileName="mlePSSS_UCLD_SkyGrid.mle.log">
 		<likelihoodColumn name="pathLikelihood.delta"/>
 		<thetaColumn name="pathLikelihood.theta"/>
 	</steppingStoneSamplingAnalysis>
 
 	<!-- END Marginal Likelihood Estimator                                       -->
+
 	<report>
 		<property name="timer">
 			<mcmc idref="mcmc"/>

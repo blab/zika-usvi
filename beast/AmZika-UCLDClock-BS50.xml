@@ -3903,7 +3903,7 @@
 	</operators>
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="1000000000" autoOptimize="true" operatorAnalysis="AmZika-UCLDClock-BS50-1Bstates.ops">
+	<mcmc id="mcmc" chainLength="500000000" autoOptimize="true" operatorAnalysis="AmZika-UCLDClock-BS50.ops">
 		<posterior id="posterior">
 			<prior id="prior">
 				<booleanLikelihood>
@@ -4005,7 +4005,7 @@
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="100000" fileName="AmZika-UCLDClock-BS50-1Bstates.log" overwrite="false">
+		<log id="fileLog" logEvery="100000" fileName="AmZika-UCLDClock-BS50.log" overwrite="false">
 			<posterior idref="posterior"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -4069,7 +4069,7 @@
 		</log>
 		
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-UCLDClock-BS50-1Bstates.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-UCLDClock-BS50.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<discretizedBranchRates idref="branchRates"/>
