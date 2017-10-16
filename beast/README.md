@@ -11,4 +11,6 @@ Step by step of how to run:
 
 3) Run `python make_command_files.py` to make a shell script for each job you're submitting. _The reason I'm doing this is because the wrap script for sbatch doesn't like the beast command arguments. The beast command is in shell script, and the shell script gets passed to the sbatch command._
 
-3) Run `python run_command_files.py` to submit each of the jobs to Rhino via slurm.
+3) Run `chmod 777 *.sh` to ensure that all of the shell files are executable.
+
+4) Run `python run_command_files.py` to submit each of the jobs to Rhino via slurm.
