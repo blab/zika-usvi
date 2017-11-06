@@ -7,8 +7,6 @@
 <!--       David Geffen School of Medicine, University of California, Los Angeles-->
 <!--       http://beast.bio.ed.ac.uk/                                        -->
 <beast>
-
-<!-- TAXA AND ALIGNMENT CODE BLOCKS -->
 	<taxa id="taxa">
 		<taxon id="BRA/2016/FC_DQ107D1|2016-04-13|south_america|brazil">
 			<date value="2016.2814207650274" direction="forwards" units="years"/>
@@ -238,7 +236,7 @@
 		<taxon id="USA/2016/FL029|2016-08-01|north_america|usa">
 			<date value="2016.5819672131147" direction="forwards" units="years"/>
 		</taxon>
-		<taxon id="USIV/35/2016|2016-09-08|north_america|usvi">
+		<taxon id="USVI/35/2016|2016-09-08|north_america|usvi">
 			<date value="2016.6857923497269" direction="forwards" units="years"/>
 		</taxon>
 		<taxon id="Bahia07|2015-07-01|south_america|brazil">
@@ -1001,7 +999,7 @@
 		<taxon idref="USA/2016/Hu0015SA|2016-08-24|north_america|usa"/>
 		<taxon idref="USA/2016/MA_WGS16_034|2016-08-15|north_america|usa"/>
 		<taxon idref="USA/UT_1/2016|2016-01-01|north_america|mexico"/>
-		<taxon idref="USIV/35/2016|2016-09-08|north_america|usvi"/>
+		<taxon idref="USVI/35/2016|2016-09-08|north_america|usvi"/>
 		<taxon idref="USVI/1/2016|2016-09-28|north_america|usvi"/>
 		<taxon idref="USVI/11/2016|2016-03-22|north_america|usvi"/>
 		<taxon idref="USVI/12/2016|2016-11-04|north_america|usvi"/>
@@ -1729,7 +1727,7 @@
 			CTGTGCCAGTTGACTGGGTTCCAACTGGGAGAACTACCTGGTCAATCCATGGAAAGGGAGAATGGATGACCATTGAAGACATGCTTGTGGTGTGGAACAGAGTGTGGATTGAGGAGAACGACCACATGGAAGACAAGACCCCAGTTACGAAATGGACAGACATTCCCTATTTGGGAAAAAGGGAAGACTTGTGGTGTGGATCTCTCATAGGGCACAGACCGCGCACCACCTGGGCTGAGAACATTAAAAACACAGTCAACATGGTGCGCAGGATCATAGGTGAGGAAGAAAAGTACATGGACTACCTATCCACCCAAGTCCGCTACTTGGGTGAAGAAGGGTCTACACCTGGAGTGCTGTAAGCACCAATCTTAATGTTGTCAGGCCTGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 		</sequence>
 		<sequence>
-			<taxon idref="USIV/35/2016|2016-09-08|north_america|usvi"/>
+			<taxon idref="USVI/35/2016|2016-09-08|north_america|usvi"/>
 			NNNNNNNNNNNNGACAGTTCGAGTTTGAAGCGAAAGCTAGCAACAGTATCAACAGGTTTTATTTGGATTTGGAAACGAGAGTTTCTGGTCATGAAAAACCCAAAAAAGAAATCCGGAGGATTCCGGATTGTCAATATGCTAAAACGCGGAGTAGCCCGTGTGAGCCCCTTTGGGGGCTTGAAGAGGCTGCCAGCCGGACTTCTGCTGGGTCATGGGCCCATCAGGATGGTCTTGGCGATTCTAGCCNTTTTGAGATTCACGGCAATCAAGCCATCACTGGGTCTCATCAATAGATGGGGTTCAGTGGGGAAAAAAGAGGCTATGGAAACAATAAAGAAGTTCAAGAAAGATCTGGCTGCCATGCTGAGAATTATCAATGCTAGGAAGGAGAAGAAGAGACGGGGCGCAGATACTAGTGTCGGAATTGTTGGCCTCCTGCTGACCACAGCTATGGCAGCGGAGGTCACTAGACGTGGGAGTGCATACTATATGTACTTGGACAGAAACGATGCTGGGGAGGCCATATCTTTTCCAACCACATTGGGGATGAATAAGTGTTATATACAGATCATGGATCTTGGACACATGTGTGATGCCACCATGAGCTATGAATGCCCTATGCTGGATGANGGGGTGGAACCAGATGACGTCGATTGTTGGTGCAACACGACGTCAACTTGGGTTGTGTACGGAACCTGCCATCACAAAAAAGGTGAAGCACGGAGATCTAGAAGAGCTGTGACGCTNCCCTCCCATTCCACCAGGAAGCTGCAAACGCGGTCGCAAACCTGGTTGGAATCAAGAGAATACACAAAGCACTTGATTAGAGTCGAAAATTGGATATTCAGGAACCCTGGCTTCGCGTTAGCAGCAGCTGCCATCGCTTGGCTTTTGGGAAGCTCAACGAGCCAAAAAGTCATATACTTGGTCATGATACTGCTGATTGCCCCGGCATACAGCATCAGGTGCATAGGAGTCAGCAATAGGGACTTTGTGGAAGGTATGTCAGGTGGGACTTGGGTTGATGTTGTCTTGGAACATGGAGGTTGTGTCACCGTAATGGCACAGGACAAACCGACTGTCGACATAGAGCTGGTTACAACAACAGTCAGCAACATGGCGGAGGTAAGATCCTACTGCTATGAGGCATCAATATCAGACATGGCTTCTGACAGCCGCTGCCCAACACAAGGTGAAGCCTACCTTGACAAGCAATCAGACACTCAATATGTCTGCAAAAGAACGTTAGTGGACAGAGGCTGGGGAAATGGATGTGGACTTTTTGGCAAAGGGAGCCTGGTGACATGCGCTAAGTTTGCATGCTCCAAGAAAATGACCGGGAAGAGCATCCAGCCAGAGAATCTGGAGTACCGGATAATGCTGTCAGTTCATGGCTCCCAGCACAGTGGGATGATCGTTAATGACACAGGACATGAAACTGATGAGAATAGAGCGAAAGTTGAGATAACGCCCAATTCACCGAGAGCCGAAGCCACCCTGGGGGGTTTTGGAAGCCTAGGACTTGATTGTGAACCGAGGACAGGCCTTGACTTTTCAGATTTGTATTACTTGACTATGAATAACAAGCACTGGTTGGTTCACAAGGAGTGGTTCCACGACATTCCATTACCTTGGCACGCTGGGGCAGACACCGGAACTCCACACTGGAACAACAAAGAAGCACTGGTAGAGTTCAAGGACGCACATGCCAAAAGGCAAACTGTCGTGGTTCTAGGGAGTCAAGAAGGAGCAGTTCACACGGCCCTTGCTGGAGCTCTGGAGGCTGAGATGGATGGTGCAAAGGGAAGGCTGTCCTCTGGCCACTTGAAATGTCGTCTGAAAATGGATAAACTTAGATTGAAGGGCGTGTCATACTCCTTGTGTACTGCAGCGTTCACATTCACCAAGATCCCGGCTGAAACACTGCACGGGACAGTCACAGTGGAGGTACAGTACGCAGGGACAGATGGACCCTGCAAGGTTCCAGCTCAGATGGCGGT
 			GGACATGCAAACTCTGACCCCAGTTGGGAGGTTGATAACCGCTAACCCCGTAATCACTGAAAGCACTGAGAACTCTAAGATGATGCTGGAACTTGATCCACCATTTGGGGACTCTTACATTGTCATAGGAGTCGGGGAGAAGAAGATCACCCACCACTGGCACAGGAGTGGCAGCACCATTGGAAAAGCATTTGAAGCCACTGTGAGAGGTGCCAAGAGAATGGCAGTCTTGGGAGACACAGCCTGGGACTTTGGATCAGTTGGAGGTGCTCTCAACTCATTGGGCAAGGGCATCCATCAAATTTTTGGAGCAGCTTTCAAATCATTGTTTGGAGGAATGTCCTGGTTCTCACAAATTCTCATTGGAACGTTGCTGATGTGGTTGGGTCTGAACACAAAGAATGGATCTATTTCCCTTATGTGCTTGGCCTTANGGGGAGTGTTGATCTTCTTATCCACAGCCGTCTCTGCTGATGTGGGGTGCTCGGTGGACTTCTCAAAGAAGGAGACGAGATGCGGTACAGGGGTGTTCGTCTATAACGACGTTGAAGCCTGGAGGGACAGGTACAAGTACCATCCTGACTNCCCCCGTAGATTGGCAGCAGCAGTCAAGCAAGCCTGGGAAGATGGTATCTGCGGGATCTCCTCTGTTTCAAGAATGGAAAACATCATGTGGAGATCAGTAGAAGGGGAGCTCAACGCAATCCTGGAAGAGAATGGAGTTCAACTGACGGTCGTTGTGGGATCTGTAAAAAACCCCATGTGGAGAGGTCCACAGAGATTGCCCGTGCCTGTGAACGAGCTGCCCCACGGCTGGAAGGCTTGGGGNAAATCGTACTTCGTCAGAGCAGCAAAGACAAATAACAGCTTTGTCGTGGATGGTGACACACTGAAGGAATGCCCACTCAAACATAGAGCATGGAACAGCTTTCTTGTGGAGGATCATGGGTTCGGGGTATTTCACACTAGTGTCTGGCTCAAGGTTAGAGAAGATTATTCATTAGAGTGTGATCCAGCCGTTATTGGAACAGCTGTTAAGGGAAAGGAGGCTGTACACAGTGATCTAGGCTACTGGATTGAGAGTGAGAAGAATGACACATGGAGGCTGAAGAGGGCCCATCTGATCGAGATGAAAACATGTGAATGGCCAAAGTCCCACACATTGTGGACAGATGGAATAGAAGAGAGTGATCTGATCATACCCAAGTCTTTAGCTGGGCCACTCAGCCATCACAATACCAGAGAGGGCTACAGGACCCAAATGAAAGGGCCATGGCACAGTGAAGAGCTTGAAATTCGGTTTGAGGAATGCCCAGGCACTAAGGTCCACGTGGAGGAAACATGTGGAACAAGAGGACCATCTCTGAGATCAACCACTGCAAGCGGAAGGGTGATCGAGGAATGGTGCTGCAGGGAGTGCACAATGCCCCCACTGTCGTTCCGGGCTAAAGATGGCTGTTGGTATGGAATGGAGATAAGGCCCAGGAAAGAACCAGAAAGCAACTTAGTAAGGTCAATGGTGACTGCAGGATCAACTGATCACATGGACCACTTCTCCCTTGGAGTGCTTGTGATCCTGCTCATGGTGCAGGAAGGGCTGAAGAAGAGAATGACCACAAAGATCATCATAAGCACATCAATGGCAGTGCTGGTAGCTATGATCCTGGGAGGATTTTCAATGAGTGACCTGGCTAAGCTTGCAATTTTGATGGGTGCCACCTTCGCGGAAATGAACACTGGAGGAGATGTAGCTCATCTGGCGCTGATAGCGGCATTCAAAGTCAGACCAGCGTTGCTGGTATCTTTCATCTTCAGAGCTAATTGGACACCCCGTGAAAGCATGCTGCTGGCCTTGGCCTCGTGTCTTTTGCAAACTGCGATCTCCGCCTTGGAAGGCGACCTGATGGTTCTCATCAATGGTTTTGCTTTGGCCTGGTTGGCAATACGAGCGATGGTTGTTCCACGCACTGATAACATCACCTTGGCAATCCTGGCTGCTC
 			TGACACCACTGGCCCGGGGCACACTGCTTGTGGCGTGGAGAGCAGGCCTTGCTACTTGCGGGGGGTTTATGCTCCTCTCTCTGAAGGGAAAAGGCAGTGTGAAGAAGAACTTACCATTTGTCATGGCCCTGGGACTAACCGCTGTGAGGCTGGTCGACCCCATCAACGTGGTGGGACTGCTGTTGCTCACAAGGAGTGGGAAGCGGAGCTGGCCCCCTAGCGAAGTACTCACAGCTGTTGGCCTGATATGCGCATTGGCTGGAGGGTTCGCCAAGGCAGATATAGAGATGGCTGGGCCCATGGCCGCGGTCGGTCTGCTAATTGTCAGTTACGTGGTCTCAGGAAAGAGTGTGGACATGTACATTGAAAGAGCAGGTGACATCACATGGGAAAAAGATGCGGAAGTTACTGGAAACAGTCCCCGGCTCGATGTGGCGCTAGATGAGAGTGGTGATTTCTCCCTGGTGGAGGATGACGGTNCCCCCATGAGAGAGATCATACTCAAGGTGGTCCTGATGACCATCTGTGGCATGAACCCAATAGCCATACCCTTTGCAGCTGGAGCGTGGTACGTATACGTGAAGACTGGAAAAAGGAGTGGTGCTCTATGGGATGTGCCTGCTCCCAAGGAAGTAAAAAANGGGGAGACCACAGATGGAGTGTACAGAGTAATGACTCGTAGACTGCTAGGTTCAACACAAGTTGGAGTGGGAGTTATGCAAGANGGGGTCTTTCACACTATGTGGCACGTCACAAAAGGATCCGCGCTGAGAAGCGGTGAAGGGAGACTTGATCCATACTGGGGAGATGTCAAGCAGGATCTGGTGTCATACTGTGGTCCATGGAAGCTAGATGCCGCCTGGGATGGGCACAGCGAGGTGCAGCTCTTGGCCGTGCCCCCCGGAGAGAGAGCGAGGAACATCCAGACTCTGCCCGGAATATTTAAGACAAAGGATGGGGACATTGGAGCGGTTGCGCTGGATTACCCAGCAGGAACTTCAGGATCTCCAATCCTAGACAAGTGTGGGAGAGTGATAGGACTTTATGGCAATGGGGTCGTGATCAAAAACGGGAGTTATGTTAGTGCCATCACCCAAGGGAGGAGGGAGGAAGAGACTCCTGTTGAGTGCTTCGAGCCCTCGATGCTGAAGAAGAAGCAGCTAACTGTCTTAGACTTGCATCCTGGAGCTGGGAAAACCAGGAGAGTTCTTCCTGAAATAGTCCGTGAAGCCATAAAAACAAGACTCCGTACTGTGATCTTAGCTCCAACCAGGGTTGTCGCTGCTGAAATGGAGGAGGCCCTTAGAGGGCTTCCAGTGCGTTATATGACAACAGCAGTCAATGTCACCCACTCTGGAACAGAAATCGTCGACTTAATGTGCCATGCCACCTTCACTTCACGTCTACTACAGCCAATCAGAGTCCCCAACTATAATCTGTATATTATGGATGAGGCCCACTTCACAGATCCCTCAAGTATAGCAGCAAGAGGATACATTTCAACAAGGGTTGAGATGGGCGAGGCGGCTGCCATCTTCATGACTGCCACGCCACCAGGAACCCGTGACGCATTTCCGGACTCCAACTCACCAATTATGGACACCGAAGTGGAAGTCCCAGAGAGAGCCTGGAGCTCAGGCTTTGATTGGGTGACGGATCATTCTGGAAAAACAGTTTGGTTTGTTCCAAGCGTGAGGAACGGCAATGAGATCGCAGCTTGTCTGACAAAGGCTGGAAAACGGGTCATACAGCTCAGCAGAAAGACTTTTGAGACAGAGTTCCAGAAAACAAAACATCAAGAGTGGGACTTTGTCGTGACAACTGACATTTCAGAGATGGGCGCCAACTTTAAAGCTGACCGTGTCATAGATTCCAGGAGATGCCTAAAGCCGGTCATACTTGATGGCGAGAGAGTCATTCTGGCTGGACCCATGCCTGTCACACATGCCAGCGCTGCCCAGAGGAGGGGGCGCATAGGCAGGAATCCCAACAAACCTGGA
@@ -3359,10 +3357,8 @@
 		</sequence>
 	</alignment>
 
-
 <!-- TREE BUILDING CODE BLOCKS -->
 
-	<!-- No codon partitioning for 5' UTR (nts 1 to 90 ,including 90)            -->
 	<patterns id="five_prime_utr.patterns" from="1" to="90" every="1" strip="false">
 		<alignment idref="alignment"/>
 	</patterns>
@@ -3484,6 +3480,7 @@
 		</leafHeight>
 	</treeModel>
 
+
 	<!-- Taxon Sets                                                              -->
 	<tmrcaStatistic id="tmrca(americas)" includeStem="true">
 		<mrca>
@@ -3499,23 +3496,26 @@
 	</monophylyStatistic>
 
 
-	<!-- Generate a generalizedSkyLineLikelihood for Bayesian Skyline            -->
-	<generalizedSkyLineLikelihood id="skyline" linear="false">
+	<!-- Generate a gmrfSkyGridLikelihood for the Bayesian SkyGrid process       -->
+	<gmrfSkyGridLikelihood id="skygrid">
 		<populationSizes>
-			<parameter id="skyline.popSize" dimension="50" value="1.0" lower="0.0"/>
+
+			<!-- skygrid.logPopSize is in log units unlike other popSize                 -->
+			<parameter id="skygrid.logPopSize" dimension="100" value="1.0"/>
 		</populationSizes>
-		<groupSizes>
-			<parameter id="skyline.groupSize" dimension="50"/>
-		</groupSizes>
+		<precisionParameter>
+			<parameter id="skygrid.precision" value="0.1" lower="0.0"/>
+		</precisionParameter>
+		<numGridPoints>
+			<parameter id="skygrid.numGridPoints" value="99.0"/>
+		</numGridPoints>
+		<cutOff>
+			<parameter id="skygrid.cutOff" value="4.0"/>
+		</cutOff>
 		<populationTree>
 			<treeModel idref="treeModel"/>
 		</populationTree>
-	</generalizedSkyLineLikelihood>
-	<exponentialMarkovLikelihood id="eml1" jeffreys="true">
-		<chainParameter>
-			<parameter idref="skyline.popSize"/>
-		</chainParameter>
-	</exponentialMarkovLikelihood>
+	</gmrfSkyGridLikelihood>
 
 	<!-- The strict clock (Uniform rates across branches)                        -->
 	<strictClockBranchRates id="branchRates">
@@ -3527,6 +3527,7 @@
 		<treeModel idref="treeModel"/>
 		<strictClockBranchRates idref="branchRates"/>
 	</rateStatistic>
+
 
 	<!-- The HKY substitution model (Hasegawa, Kishino & Yano, 1985)             -->
 	<HKYModel id="cds.CP1.hky">
@@ -3719,7 +3720,7 @@
 	</treeLikelihood>
 
 	<!-- Define operators                                                        -->
-	<operators id="operators" optimizationSchedule="default">
+	<operators id="operators" optimizationSchedule="log">
 	<!-- Kappa operators, need for all codon positions and both UTRs-->
 		<scaleOperator scaleFactor="0.75" weight="1">
 			<parameter idref="cds.CP1.kappa"/>
@@ -3753,7 +3754,7 @@
 		<deltaExchange delta="0.01" weight="1">
 			<parameter idref="three_prime_utr.frequencies"/>
 		</deltaExchange>
-		
+
 		<!-- Alpha operators, need for all codon positions and both UTRs-->
 		<scaleOperator scaleFactor="0.75" weight="1">
 			<parameter idref="cds.CP1.alpha"/>
@@ -3770,7 +3771,7 @@
 		<scaleOperator scaleFactor="0.75" weight="1.0">
 			<parameter idref="three_prime_utr.alpha"/>
 		</scaleOperator>
-
+		
 		<scaleOperator scaleFactor="0.75" weight="3">
 			<parameter idref="clock.rate"/>
 		</scaleOperator>
@@ -3795,12 +3796,12 @@
 		<uniformOperator weight="30">
 			<parameter idref="treeModel.internalNodeHeights"/>
 		</uniformOperator>
-		<scaleOperator scaleFactor="0.75" weight="15">
-			<parameter idref="skyline.popSize"/>
+		<gmrfGridBlockUpdateOperator scaleFactor="1.0" weight="2">
+			<gmrfSkyrideLikelihood idref="skygrid"/>
+		</gmrfGridBlockUpdateOperator>
+		<scaleOperator scaleFactor="0.75" weight="1">
+			<parameter idref="skygrid.precision"/>
 		</scaleOperator>
-		<deltaExchange delta="1" integer="true" weight="6" autoOptimize="false">
-			<parameter idref="skyline.groupSize"/>
-		</deltaExchange>
 		<upDownOperator scaleFactor="0.75" weight="3">
 			<up>
 				<parameter idref="clock.rate"/>
@@ -3809,7 +3810,7 @@
 				<parameter idref="treeModel.allInternalNodeHeights"/>
 			</down>
 		</upDownOperator>
-		
+
 		<uniformOperator weight="0.1">
 			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
 		</uniformOperator>
@@ -3876,10 +3877,8 @@
 
 	</operators>
 
-<!-- MCMC, PRIORS, AND LIKELIHOOD CODE BLOCKS -->
-
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="500000000" autoOptimize="true" operatorAnalysis="AmZika-StrictClock-BS50.ops">
+	<mcmc id="mcmc" chainLength="200000000" autoOptimize="true" operatorAnalysis="AmZika-StrictClock-SkyGrid100.ops">
 		<posterior id="posterior">
 			<prior id="prior">
 				<booleanLikelihood>
@@ -3935,7 +3934,7 @@
 				<exponentialPrior mean="0.5" offset="0.0">
 					<parameter idref="three_prime_utr.alpha"/>
 				</exponentialPrior>
-				
+
 				<!-- Improper uniform prior: allMus                                          -->
 				<ctmcScalePrior>
 					<ctmcScale>
@@ -3943,11 +3942,10 @@
 					</ctmcScale>
 					<treeModel idref="treeModel"/>
 				</ctmcScalePrior>
-				<uniformPrior lower="0.0" upper="1.0E100">
-					<parameter idref="skyline.popSize"/>
-				</uniformPrior>
-				<generalizedSkyLineLikelihood idref="skyline"/>
-				<exponentialMarkovLikelihood idref="eml1"/>
+				<gammaPrior shape="0.001" scale="1000.0" offset="0.0">
+					<parameter idref="skygrid.precision"/>
+				</gammaPrior>
+				<gmrfSkyGridLikelihood idref="skygrid"/>
 				<strictClockBranchRates idref="branchRates"/>
 			</prior>
 			<likelihood id="likelihood">
@@ -3980,14 +3978,15 @@
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="100000" fileName="AmZika-StrictClock-BS50.log" overwrite="false">
+		<log id="fileLog" logEvery="100000" fileName="AmZika-StrictClock-SkyGrid100.log" overwrite="false">
 			<posterior idref="posterior"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
 			<parameter idref="treeModel.rootHeight"/>
 			<tmrcaStatistic idref="tmrca(americas)"/>
-			<parameter idref="skyline.popSize"/>
-			<parameter idref="skyline.groupSize"/>
+			<parameter idref="skygrid.precision"/>
+			<parameter idref="skygrid.logPopSize"/>
+			<parameter idref="skygrid.cutOff"/>
 			<parameter idref="cds.CP1.kappa"/>
 			<parameter idref="cds.CP2.kappa"/>
 			<parameter idref="cds.CP3.kappa"/>
@@ -4012,11 +4011,12 @@
 			<treeLikelihood idref="five_prime_utr.treeLikelihood"/>
 			<treeLikelihood idref="three_prime_utr.treeLikelihood"/>
 			<strictClockBranchRates idref="branchRates"/>
-			<generalizedSkyLineLikelihood idref="skyline"/>
+			<gmrfSkyrideLikelihood idref="skygrid"/>
+			<gmrfSkyGridLikelihood idref="skygrid"/>
 		</log>
 
 		<!-- write tip dates to a separate log file than tree parameters                                                       -->
-		<log id="tipDatesLog" logEvery="100000" fileName="AmZika-StrictClock-BS50.tipDates.log" overwrite="false">
+		<log id="tipDatesLog" logEvery="100000" fileName="AmZika-StrictClock-SkyGrid100.tipDates.log" overwrite="false">
 			<parameter idref="age(Brazil/2016/ZBRY7|2016-01-XX|south_america|brazil)"/>
 			<parameter idref="age(MRS_OPY_Martinique_PaRi_2015|2015-12-XX|north_america|martinique)"/>
 			<parameter idref="age(PRVABC59|2015-12-XX|north_america|puerto_rico)"/>
@@ -4039,10 +4039,9 @@
 			<parameter idref="age(COL/FLR/2015|2015-12-XX|south_america|colombia)"/>
 			<parameter idref="age(Paraiba_01|2015-XX-XX|south_america|brazil)"/>
 		</log>
-
-
+		
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-StrictClock-BS50.trees" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="AmZika-StrictClock-SkyGrid100.trees" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="rate">
 				<strictClockBranchRates idref="branchRates"/>
@@ -4054,7 +4053,7 @@
 	<!-- START Marginal Likelihood Estimator                                     -->
 
 	<!-- Define marginal likelihood estimator (PS/SS) settings                   -->
-	<marginalLikelihoodEstimator chainLength="5000000" pathSteps="100" pathScheme="betaquantile" alpha="0.3">
+	<marginalLikelihoodEstimator chainLength="2000000" pathSteps="100" pathScheme="betaquantile" alpha="0.3">
 		<samplers>
 			<mcmc idref="mcmc"/>
 		</samplers>
@@ -4066,26 +4065,24 @@
 				<prior idref="prior"/>
 			</destination>
 		</pathLikelihood>
-		<log id="MLELog" logEvery="1000" fileName="mlePSSS_Strict_BS50.mle.log">
+		<log id="MLELog" logEvery="1000" fileName="mlePSSS_Strict_SkyGrid.mle.log">
 			<pathLikelihood idref="pathLikelihood"/>
 		</log>
 	</marginalLikelihoodEstimator>
 
 	<!-- Path sampling estimator from collected samples                          -->
-	<pathSamplingAnalysis fileName="mlePSSS_Strict_BS50.mle.log">
+	<pathSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
 		<likelihoodColumn name="pathLikelihood.delta"/>
 		<thetaColumn name="pathLikelihood.theta"/>
 	</pathSamplingAnalysis>
 
 	<!-- Stepping-stone sampling estimator from collected samples                -->
-	<steppingStoneSamplingAnalysis fileName="mlePSSS_Strict_BS50.mle.log">
+	<steppingStoneSamplingAnalysis fileName="mlePSSS_Strict_SkyGrid.mle.log">
 		<likelihoodColumn name="pathLikelihood.delta"/>
 		<thetaColumn name="pathLikelihood.theta"/>
 	</steppingStoneSamplingAnalysis>
 
 	<!-- END Marginal Likelihood Estimator                                       -->
-
-
 	<report>
 		<property name="timer">
 			<mcmc idref="mcmc"/>
