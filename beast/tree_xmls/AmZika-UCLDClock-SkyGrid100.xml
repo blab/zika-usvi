@@ -3799,7 +3799,7 @@
 		<scaleOperator scaleFactor="0.75" weight="3">
 			<parameter idref="ucld.stdev"/>
 		</scaleOperator>
-		<deltaExchange delta="0.75" parameterWeights="4454 4839 4839 4839 4454" weight="5">
+		<deltaExchange delta="0.75" parameterWeights="90 3423 3423 3423 410" weight="5">
 			<parameter idref="allMus"/>
 		</deltaExchange>
 		<subtreeSlide size="1.0" gaussian="true" weight="15">
