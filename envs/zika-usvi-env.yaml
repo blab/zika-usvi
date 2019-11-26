@@ -1,0 +1,27 @@
+name: zika-usvi-env
+channels:
+- bioconda
+- defaults
+dependencies:
+- cvxopt
+- fasttree
+- iqtree
+- mafft
+- pandas
+- python=3.6*
+- nodejs=10
+- raxml
+- vcftools
+- git
+- pip
+- conda
+- ipykernel
+- notebook
+- matplotlib
+- numpy
+- pandas
+- basemap
+- basemap-data-hires #for high resolution maps in basemap
+- pip:
+  - nextstrain-augur
+  - nextstrain-cli
