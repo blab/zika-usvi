@@ -5,7 +5,7 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "data/zika-fauna-with-correct-usvi-seqs-2019-11-20.fasta",
+        input_fasta = "data/usvi-americas-input-data.fasta",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/zika_outgroup.gb",
         colors = "config/colors.tsv",
@@ -113,7 +113,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4,
+        clock_filter_iqd = 8,
         root = "1_0049_PF"
     shell:
         """
@@ -174,7 +174,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "region country"
+        columns = "region country division"
     shell:
         """
         augur traits \

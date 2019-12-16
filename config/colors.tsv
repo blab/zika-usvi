@@ -1,3 +1,8 @@
+region	oceania	#ffaa00
+region	north_america	#59b97f 
+region	south_america	#9f4ea3
+region	central_america	#3795b8
+region	caribbean	#9f122b
 country	thailand	#511EA8
 country	vietnam	#4928B4
 country	singapore	#4334BF
@@ -60,7 +65,7 @@ division	martinique	#D3D3D3
 division	guadeloupe	#D3D3D3
 division	saint_barthelemy	#D3D3D3
 division	usvi	#D3D3D3
-division	puerto_rico	#D3D3D3
+division	puerto_rico	#7fc97f
 division	jamaica	#D3D3D3
 division	dominican_republic	#D3D3D3
 division	haiti	#D3D3D3
@@ -69,11 +74,11 @@ division	usa	#D3D3D3
 division	saint_croix	#D3D3D3
 division	saint_john	#D3D3D3
 division	saint_thomas	#D3D3D3
-division	unknown	#686868
-division	santander	#fc4e2a
-division	tolima	#feb24c
-division	cordoba	#e31a1c
-division	valle_del_cauca	#fed976
-division	atlantico	#b10026
-division	risaralda	#fd8d3c
-division	huila	#ffffb2
+division	unknown	#D3D3D3
+division	australia	#D3D3D3
+division	belize	#D3D3D3
+division	barbados	#D3D3D3
+division	valle_del_cauca	#D3D3D3
+division	saint_thomas	#ffff99
+division	saint_croix	#beaed4
+division	saint_john	#fdc086
