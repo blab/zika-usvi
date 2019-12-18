@@ -5,7 +5,7 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "data/usvi-americas-input-data.fasta",
+        input_fasta = "data/usvi-and-high-qual-americas-input-data.fasta",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/zika_outgroup.gb",
         colors = "config/colors.tsv",
