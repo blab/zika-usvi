@@ -1,7 +1,6 @@
 rule all:
     input:
-        auspice_tree = "auspice/zika-usvi_tree.json",
-        auspice_meta = "auspice/zika-usvi_meta.json"
+        auspice_json = "auspice/zika-usvi.json",
 
 rule files:
     params:
@@ -9,7 +8,9 @@ rule files:
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/zika_outgroup.gb",
         colors = "config/colors.tsv",
-        auspice_config = "config/auspice_config.json"
+        auspice_config = "config/auspice_config.json",
+        description = "config/description.md",
+        lat_longs = "config/additional_lat_longs.tsv"
 
 files = rules.files.params
 
@@ -113,7 +114,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 8,
+        clock_filter_iqd = 4,
         root = "1_0049_PF"
     shell:
         """
@@ -192,23 +193,25 @@ rule export:
         metadata = rules.parse.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         traits = rules.traits.output.node_data,
+        lat_longs = files.lat_longs,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
-        auspice_config = files.auspice_config
+        auspice_config = files.auspice_config,
+        description = files.description
     output:
-        auspice_tree = rules.all.input.auspice_tree,
-        auspice_meta = rules.all.input.auspice_meta
+        auspice_json = rules.all.input.auspice_json,
     shell:
         """
-        augur export \
+        augur export v2\
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
-            --output-tree {output.auspice_tree} \
-            --output-meta {output.auspice_meta}
+            --description {input.description}\
+            --output {output.auspice_json}
         """
 
 rule clean:

@@ -1,42 +1,47 @@
 {
-  "title": "Genomic epidemiological analysis of Zika virus in the US Virgin Islands",
-  "color_options": {
-    "gt": {
-      "menuItem": "genotype",
-      "legendTitle": "Genotype",
-      "type": "discrete",
-      "key": "genotype"
+	"title": "Genomic epidemiological analysis of Zika virus in the US Virgin Islands",
+	"maintainers": [
+    {"name": "Alli Black", "url": "https://bedford.io/team/allison-black/"}
+  ],
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "genotype",
+      "type": "categorical"
     },
-    "num_date": {
-      "menuItem": "date",
-      "legendTitle": "Sampling date",
-      "type": "continuous",
-      "key": "num_date"
+    {
+      "key": "num_date",
+      "title": "date",
+      "type": "continuous"
     },
-    "authors": {
-      "key":"authors",
-      "legendTitle":"Authors",
-      "menuItem":"authors",
-      "type":"discrete"
+    {
+      "key": "author",
+      "title": "author",
+      "type": "categorical"
     },
-    "country": {
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
     },
-    "region": {
+    {
+      "key": "region",
+      "title": "region",
+      "type": "categorical"
     },
-    "division": {
+    {
+      "key": "division",
+      "title": "division",
+      "type": "categorical"
     }
-  },
-  "geo": [
+  ],
+  "geo_resolutions": [
     "country",
     "region"
   ],
-  "defaults": {
-    "mapTriplicate": true
+  "display_defaults": {
+    "map_triplicate": true
   },
-  "maintainer": [
-    "Alli Black",
-    "https://bedford.io/team/allison-black/"
-  ],
   "filters": [
     "country",
     "region",
