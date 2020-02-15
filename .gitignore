@@ -125,7 +125,7 @@ data/fastas/subsampled_demes_10_31_2017/
 
 data/fastas/published-sequences-in-analysis\.xlsx
 
-bdmm/*
-AmZika/*
+bdmm*
+AmZika*
 figures/*
 results/*
