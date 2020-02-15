@@ -1,0 +1,564 @@
+strain_name,accession_number,lead_author,permission_type,publication_pubmed_id,permission_to_use,preliminarily_include
+CTS_178_16p,MH675625,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_183_16p,MH675626,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_193_16p,MH675627,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_223_16p,MH675628,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_30_16p,MH675619,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_36_16p,MH675620,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_47_16p,MH675621,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_50_16p,MH675622,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_56_16p,MH675623,Assis et al,unpublished,NA,FDA_seqs,yes
+CTS_61_16p,MH675624,Assis et al,unpublished,NA,FDA_seqs,yes
+QTX_02,MH675629,Assis et al,unpublished,NA,FDA_seqs,yes
+QTX_04,MH675630,Assis et al,unpublished,NA,FDA_seqs,yes
+PHE_Guadeloupe,KX673530,Atkinson et al,previously_published,27738033,not_necessary,yes
+BeH815744,KU365780,Azevedo et al,previously_published,27013429,not_necessary,yes
+BeH818995,KU365777,Azevedo et al,previously_published,27013429,not_necessary,yes
+BeH819015,KU365778,Azevedo et al,previously_published,27013429,not_necessary,yes
+BeH819966,KU365779,Azevedo et al,previously_published,27013429,not_necessary,yes
+Aedes_sp/MEX_I_44/2016,KX856011,Balaraman et al,unpublished,NA,permission_not_received,no
+H/PF/2013,KJ776791,Baronti et al,previously_published,24903869,not_necessary,yes
+MEX_I_7,KX247632,Barrows et al,previously_published,27476412,not_necessary,yes
+Dominican_Republic/2016/PD1,KU853012,Barzon et al,previously_published,27542178,not_necessary,yes
+Haiti/2016/PD,KX269878,Barzon et al,previously_published,26987769,not_necessary,yes
+SMGC_1,KX266255,Bi et al,unpublished,NA,permission_not_received,no
+BR_SJRP1840,KY441403,Bittar et al,unpublished,NA,email_sent,no
+BR_SJRP21,KY441401,Bittar et al,unpublished,NA,email_sent,no
+BR_SJRP61,KY441402,Bittar et al,unpublished,NA,email_sent,no
+Aedes_aegypti/COL/FH04/2016,MK049247,Black et al,unpublished,NA,author_is_me,yes
+COL/FH02/2016,MK049245,Black et al,unpublished,NA,author_is_me,yes
+COL/FH03/2016,MK049246,Black et al,unpublished,NA,author_is_me,yes
+COL/FH05/2016,MK049248,Black et al,unpublished,NA,author_is_me,yes
+COL/FH09/2016,MK049249,Black et al,unpublished,NA,author_is_me,yes
+COL/FH16/2016,MK049250,Black et al,unpublished,NA,author_is_me,yes
+COL/FH19/2016,MK049251,Black et al,unpublished,NA,author_is_me,yes
+USVI/1/2016,VI1_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/11/2016,VI11,Black et al,unpublished,NA,author_is_me,yes
+USVI/12/2016,VI12,Black et al,unpublished,NA,author_is_me,yes
+USVI/13/2016,VI13,Black et al,unpublished,NA,author_is_me,yes
+USVI/15/2016,VI15_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/19/2016,VI19_12plex,Black et al,unpublished,NA,author_is_me,yes
+USVI/2/2016,VI2,Black et al,unpublished,NA,author_is_me,yes
+USVI/20/2016,VI20_12plex,Black et al,unpublished,NA,author_is_me,yes
+USVI/21/2016,VI21,Black et al,unpublished,NA,author_is_me,yes
+USVI/22/2016,VI22,Black et al,unpublished,NA,author_is_me,yes
+USVI/23/2016,VI23_12plex,Black et al,unpublished,NA,author_is_me,yes
+USVI/24/2016,VI24,Black et al,unpublished,NA,author_is_me,yes
+USVI/25/2016,VI25_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/27/2016,VI27_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/28/2016,VI28_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/3/2016,VI3,Black et al,unpublished,NA,author_is_me,yes
+USVI/30/2016,VI30_1d,Black et al,unpublished,NA,author_is_me,yes
+USVI/32/2016,VI32_12plex,Black et al,unpublished,NA,author_is_me,yes
+USVI/34/2016,VI34,Black et al,unpublished,NA,author_is_me,yes
+USVI/35/2016,VI35,Black et al,unpublished,NA,author_is_me,yes
+USVI/36/2016,VI36,Black et al,unpublished,NA,author_is_me,yes
+USVI/37/2016,VI37,Black et al,unpublished,NA,author_is_me,yes
+USVI/38/2016,VI38,Black et al,unpublished,NA,author_is_me,yes
+USVI/39/2016,VI39_12plex,Black et al,unpublished,NA,author_is_me,yes
+USVI/4/2016,VI4,Black et al,unpublished,NA,author_is_me,yes
+USVI/40/2016,VI40,Black et al,unpublished,NA,author_is_me,yes
+USVI/41/2016,VI41,Black et al,unpublished,NA,author_is_me,yes
+USVI/42/2016,VI42,Black et al,unpublished,NA,author_is_me,yes
+USVI/43/2016,VI43,Black et al,unpublished,NA,author_is_me,yes
+USVI/44/2016,VI44,Black et al,unpublished,NA,author_is_me,yes
+USVI/45/2016,VI45,Black et al,unpublished,NA,author_is_me,yes
+USVI/46/2016,VI46,Black et al,unpublished,NA,author_is_me,yes
+USVI/5/2016,VI5,Black et al,unpublished,NA,author_is_me,yes
+USVI/6/2016,VI6,Black et al,unpublished,NA,author_is_me,yes
+USVI/7/2016,VI7,Black et al,unpublished,NA,author_is_me,yes
+VEN/UF_1/2016,KX702400,Blohm et al,previously_published,28450510,not_necessary,yes
+VEN/UF_2/2016,KX893855,Blohm et al,previously_published,28450510,not_necessary,yes
+RIO_BM1,KY272991,Bonaldo et al,previously_published,27341420,not_necessary,yes
+Rio_S1,KU926310,Bonaldo et al,unpublished,NA,permission_not_received,no
+Rio_U1,KU926309,Bonaldo et al,previously_published,27341420,not_necessary,yes
+MEX_CIENI551,KY120349,Boukadida et al,previously_published,28336600,not_necessary,yes
+BR/Sinop/H355/2015,MH513598,Bronzoni et al,unpublished,NA,permission_not_received,no
+BR/Sinop/H366_2P/2015,MH513600,Bronzoni et al,unpublished,NA,permission_not_received,no
+BR/Sinop/H366/2015,MH513599,Bronzoni et al,unpublished,NA,permission_not_received,no
+Brazil_ZKV2015,KU497555,Calvet et al,previously_published,26897108,not_necessary,yes
+Brazil/2016/INMI1,KU991811,Carletti et al,unpublished,NA,permission_not_received,no
+Hsap_wt/PR/15/ARC1,MN171421,Chiu et al,unpublished,NA,not_necessary,yes
+mex07/Mexico/2016,KY606272,Chiu et al,unpublished,NA,not_necessary,yes
+mex39/Mexico/2016,KY606274,Chiu et al,unpublished,NA,not_necessary,yes
+mex48/Mexico/2016,KY606273,Chiu et al,unpublished,NA,not_necessary,yes
+SPH2015,KU321639,Cunha et al,previously_published,26941134,not_necessary,yes
+GB_BR,KX830930,Delatorre et al,unpublished,NA,permission_not_received,no
+GZ01,KU820898,Deng et al,previously_published,27105638,not_necessary,yes
+SZ_WIV01,KU963796,Deng et al,previously_published,27105638,not_necessary,yes
+SZ01/2016/China,KU866423,Deng et al,previously_published,27105638,not_necessary,yes
+MEX/InDRE/2016,KU922923,Diaz-Quinonez et al,unpublished,NA,permission_not_received,no
+Brazil/PE243/2015,KX197192,Donald et al,previously_published,27706161,not_necessary,yes
+FB_GWUH_2016,KU870645,Driggers et al,previously_published,27028667,not_necessary,yes
+V17271,KU758877,Enfissi et al,unpublished,NA,use_permission_granted,yes
+Z1106033,KU312312,Enfissi et al,previously_published,26775124,not_necessary,yes
+BeH818305,KU729218,Faria et al,previously_published,28538727,not_necessary,yes
+BeH823339,KU729217,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRA105,KY558989,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRC301,KY558995,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRC302,KY558996,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRC313,KY558998,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRC321,KY559000,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRD103,KY559001,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRD107,KY559002,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2015/ZBRD116,KY559003,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRC14,KY558990,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRC28,KY558994,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRC319,KY558999,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX1,KY559005,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX100,KY559017,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX102,KY559018,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX103,KY559019,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX106,KY559020,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX11,KY559011,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX12,KY559012,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX127,KY559021,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX128,KY559022,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX13,KY559013,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX130,KY559023,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX137,KY559024,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX15,KY559015,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX16,KY559016,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX2,KY559006,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX4,KY559007,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX7,KY559009,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRX8,KY559010,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRY1,KY559025,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRY4,KY559026,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRY6,KY559027,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRY7,KY559032,Faria et al,previously_published,28538727,not_necessary,yes
+Brazil/2016/ZBRY8,KY559031,Faria et al,previously_published,28538727,not_necessary,yes
+Mex03/Mexico/2016,KY606271,Faria et al,previously_published,28538727,not_necessary,yes
+SSABR1,KU707826,Giovanetti et al,previously_published,27071531,not_necessary,yes
+Brazil_2015_MG,KX811222,Green et al,unpublished,NA,permission_not_received,no
+Aedes_aegypti/USA/2016/FL01,KX838904,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL02,KX838905,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL03,KX838906,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL04,KX922708,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL05,KY075937,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL06,KY075938,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Aedes_aegypti/USA/2016/FL08,KY075939,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Cuba/2017_10_09/FL82U,MK560178,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/FL049U,MH063261,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/FL051Se,MH063262,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/FL052U,MH063263,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/FL055Se,MH063264,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/FL057U,MH063265,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2017/Hu0046Sa,MF159531,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+Cuba/2018_01_18/FL257U,MK560179,Grubaugh et al,unpublished,NA,use_permission_granted,yes
+FLSR103,MK269360,Grubaugh et al,previously_published,28538723,not_necessary,yes
+FLSR118,MK269353,Grubaugh et al,previously_published,28538723,not_necessary,yes
+FLUR096,MK269357,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Martinique/2016/FL001Sa,KY075932,Grubaugh et al,previously_published,28538723,not_necessary,yes
+PuertoRico/2016/FL008U,KY075933,Grubaugh et al,previously_published,28538723,not_necessary,yes
+PuertoRico/2016/FL016U,KY075934,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL021,KX922703,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL022,KY075935,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL030,KX922704,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL032,KX922705,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL036,KY075936,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FL039,KX922707,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLSR036,KY325464,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLSR043,KY325465,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR006,KY325467,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR007,KY325468,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR008,KY325469,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR013,KY325472,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR015,KY325483,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR022,KY325473,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR058,KY325476,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLUR063,KY325477,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/FLWB044,KY325479,Grubaugh et al,previously_published,28538723,not_necessary,yes
+USA/2016/Hu0015SA,KX832731,Grubaugh et al,previously_published,28538723,not_necessary,yes
+Haiti/1/2016,KX051563,Iovine et al,previously_published,27694479,not_necessary,yes
+31N,MH900227,Izquierdo-Suzan et al,unpublished,NA,permission_not_received,no
+V96622,MN473450,Kamelian et al,unpublished,NA,permission_not_received,no
+V96623,MN473451,Kamelian et al,unpublished,NA,permission_not_received,no
+V96624,MN473452,Kamelian et al,unpublished,NA,permission_not_received,no
+V96625,MN473453,Kamelian et al,unpublished,NA,permission_not_received,no
+V96626,MN473454,Kamelian et al,unpublished,NA,permission_not_received,no
+Dominican_Rep_Rus_3ALT_2016,MF098764,Karan et al,unpublished,NA,use_permission_granted,yes
+Dominican_Rep_Rus_4MRG_2016,MF098765,Karan et al,unpublished,NA,use_permission_granted,yes
+Dominican_Rep_Rus_5RMN_2016,MF098766,Karan et al,unpublished,NA,use_permission_granted,yes
+Dominican_Rep_Rus_7EGR_2016,MF098768,Karan et al,unpublished,NA,use_permission_granted,yes
+Dominican_Rep_Rus_8ZBR_2016,MF098769,Karan et al,unpublished,NA,use_permission_granted,yes
+Mexico_Rus_10GNN_2016,MF098770,Karan et al,unpublished,NA,use_permission_granted,yes
+Mexico_Rus_12TVR_2017,MF098771,Karan et al,unpublished,NA,use_permission_granted,yes
+Saint_Barthelemi_Rus_6BRN_2016,MF098767,Karan et al,unpublished,NA,use_permission_granted,yes
+FLA,KY989971,Kneubehl et al,unpublished,NA,permission_not_received,no
+459148_Meta_Colombia_2016,MH544701,Laiton Donato et al,unpublished,NA,permission_not_received,no
+2016\HND\19563,KX906952,Lamson et al,unpublished,NA,permission_not_received,no
+PRVABC59,KU501215,Lanciotti et al,previously_published,27088323,not_necessary,yes
+R114916,KX766028,Lanciotti et al,unpublished,NA,use_permission_granted,yes
+R116265,KX766029,Lanciotti et al,unpublished,NA,use_permission_granted,yes
+V103344,KU501216,Lanciotti et al,previously_published,27088323,not_necessary,yes
+V103451,KX262887,Lanciotti et al,unpublished,NA,use_permission_granted,yes
+V8375,KU501217,Lanciotti et al,previously_published,27088323,not_necessary,yes
+Cuba_2017,MF438286,Lasala-Sanchez et al,unpublished,NA,use_permission_granted,yes
+COL/UF_1/2016,KX247646,Lednicky et al,unpublished,NA,use_permission_granted,no
+Haiti/1225/2014,KU509998,Lednicky et al,previously_published,27111294,not_necessary,yes
+COL/FCC00093/2015,KX548902,Leguia et al,previously_published,28633961,not_necessary,yes
+FHT1166/HON/2016,KY693676,Leguia et al,previously_published,28633961,not_necessary,yes
+FHT1175/HON/2016,KY693677,Leguia et al,previously_published,28633961,not_necessary,yes
+FPI15198/PERU/Loreto/2016,KY693678,Leguia et al,previously_published,28633961,not_necessary,yes
+FPI15263/PERU/Loreto/2016,KY693679,Leguia et al,previously_published,28633961,not_necessary,yes
+FVM00318/VEN/Maracay/2016,KY693680,Leguia et al,previously_published,28633961,not_necessary,yes
+GZ02/2016,KX056898,Li et al,previously_published,28095443,not_necessary,yes
+Henan/001/2016,MF593625,Li et al,unpublished,NA,permission_not_received,no
+VE_Ganxian,KU744693,Liu et al,unpublished,NA,permission_not_received,no
+PE243,MF352141,Marques et al,unpublished,NA,permission_not_received,no
+EC/Esmeraldas/062/2016,KX879603,Marquez et al,previously_published,28232448,not_necessary,yes
+EC/Esmeraldas/089/2016,KX879604,Marquez et al,previously_published,28232448,not_necessary,yes
+BRA/2016/FC_6418,KY785410,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_6696,KY014313,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_6706,KY785433,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_6863,KY785450,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_6864,KY014297,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ107D1,KY014301,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ116D1,KY785429,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ122D1,KY785456,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ131D1,KY014296,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ28D1,KY014317,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ42D1,KY014320,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ47D1,KY014309,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ49D1,KY014307,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ58D1,KY785427,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ5D1,KY785437,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ62D1,KY785480,Metsky et al,previously_published,28538734,not_necessary,yes
+BRA/2016/FC_DQ62D2,KY785455,Metsky et al,previously_published,28538734,not_necessary,yes
+COL/2016/SU_1856A,KY785466,Metsky et al,previously_published,28538734,not_necessary,yes
+COL/2016/SU_2724A,KY785469,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0059,KY785425,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0076,KY014305,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0091,KY785475,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0115,KY014321,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0127,KY014303,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0180,KY014304,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0183,KY785420,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0208,KY014300,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0216,KY014302,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0269,KY014318,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0433,KY785441,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/BB_0436,KY014314,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/MA_WGS16_007,KY785453,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/MA_WGS16_011,KY785484,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/MA_WGS16_014,KY785470,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/MA_WGS16_024,KY785435,Metsky et al,previously_published,28538734,not_necessary,yes
+DOM/2016/MA_WGS16_040,KY785413,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME131,KY785414,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME147,KY785442,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME152,KY014315,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME156,KY785452,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME167,KY014327,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME171,KY785448,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME178,KY014306,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME180,KY785431,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME38,KY014319,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME42,KY014310,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME50,KY014311,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME58,KY014312,Metsky et al,previously_published,28538734,not_necessary,yes
+HND/2016/HU_ME59,KY785418,Metsky et al,previously_published,28538734,not_necessary,yes
+JAM/2016/MA_WGS16_025,KY785424,Metsky et al,previously_published,28538734,not_necessary,yes
+JAM/2016/MA_WGS16_039,KY785430,Metsky et al,previously_published,28538734,not_necessary,yes
+JAM/2016/WI_JM6,KY785419,Metsky et al,previously_published,28538734,not_necessary,yes
+PRI/2016/MA_WGS16_004,KY785464,Metsky et al,previously_published,28538734,not_necessary,yes
+PRI/2016/MA_WGS16_016,KY785462,Metsky et al,previously_published,28538734,not_necessary,yes
+USA/2016/FL010,KY014295,Metsky et al,previously_published,28538734,not_necessary,yes
+USA/2016/FL028,KY785443,Metsky et al,previously_published,28538734,not_necessary,yes
+USA/2016/FL038,KY014326,Metsky et al,previously_published,28538734,not_necessary,yes
+USA/2016/MA_WGS16_034,KY785459,Metsky et al,previously_published,28538734,not_necessary,yes
+V9,KX197205,Miranda et al,unpublished,NA,permission_not_received,no
+Natal_RGN,KU527068,Mlakar et al,previously_published,26862926,not_necessary,yes
+French_Guiana_Aedes_aegypti_T1010,MN185326,Moutailler et al,previously_published,31569736,not_necessary,yes
+French_Guiana_Aedes_aegypti_T1141,MN185328,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T1044,MN185327,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T1506,MN185329,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T633,MN185332,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T905,MN185324,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T910_2,MN185325,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T912,MN185330,Moutailler et al,previously_published,31569736,not_necessary,yes
+Guadeloupe_Aedes_aegypti_T961,MN185331,Moutailler et al,previously_published,31569736,not_necessary,yes
+HN16,KY328289,Murray et al,previously_published,27748649,not_necessary,yes
+MB16_23,MF988743,Mutebi et al,unpublished,NA,permission_not_received,no
+Bahia07,KU940228,Naccache et al,previously_published,27448188,not_necessary,yes
+Bahia08,KU940227,Naccache et al,previously_published,27448188,not_necessary,yes
+Bahia09,KU940224,Naccache et al,previously_published,27448188,not_necessary,yes
+V17829,KR872956,Nunes et al,unpublished,NA,permission_not_received,no
+Brazil/16321,KY120352,Oh et al,unpublished,NA,permission_not_received,no
+BRA/2016/ZKV17Asem_2016_04_26,MH882527,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Auri_2016_04_26,MH882528,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Bsem_2016_05_03,MH882529,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Csem_2016_05_10,MH882530,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Dsem_2016_05_17,MH882531,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Esem_2016_05_24,MH882532,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Fsem_2016_05_31,MH882533,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Gsem_2016_06_08,MH882534,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Hsem_2016_06_16,MH882535,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Jsem_2016_06_28,MH882536,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Ksem_2016_07_05,MH882537,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Lsem_2016_07_12,MH882538,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Msem_2016_07_19,MH882539,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17Nsem_2016_07_27,MH882540,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17sem_2016_04_19,MH882541,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV17uri_2016_04_19,MH882542,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Auri_2016_05_05,MH882543,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Bsem_2016_05_12,MH882544,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Csem_2016_05_19,MH882545,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Dsem_2016_05_24,MH882546,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Esem_2016_06_02,MH882547,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19Fsem_2016_06_09,MH882548,Oliveira et al,previously_published,30405055,not_necessary,yes
+BRA/2016/ZKV19uri_2016_04_30,MH882549,Oliveira et al,previously_published,30405055,not_necessary,yes
+FrenchPolynesia2014_060114_016,MG976700,Paoaafaite et al,unpublished,NA,permission_not_received,no
+1_0015_PF,KX447511,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0016_PF,KX447520,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0030_PF,KX447515,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0035_PF,KX447514,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0038_PF,KX447517,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0049_PF,KX447510,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0080_PF,KX447521,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0087_PF,KX447509,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0111_PF,KX447516,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0117_PF,KX447518,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0134_PF,KX447513,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0181_PF,KX447512,Pettersson et al,previously_published,27729507,not_necessary,yes
+1_0199_PF,KX447519,Pettersson et al,previously_published,27729507,not_necessary,yes
+COL/FLR_00001/2015,MF574552,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00002/2015,MF574559,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00003/2015,MF574560,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00004/2015,MF574561,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00005/2015,MF574571,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00006/2015,MF574555,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00007/2015,MF574557,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00008/2015,MF574562,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00009/2015,MF574572,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00010/2015,MF574570,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00011/2015,MF574565,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00012/2015,MF574568,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00013/2015,MF574558,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00014/2015,MF574576,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00015/2015,MF574567,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00016/2015,MF574575,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00017/2015,MF574553,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00018/2015,MF574573,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00019/2015,MF574574,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00020/2015,MF574577,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00021/2015,MF574556,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00022/2015,MF574554,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00023/2015,MF574566,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00024/2015,MF574569,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00025/2015,MF574563,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00026/2015,MF574564,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00034/2015,MF574581,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00035/2015,MF574588,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00036/2015,MF574582,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00038/2015,MF574586,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00040/2015,MF574584,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00041/2015,MF574583,Pickett et al,unpublished,NA,not_necessary,yes
+COL/FLR_00042/2015,MF574580,Pickett et al,unpublished,NA,not_necessary,yes
+COL/PAN_00029/2015,MF574585,Pickett et al,unpublished,NA,not_necessary,yes
+COL/PAN_00030/2015,MF574587,Pickett et al,unpublished,NA,not_necessary,yes
+COL/PRV_00027/2015,MF574579,Pickett et al,unpublished,NA,not_necessary,yes
+COL/PRV_00028/2015,MF574578,Pickett et al,unpublished,NA,not_necessary,yes
+HND/00002/2016,MK713750,Pickett et al,unpublished,NA,not_necessary,yes
+MRS_OPY_Martinique_PaRi_2015,KU647676,Piorkowski et al,previously_published,27274849,not_necessary,yes
+Dominican_Republic/2016/ZB,MF664436,Prilipov et al,unpublished,NA,permission_not_received,no
+TS17_2016,KX806557,Pyke et al,unpublished,NA,permission_not_received,no
+Colombia/2016/ZC188Se,KY317936,Quick et al,previously_published,28538739,not_necessary,yes
+Colombia/2016/ZC192Se,KY317937,Quick et al,previously_published,28538739,not_necessary,yes
+Colombia/2016/ZC199Se,KY317938,Quick et al,previously_published,28538739,not_necessary,yes
+Colombia/2016/ZC204Se,KY317939,Quick et al,previously_published,28538739,not_necessary,yes
+Colombia/2016/ZC207Se,KY317940,Quick et al,previously_published,28538739,not_necessary,yes
+Panama/2015/259249,MK028858,Rios et al,unpublished,NA,permission_not_received,no
+Panama/2015/259359,MK028861,Rios et al,unpublished,NA,permission_not_received,no
+Panama/2015/259364,MK028859,Rios et al,unpublished,NA,permission_not_received,no
+Puerto_Rico/2015/PRVABC59,MK028857,Rios et al,unpublished,NA,permission_not_received,no
+COL345Si,MH179341,Sermeno-Correa et al,unpublished,NA,permission_not_received,no
+ENCB165P4,KY631494,Sevilla-Reyes et al,unpublished,NA,permission_not_received,no
+MEX_ENCB165,KY631493,Sevilla-Reyes et al,unpublished,NA,permission_not_received,no
+Aedes_aegypti/MEX/MEX_I_44/2016,KY648934,Shabman et al,unpublished,NA,use_permission_granted,yes
+Aedessp/MEX/MEX_2_81/2016,KX446950,Shabman et al,unpublished,NA,use_permission_granted,yes
+Aedessp/MEX/MEX_I_7/2016,KX446951,Shabman et al,unpublished,NA,use_permission_granted,yes
+COL/FLR/2015,KX087102,Shabman et al,unpublished,NA,use_permission_granted,yes
+HND/R103451/2015,KX694534,Shabman et al,unpublished,NA,use_permission_granted,yes
+MEX/R116265/2016,MG595216,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/4886_12A1/2016,KY765321,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/5005_13A1/2016,KY765327,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/6188_13A1/2016,KY765326,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/6406_13A1/2016,KY765320,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/7252_12A1/2016,KY765317,Shabman et al,unpublished,NA,use_permission_granted,yes
+NIC/8610_13A1/2016,KY765324,Shabman et al,unpublished,NA,use_permission_granted,yes
+PAN/BEI_259634_V4/2016,KX198135,Shabman et al,unpublished,NA,use_permission_granted,yes
+PAN/CDC_259249_V1_V3/2015,KX156775,Shabman et al,unpublished,NA,use_permission_granted,yes
+PAN/CDC_259359_V1_V3/2015,KX156774,Shabman et al,unpublished,NA,use_permission_granted,yes
+PAN/CDC_259364_V1_V2/2015,KX156776,Shabman et al,unpublished,NA,use_permission_granted,yes
+BR/AM/16800005,KY631492,Souza et al,unpublished,NA,permission_not_received,no
+NL00013,KU937936,Stalin Raj et al,unpublished,NA,permission_not_received,no
+V15098,MF073359,Strottmann et al,unpublished,NA,permission_not_received,no
+V15261,MF073358,Strottmann et al,unpublished,NA,permission_not_received,no
+V16288,MF073357,Strottmann et al,unpublished,NA,permission_not_received,no
+USA/UT_1/2016,KX827268,Swaminathan et al,previously_published,27681699,not_necessary,yes
+Nica1_16,KX421195,Tabata et al,previously_published,27443522,not_necessary,yes
+Nica2_16,KX421194,Tabata et al,previously_published,27443522,not_necessary,yes
+Chiba/S36/2016,LC191864,Taira et al,previously_published,28367888,not_necessary,yes
+MEX/41_001_F_V3_O/2016,MH157213,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_001_F_V7_O/2016,MH157201,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_006_F_V0_O/2016,MH157209,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_017_F_V0_O/2016,MH157199,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_017_F_V3_O/2016,MH157202,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_017_F_V7_O/2016,MH157205,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_022_F_V0_O/2016,MH157208,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_022_F_V3_O/2016,MH157195,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_022_F_V7_O/2016,MH157207,Tan et al,unpublished,NA,permission_not_received,no
+MEX/41_023_F_V3_O/2016,MH157210,Tan et al,unpublished,NA,permission_not_received,no
+MEX/42_001_F_V3_O/2016,MH157203,Tan et al,unpublished,NA,permission_not_received,no
+MEX/42_016_F_V0_O/2016,MH157212,Tan et al,unpublished,NA,permission_not_received,no
+MEX/42_018_F_V3_O/2016,MH157206,Tan et al,unpublished,NA,permission_not_received,no
+MEX/43_023_F_V0_O/2016,MH157200,Tan et al,unpublished,NA,permission_not_received,no
+MEX/43_023_F_V3_O/2016,MH157204,Tan et al,unpublished,NA,permission_not_received,no
+SG_EHI_/33164Y17,MF988734,Tan et al,unpublished,NA,permission_not_received,no
+HS_2015_BA_01,KX520666,Teixeira et al,unpublished,NA,permission_not_received,no
+BR/NHP_17_05/2017,MG770183,Terzian et al,previously_published,30375482,not_necessary,yes
+BR/NHP_17_17/2017,MG770184,Terzian et al,previously_published,30375482,not_necessary,yes
+BR/NHP_17_18/2017,MG770185,Terzian et al,previously_published,30375482,not_necessary,yes
+BR/NHP_17_19/2017,MG770186,Terzian et al,previously_published,30375482,not_necessary,yes
+GTM/2016/Guatemala_2411,MF801380,Theze et al,previously_published,29805095,not_necessary,yes
+GTM/2016/Guatemala_3921,MF801378,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_1031,MF801384,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_1055,MF801385,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_1083,MF801386,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_1122,MF801387,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_1162,MF801389,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_24,MF801381,Theze et al,previously_published,29805095,not_necessary,yes
+HND/2016/Honduras_4102,MF801383,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex01,MF801393,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex05,MF801395,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex14,MF801396,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex16,MF801397,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex17,MF801398,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex19,MF801399,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex20,MF801400,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex23,MF801401,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex24,MF801402,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex25,MF801403,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex28,MF801406,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex30,MF801408,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex32,MF801410,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex33,MF801411,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex34,MF801412,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex35,MF801413,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex36,MF801414,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex40,MF801417,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex42,MF801418,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/mex47,MF801423,Theze et al,previously_published,29805095,not_necessary,yes
+MEX/2016/Mexico_3502,MF801391,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/1304_13A1/2016,MF434516,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/1659_13A1/2016,MF434517,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/2016/Nicaragua_3912,MF801426,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/5256_13A1/2016,MF434518,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/6547_13A1/2016,MF434521,Theze et al,previously_published,29805095,not_necessary,yes
+NIC/7253_13A1/2016,MF434522,Theze et al,previously_published,29805095,not_necessary,yes
+GD01,KU740184,Tong et al,unpublished,NA,permission_not_received,no
+ZJ02,KU761561,Tong et al,unpublished,NA,permission_not_received,no
+ZJ03,KU761560,Tong et al,unpublished,NA,permission_not_received,no
+PF13/251013_18,KX369547,Troesemeier et al,previously_published,27587826,not_necessary,yes
+Paraiba_01,KX280026,Tsetsarkin et al,previously_published,27555311,not_necessary,yes
+Mexico/INPER38b/2016,MG494697,Valdespino-Vazquez et al,unpublished,NA,permission_not_received,no
+SL1602,KY348640,van Boheemen et al,previously_published,28539654,not_necessary,yes
+Haiti/0029/2014,KY415986,White et al,unpublished,NA,permission_not_received,no
+Haiti/0033/2014,KY415987,White et al,unpublished,NA,permission_not_received,no
+Haiti/0036/2014,KY415990,White et al,unpublished,NA,permission_not_received,no
+Haiti/0054/2014,KY415988,White et al,unpublished,NA,permission_not_received,no
+Haiti/0074/2014,KY415989,White et al,unpublished,NA,permission_not_received,no
+Haiti/0097/2014,KY415991,White et al,unpublished,NA,permission_not_received,no
+mosquito/Haiti/1682/2016,MF384325,White et al,unpublished,NA,permission_not_received,no
+mosquito/Haiti/1855/2016,MF783072,White et al,unpublished,NA,permission_not_received,no
+mosquito/Haiti/1919/2016,MF783073,White et al,unpublished,NA,permission_not_received,no
+EC/Esmeraldas/121/2016,MF794971,Wise et al,unpublished,NA,permission_not_received,no
+GDZ16001,KU761564,Wu et al,unpublished,NA,permission_not_received,no
+Z16006,KU955589,Wu et al,unpublished,NA,permission_not_received,no
+Z16019,KU955590,Wu et al,unpublished,NA,permission_not_received,no
+ZKC2/2016,KX253996,Wu et al,unpublished,NA,permission_not_received,no
+Zhejiang04,KX117076,Zhang et al,unpublished,NA,permission_not_received,no
+CN/SZ02/2016,KX185891,Zhao et al,unpublished,NA,permission_not_received,no
+CDC_PR_10,10,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_18,18,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_70,70,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_93,93,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_104,104,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_172,172,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_219,219,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_232,232,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_236,236,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_245,245,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_255,255,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_256,256,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_266,266,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_269,269,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_270,270,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_272,272,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_275,275,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_282,282,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_285,285,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_295,295,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_323,323,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_326,326,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_347,347,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_350,350,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_372,372,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_375,375,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_451,451,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_455,455,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_461,461,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_484,484,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_489,489,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_503,503,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_511,511,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_523,523,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_534,534,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_540,540,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_552,552,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_554,554,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_556,556,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_569,569,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_588,588,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_590,590,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_599,599,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_611,611,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_613,613,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_615,615,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_617,617,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_650,650,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_657,657,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_700,700,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_723,723,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_770,770,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_774,774,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_778,778,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_781,781,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_787,787,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_799,799,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_802,802,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_841,841,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_852,852,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_871,871,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_880,880,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_884,884,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_885,885,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_894,894,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_920,920,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_947,947,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_961,961,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_966,966,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_983,983,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_984,984,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_986,986,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_987,987,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_992,992,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_996,996,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_999,999,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1000,1000,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1015,1015,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1019,1019,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1020,1020,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1025,1025,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
+CDC_PR_1034,1034,grubaugh lab and dengue branch,unpublished,NA,co-authorship,yes
