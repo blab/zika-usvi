@@ -48,3 +48,5 @@ ZF36_36S
 ZK_YN001
 ZZ_1
 USA/2016/FLUR002
+CDC_PR_285 #introducing large gap in alignment due to N's
+CDC_PR_350 #introducing large gap in alignment due to N's
