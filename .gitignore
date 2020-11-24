@@ -129,3 +129,8 @@ bdmm*
 AmZika*
 figures/*
 results/*
+
+#don't share raw linelist data.
+data/epi-data/USVI_Zika_dataset_de_identified_June2017*
+data/epi-data/epi-surveillance-data-cases-only.xlsx
+data/epi-data/full-epi-surveillance-linelist-deduplicated.xlsx
