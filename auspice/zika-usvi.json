@@ -251,15 +251,15 @@
           ],
           [
             "saint_croix",
-            "#b1b518"
+            "#669999"
           ],
           [
             "saint_john",
-            "#ffb309"
+            "#ffa500"
           ],
           [
             "saint_thomas",
-            "#ff8773"
+            "#8876a8"
           ]
         ],
         "title": "division",
@@ -512,7 +512,7 @@
       "entropy"
     ],
     "title": "Genomic epidemiological analysis of Zika virus in the US Virgin Islands",
-    "updated": "2020-02-18"
+    "updated": "2021-01-01"
   },
   "tree": {
     "branch_attrs": {
