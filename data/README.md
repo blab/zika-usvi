@@ -10,15 +10,17 @@ Sample metadata is specified in `samples.tsv`.
 
 ## Consensus genomes for USVI samples
 
-Genomes are collected into FASTAS with "good" coverage (>80% of sites have non-ambiguous base calls) in `ZIKA_USVI_complete_goodQual.fasta` and with "partial" coverage (50%-80% of sites have non-ambiguous base calls) in `ZIKA_USVI_complete_partialQual.fasta`. Genomes that have less than 50% coverage (over half the sites in the genomes have ambiguous basecalls) are in `ZIKA_USVI_complete_poorQual.fasta`, however they are not used in any analyses.
+Genome sequences that we generated from samples collected in the USVI are available in the [generated-usvi-sequences directory](./generated-usvi-sequences)
 
-For some samples there are multiple consensus genomes. This occurred in instances where we sequenced the sample differently, either on MiSeq or MinION, using different MinION sequencing chemistries, or using different multiplexing (either multiplexing 6 samples or 12). This information is contained in the fasta header. So while a single sample might have multiple consensus genomes each fasta header is unique.
+### About the different available FASTA files
 
-While we have shared `ZIKA_USVI_complete_poorQual.fasta` online, we *do not* use these genomes in any of our main analyses. The genomes here have so little unambiguous sequence data that they will not cluster appropriately in a phylogeny. While VI24 has slightly more than 50% unambiguous basecalls, it was sequenced on 2D chemistry after ONT pulled the kit and the bioinformatic pipelines. It is therefore not nanopolished, and we are wary of the demuxing as well as this sample was demuxed by an early version of ONT's built-in demuxer.
+Genomes are collected into FASTAS with "good" coverage (>80% of sites have non-ambiguous base calls) in `ZIKA_USVI_complete_goodQual.fasta` and with "partial" coverage (50%-80% of sites have non-ambiguous base calls) in `ZIKA_USVI_complete_partialQual.fasta`. Genomes that have less than 50% coverage (over half the sites in the genomes have ambiguous basecalls) are in `ZIKA_USVI_complete_poorQual.fasta`.
 
-## Notes about single clinical isolates that were sequenced multiple times
+While we have shared `ZIKA_USVI_complete_poorQual.fasta` online, we *do not* use these genomes in any of our main analyses. These genomes have so little unambiguous sequence data that they will not cluster appropriately in a phylogeny.Just to note, while VI24 has slightly more than 50% unambiguous basecalls, it was sequenced on 2D chemistry after ONT pulled the kit and the bioinformatic pipelines. It is therefore not nanopolished, and we are wary of the demuxing as well as this sample was demuxed by an early version of ONT's built-in demuxer. Given that we cannot appropriately QC this specific sequenced, we consider it to be poor quality as well.
 
-If you are going through the `ZIKA_USVI_complete_<>Qual.fasta` files you'll notice that some isolates have multiple sequences. We wanted to release _all_ of the data we generated, which is why multiple sequences from a single isolate are available in these files. For the actual analysis however, we only want to use one sequence per clinical isolate. To choose which sequence should be the representative sequence for an isolate we used the following criteria:
+For some samples there are multiple consensus genomes. This occurred in instances where we sequenced the sample differently, either on the MiSeq or MinION, using different MinION sequencing chemistries, or using different multiplexing strategies (either multiplexing 6 samples or 12 samples on a single run). This information is contained in the fasta header. So while a single sample might have multiple consensus genomes each fasta header is unique.
+
+While We wanted to release _all_ of the data we generated, for the analyses we only want to include one sequence per sample. For isolates that had multiple sequences, we selected the sequence included in our analysis according to the following criteria:
 
 1. The selected sequence must have been stringently demuxed.
 2. The selected sequence must have been nanopolished.
@@ -26,25 +28,25 @@ If you are going through the `ZIKA_USVI_complete_<>Qual.fasta` files you'll noti
 
 The USVI sequences used for downstream analyses (one sequence per isolate) are in `finalized-usvi-seqs-for-use-in-analyses.fasta`.
 
-## The broad process for generating the input data files
+## Gathering contextual Zika genomic data from other countries in Oceania and the Americas
 
-Here is the broad strokes process I used to finalize the dataset that I used in the paper (with more details following).
+To contextualize the USVI genomic data we need to include Zika genomes from other countries affected by the epidemic as well. Here I describe the process I used to collate those additional genomes and finalize the dataset for use in my BEAST analyses. While the phylogenetic analysis in the paper uses BEAST, I like using Nextstrain to quickly iterate through a process of finalizing a dataset, as you'll see in my description below. These steps are implemented in [make-input-fastas.ipynb](`../scripts/make-input-fastas.ipynb`).
 
-1. From all of of the samples that we sequenced from the USVI, I picked one high quality sequenced to represent each sample (described above).
+1. The USVI sequences included in the analysis dataset come from [`finalized-usvi-seqs-for-use-in-analyses.fasta`](./generated-usvi-sequences/finalized-usvi-seqs-for-use-in-analyses.fasta)
 
-2. For contextual sequence data from other countries, I downloaded all Zika genomes available from Nextstrain/Fauna.
+2. To gather available Zika genomes from other countries countries, I downloaded all Zika genomes available from Nextstrain/Fauna. Nextstrain/Fauna is Nextstrain's internal database for canonicalizing sequence data, but it takes in genomes available on public databases such as NCBI and ViPR.
 
-3. I removed any background contextual sequences that were not published on, or for which I didn't have permission to use in our analysis. I also removed any background sequences that were from geographic areas that I didn't want to include (e.g. Singapore). I did all this within the "make-input-fastas.ipynb" script.
+3. While all of these sequences were publicly available from repositories, not all of them had been included in previously published analyses. In the lab we feel that it's important not to include unpublished data in _published_ analyses, even if you get that data from NCBI/ViPR, unless you have permission from the sequence authors. So, I removed any sequences for which I did not receive author permission to include them, or which were not associated with a publication.  
 
-4. Once I had pruned the dataset down to geographic areas of interest, high quality sequences of sufficient length, and published/permitted sequences, I had a dataset of 437 sequences. These are contained within the "usvi-and-high-qual-americas-input-data.fasta" file.
+4. I also removed any Zika sequences that were from geographic areas that I didn't want to include (e.g. Singapore), or were not high quality sequences of sufficient length to include in analyses. This left me with 437 sequences. These are contained within the [`usvi-and-high-qual-americas-input-data.fasta`](./usvi-and-high-qual-americas-input-data.fasta).
 
-5. The "usvi-and-high-qual-americas-input-data.fasta" is my input file into a Nextstrain build that I ran to do some additional dataset QC, such as looking for excessive terminal branch length, deviation from the molecular clock, etc. Using Nextstrain also allowed me to infer dates for some genomes that lacked full year/month/date information, as well as do some bioinformatics such as making the multiple sequence alignment. You can explore the Nextstrain build at: [nextstrain.org/community/blab/zika-usvi].(https://nextstrain.org/community/blab/zika-usvi@fresh-start)
+5. The `usvi-and-high-qual-americas-input-data.fasta` is my input file for my Nextstrain build that I ran to do additional dataset QC, such as looking for excessive terminal branch length, deviation from the molecular clock, etc. Using Nextstrain also allowed me to infer dates for some genomes that lacked full year/month/date information, as well as do some bioinformatics such as making the multiple sequence alignment. You can explore the Nextstrain build at: [nextstrain.org/community/blab/zika-usvi](https://nextstrain.org/community/blab/zika-usvi).
 
-6. The output file from the Nextstrain build is a JSON file (it lives within the "auspice" directory in the top level of this repo). For my BEAST analyses in the paper I used the final dataset that is specified within the "zika-usvi.json" file. However, so that it could be read in to BEAST, I did have to combine some of the information from the JSON with sequences pulled from the multiple sequence alignment generated within the Nextstrain pipeline. All of the code that I wrote to do that parsing is also in the "make-input-fastas.ipynb" notebook.
+6. The output file from the Nextstrain build is a JSON file (it lives within the [`auspice`](../auspice) directory in the top level of this repo). For the BEAST analyses in the paper I used the final dataset that is specified within [`zika-usvi.json`](../auspice/zika-usvi.json). I did need to format the data contained in the JSON so that it could be read in to Beauti to make the BEAST xml. The code that I wrote to do that parsing is also in the [`make-input-fastas.ipynb`](../scripts/make-input-fastas.ipynb) notebook.
 
-7. The final generated dataset that is outputted from the "make-input-fastas.ipynb" notebook is a dataset of 429 aligned genomes, and it is written to "zika-beast-input-2020-02-20.fasta". This is the fasta file that I used to generate my BEAST XML files.    
+7. The final generated dataset that is outputted from the "make-input-fastas.ipynb" notebook is a dataset of 429 aligned genomes, and it is written to [`zika-beast-input-2020-02-20.fasta`](./zika-beast-input-2020-02-20.fasta). This is the fasta file that I used to generate my BEAST XML files.    
 
-## More detailed notes about dataset QC:
+## More detailed notes about dataset QC that I performed iteratively while exploring my Nextstrain build.
 
 Here I outline the exclusion criteria for genomes in the analysis. Genomes that should be excluded from the phylogeographic analysis have been hardcoded in to `Nextstrain/augur` in the `dropped_strains` section of the `zika.prepare.py` script.
 
