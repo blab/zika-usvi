@@ -73,6 +73,7 @@ Thumbs.db
 ### ipython notebook checkpoints ###
 scripts/\.ipynb_checkpoints/
 figures/\.ipynb_checkpoints/
+beast/.ipynb_checkpoints/
 
 ### excel autosave nonsense ###
 ~$*.xlsx
@@ -81,56 +82,20 @@ figures/\.ipynb_checkpoints/
 data/zika-usvi-sample-table-uncondensed\.xlsx
 data/unpublished-seq-accessions\.xlsx
 
-### files related to flight traffic data ###
-data/phylo-glm/raw-predictor-data/pax_volume_needNameFix\.tsv
-data/phylo-glm/raw-predictor-data/countries-without-pax-volume\.tsv
-data/phylo-glm/raw-predictor-data/Americas-to-Americas-2012-2016_KK_DB\.xlsx
-data/phylo-glm/origin-destin-tsv/pax-volume-snakecase\.tsv
-
-data/phylo-glm/origin-destin-tsv/pax_volume\.tsv
-
-scripts/zikamask2502\.tif
-
-data/phylo-glm/origin-destin-tsv/pax-volume\.tsv
-
-data/glm/standardized-data/std-pax-volume\.tsv
-
-data/glm/raw-data/Americas-to-Americas-2012-2016_KK_DB\.xlsx
-
-data/glm/pax_volume_needNameFix\.tsv
-
-data/glm/origin-destin-formatted-data/pax-volume\.tsv
-
-data/glm/countries-without-pax-volume\.tsv
-
-data/glm/origin-destin-formatted-data/test-predictors\.tsv
-
-data/fastas/published-sequences-in-analysis\.tsv
-
-beast/preliminary_files/
-
-beast/\.ipynb_checkpoints/
-
-beast/prelim10-23-2017/
-
-beast/prelim11-06-2017/
-
-beast/prelimSUBSAMP/
-
-beast/preliminary_trees/
-
-beast/prelimGLM10-24-2017/
-
-data/fastas/subsampled_demes_10_31_2017/
-
-data/fastas/published-sequences-in-analysis\.xlsx
-
-bdmm*
-AmZika*
-figures/*
-results/*
-
-#don't share raw linelist data.
+### don't share line lists.
 data/epi-data/USVI_Zika_dataset_de_identified_June2017*
 data/epi-data/epi-surveillance-data-cases-only.xlsx
 data/epi-data/full-epi-surveillance-linelist-deduplicated.xlsx
+data/epi-data/saint*linelist.csv
+data/epi-data/epi-surveillance-data-cases-only-abridged.csv
+data/epi-data/epi-surveillance-data-cases-only.xlsx
+
+### don't release Puerto Rico data (that was kindly shared, but is not mine)
+data/puerto-rico-data
+
+### excel spreadsheets that I used to track lab processes
+data/lab-data
+
+### all the intermediaries from the Nextstrain build
+.snakemake/
+results/
