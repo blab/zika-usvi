@@ -82,6 +82,16 @@ beast/.ipynb_checkpoints/
 data/zika-usvi-sample-table-uncondensed\.xlsx
 data/unpublished-seq-accessions\.xlsx
 
+### don't track posterior trees files since they're too big for GitHub anyways
+beast/phylogenetic/*.trees
+
+### ignoring these files for now since I'm not using them
+scripts/gadm36_VIR_shp/
+scripts/explore-bam-files.ipynb
+
+### right now just have intermediate data that I'm trialing code with, don't want it tracked
+beast/phylogeography/*
+
 ### don't share line lists.
 data/epi-data/USVI_Zika_dataset_de_identified_June2017*
 data/epi-data/epi-surveillance-data-cases-only.xlsx
